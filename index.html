@@ -122,8 +122,19 @@ form.ask textarea{width:100%;min-height:76px;resize:vertical;border:1px solid va
 form.ask button{align-self:flex-end;border:0;background:var(--accent);color:#fff;border-radius:999px;padding:8px 18px;font-size:15px;cursor:pointer}
 .ask-hint{color:var(--muted);font-size:13px;margin:0}
 .status{color:var(--muted);font-size:13px;margin:10px 0}
-.status .bar2{height:4px;background:var(--line);border-radius:2px;overflow:hidden;margin-top:6px}
-.status .bar2 i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
+/* calm loader while the search gets ready: a breathing lamp-flame dot with three ripples */
+.seek{display:flex;align-items:center;gap:14px;margin:18px 0 10px;color:var(--muted);font-size:15px}
+.seek .lamp{position:relative;width:34px;height:34px;flex:none}
+.seek .lamp i{position:absolute;inset:0;border-radius:50%;border:2px solid var(--accent);opacity:0;animation:ripple 2.4s ease-out infinite}
+.seek .lamp i:nth-child(2){animation-delay:.8s}
+.seek .lamp i:nth-child(3){animation-delay:1.6s}
+.seek .lamp b{position:absolute;left:50%;top:50%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;
+  background:var(--accent);animation:breathe 2.4s ease-in-out infinite}
+.seek span{transition:opacity .4s}
+@keyframes ripple{0%{transform:scale(.3);opacity:.7}100%{transform:scale(1);opacity:0}}
+@keyframes breathe{0%,100%{transform:scale(.8);opacity:.75}50%{transform:scale(1.15);opacity:1}}
+@media (prefers-reduced-motion:reduce){.seek .lamp i,.seek .lamp b{animation:none;opacity:.8}}
+.firstmatch{color:var(--muted);font-size:12px;margin:0 0 4px}
 .qline{font-family:var(--story);font-size:18px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:8px 0 0}
 html[lang="en"] .qline{font-family:var(--story-en)}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
@@ -160,9 +171,9 @@ const T = {
        askHint: "বাংলা বা ইংরেজিতে লিখতে পারেন। উত্তর সবসময় কথামৃত থেকে ঠাকুরের নিজের কথা।",
        youAsked: "আপনার প্রশ্ন", pagesHelp: "যে পাতাগুলি সাহায্য করতে পারে", morePages: "এই পাতায় আরও →",
        moreFound: "কথামৃত থেকে আরও কিছু অংশ", autoNote: "এগুলি স্বয়ংক্রিয়ভাবে খুঁজে পাওয়া — সবসময় পুরোপুরি মিলবে না।",
-       loadingModel: p => `প্রথমবার প্রশ্ন বোঝার মডেল নামানো হচ্ছে (প্রায় ১৩৫ MB, একবারই)… ${p ? BN(p) + "%" : ""}`,
-       thinking: "প্রশ্নটি বোঝার চেষ্টা চলছে…", quick: "দ্রুত মিল — পুরো খোঁজ চলছে…", noQuick: "পুরো খোঁজ চলছে…",
-       failed: "মডেল নামানো গেল না (ইন্টারনেট?)। নিচে শব্দ মিলিয়ে পাওয়া পাতা দেখানো হল।",
+       seeking: ["আপনার প্রশ্নটি বোঝার চেষ্টা চলছে…", "কথামৃতের পাতায় খোঁজা হচ্ছে…", "ঠাকুরের কথা বেছে নেওয়া হচ্ছে…"],
+       quickNote: "এখনই যা মিলল — আরও ভালভাবে খোঁজা চলছে",
+       failed: "এই মুহূর্তে পুরো খোঁজ করা গেল না। শব্দ মিলিয়ে পাওয়া পাতা দেখানো হল।",
        care: "আপনি যা লিখেছেন তা খুব কষ্টের। দয়া করে এখনই কারও সঙ্গে কথা বলুন — <b>টেলি-মানস: ১৪৪১৬</b> (বিনামূল্যে, ২৪ ঘণ্টা, বাংলায়ও)। আপনি একা নন।"},
   en: {brand: "What Thakur Said", tag: "Sri Ramakrishna on the problems of life — from the Kathamrita",
        problems: "Problems", allSongs: "All songs", soon: "coming soon", backAll: "← All problems", back: "← Back",
@@ -179,9 +190,9 @@ const T = {
        askHint: "Write in English or Bengali. The answers are always Thakur's own words from the Kathamrita.",
        youAsked: "You asked", pagesHelp: "Pages that may help", morePages: "More on this page →",
        moreFound: "More from the Kathamrita", autoNote: "Found automatically — they won't always fit perfectly.",
-       loadingModel: p => `First time only: downloading the model that understands questions (about 135 MB)… ${p ? p + "%" : ""}`,
-       thinking: "Understanding your question…", quick: "Quick match — full search running…", noQuick: "Full search running…",
-       failed: "Couldn't download the model (internet?). Showing pages matched by words instead.",
+       seeking: ["Understanding your question…", "Searching the pages of the Kathamrita…", "Choosing Thakur's words for you…"],
+       quickNote: "A first match — still searching more carefully",
+       failed: "The full search isn't available right now. Showing pages matched by words instead.",
        care: "What you wrote sounds very painful. Please talk to someone now — <b>Tele-MANAS: 14416</b> (free, 24 hours, India). You are not alone."},
 };
 let LANG = "bn";
@@ -213,7 +224,11 @@ const ptitle = p => LANG === "en" && p.title_en ? p.title_en : p.title;
 const psub = p => LANG === "en" && p.subtitle_en ? p.subtitle_en : p.subtitle;
 
 /* ---------- home ---------- */
+// The "All songs" list (every song in the Kathamrita) is switched off (2026-10-03).
+// Songs linked to a problem still show on that problem's page. Set true to bring the list back.
+const SHOW_SONG_LIST = false;
 function tabs(on){
+  if (!SHOW_SONG_LIST) return "";
   return `<nav class="tabs"><a href="#" class="${on === "home" ? "on" : ""}">${t("problems")}</a>
     <a href="#songs" class="${on === "songs" ? "on" : ""}">${t("allSongs")} (${NUM(SONGS.length)})</a></nav>`;
 }
@@ -246,7 +261,11 @@ const W = {desc: 0.4, picks: 0.6, phrase: 0.02, theme: 0.5, hub: 1.0, minLen: 15
 const CRISIS = /আত্মহত্যা|মরে যেতে চাই|বাঁচতে চাই না|নিজেকে শেষ|suicid|kill myself|end my life|want to die|self[- ]harm/i;
 
 function dotRow(r, v){ const d = S.index.dim, o = r * d; let s = 0; for (let k = 0; k < d; k++) s += S.vecs[o + k] * v[k]; return s / S.index.scale; }
-async function loadIndex(){
+let indexLoading = null;
+function loadIndex(){  // shared by the background warm-up and a question asked meanwhile
+  return indexLoading || (indexLoading = loadIndexOnce().catch(err => { indexLoading = null; throw err; }));
+}
+async function loadIndexOnce(){
   if (S.index) return;
   const [ix, buf, ph] = await Promise.all([fetch("data/search/index.json").then(r => r.json()),
     fetch("data/search/vectors.bin").then(r => r.arrayBuffer()), fetch("data/problem_phrases.json").then(r => r.ok ? r.json() : {})]);
@@ -263,13 +282,75 @@ async function loadIndex(){
   S.hub = new Float32Array(S.n);
   for (let i = 0; i < S.n; i++) { let s = 0; for (const c of cents) s += dotRow(i, c); S.hub[i] = s / cents.length; }
 }
-async function embed(q, onProgress){
-  if (!S.ext) {
-    const {pipeline} = await import("https://cdn.jsdelivr.net/npm/@huggingface/transformers@3");
-    S.ext = await pipeline("feature-extraction", "Xenova/multilingual-e5-small", {dtype: "q8", progress_callback: onProgress});
+/* The model runs in a background Web Worker so the page (and the loader) never freezes.
+   The browser caches the model after the first load, so later visits start almost at once. */
+const MODEL_JS = "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3";
+const WORKER_SRC = `
+  import {pipeline} from "${MODEL_JS}";
+  let ext = null;
+  const load = () => ext || (ext = pipeline("feature-extraction", "Xenova/multilingual-e5-small", {dtype: "q8"}));
+  self.onmessage = async e => {
+    const {id, text} = e.data;
+    try {
+      const p = await load();
+      if (text == null) return self.postMessage({id, ok: true});          // warm-up only
+      const out = await p("query: " + text, {pooling: "mean", normalize: true});
+      self.postMessage({id, ok: true, vec: out.data});
+    } catch (err) { ext = null; self.postMessage({id, ok: false, err: String(err)}); }
+  };`;
+const M = {worker: null, seq: 0, waiting: new Map(), ready: false, warming: null, main: null};
+function modelWorker(){
+  if (M.worker === null) {
+    try {
+      M.worker = new Worker(URL.createObjectURL(new Blob([WORKER_SRC], {type: "text/javascript"})), {type: "module"});
+      M.worker.onmessage = e => { const w = M.waiting.get(e.data.id); if (w) { M.waiting.delete(e.data.id); e.data.ok ? w.ok(e.data) : w.fail(e.data.err); } };
+      M.worker.onerror = () => { M.worker = false; for (const w of M.waiting.values()) w.fail("worker"); M.waiting.clear(); };
+    } catch (err) { M.worker = false; }   // very old browsers: fall back to the main thread
   }
-  const out = await S.ext("query: " + q, {pooling: "mean", normalize: true});
-  return out.data;
+  return M.worker;
+}
+function askWorker(text){
+  return new Promise((ok, fail) => { const id = ++M.seq; M.waiting.set(id, {ok, fail}); modelWorker().postMessage({id, text}); });
+}
+async function embedMain(text){
+  if (!M.main) M.main = import(MODEL_JS).then(({pipeline}) => pipeline("feature-extraction", "Xenova/multilingual-e5-small", {dtype: "q8"}));
+  const p = await M.main;
+  if (text == null) return null;
+  return (await p("query: " + text, {pooling: "mean", normalize: true})).data;
+}
+async function embed(text){
+  if (modelWorker()) {
+    try { const r = await askWorker(text); M.ready = true; return r.vec; }
+    catch (err) { if (M.worker !== false) throw err; }       // worker unavailable: use the main thread
+  }
+  const v = await embedMain(text); M.ready = true; return v;
+}
+/* Get the search ready quietly in the background once the page has opened — unless the reader
+   is saving data or on a very slow connection; then it waits for their first question. */
+function warmUp(){
+  if (M.warming) return M.warming;
+  M.warming = Promise.all([loadIndex(), embed(null)]).catch(err => { M.warming = null; console.warn(err); });
+  return M.warming;
+}
+function mayPreload(){
+  const c = navigator.connection;
+  return !(c && (c.saveData || /(^|-)2g$/.test(c.effectiveType || "")));
+}
+function seekLoader(){
+  return `<div class="seek" role="status" aria-live="polite"><div class="lamp"><i></i><i></i><i></i><b></b></div>
+    <span id="seekText">${esc(t("seeking")[0])}</span></div>`;
+}
+let seekTimer = null;
+function startSeekText(){
+  clearInterval(seekTimer);
+  let k = 0;
+  seekTimer = setInterval(() => {
+    const el = $("seekText");
+    if (!el) return clearInterval(seekTimer);
+    k = (k + 1) % t("seeking").length;
+    el.style.opacity = 0;
+    setTimeout(() => { el.textContent = t("seeking")[k]; el.style.opacity = 1; }, 400);
+  }, 2600);
 }
 function phraseHits(q, ph){
   const qb = q.normalize("NFC"), ql = " " + q.toLowerCase().replace(/[^a-z' ]/g, " ") + " ";
@@ -327,22 +408,19 @@ function renderResults(q, pages, sims, status){
 async function viewSearch(qEnc){
   const q = decodeURIComponent(qEnc || "");
   const head = `<a class="back" href="#">${t("backAll")}</a>${askForm(q)}`;
-  $("view").innerHTML = head + `<div id="results"><div class="status">${t("thinking")}</div></div>`;
+  $("view").innerHTML = head + `<div id="results">${seekLoader()}</div>`;
   window.scrollTo(0, 0);
+  startSeekText();
   const box = () => $("results");
   await loadIndex();
   const quick = rankPages(q, null);                       // option 2: instant, by everyday phrases
   const hasQuick = quick[0].score > 0;
-  if (box()) box().innerHTML = hasQuick ? renderResults(q, quick, null, t("quick")) : `<div class="status">${t("noQuick")}</div>`;
-  let pct = 0;
-  const onProgress = e => {
-    if (e.status === "progress" && e.file && e.file.endsWith(".onnx")) {
-      pct = Math.round(e.progress || 0);
-      const st = $("status"); if (st) st.innerHTML = `${t("loadingModel")(pct)}<div class="bar2"><i style="width:${pct}%"></i></div>`;
-    }
-  };
+  // while the full search gets ready, show the loader with the first match underneath
+  if (box() && hasQuick && !M.ready)
+    box().innerHTML = seekLoader() + `<p class="firstmatch">${t("quickNote")}</p>` + renderResults(q, quick, null, "");
+  if (!M.ready) startSeekText();
   try {
-    const qv = await embed(q, onProgress);                // option 1: meaning-based
+    const qv = await embed(q);                            // option 1: meaning-based
     const sims = new Float32Array(S.vecs.length / S.index.dim);
     for (let r = 0; r < sims.length; r++) sims[r] = dotRow(r, qv);
     if (box() && location.hash.slice(1) === "q/" + qEnc) box().innerHTML = renderResults(q, rankPages(q, sims), sims, "");
@@ -350,6 +428,7 @@ async function viewSearch(qEnc){
     console.error(err);
     if (box()) box().innerHTML = hasQuick ? renderResults(q, quick, null, t("failed")) : `<div class="status">${t("failed")}</div>`;
   }
+  clearInterval(seekTimer);
 }
 
 /* ---------- one problem ---------- */
@@ -491,12 +570,12 @@ async function route(){
   if (kind === "p") html = viewProblem(a);
   else if (kind === "r") html = await viewReader(a, b);
   else if (kind === "e") html = await viewEnglish(a, b);
-  else if (kind === "songs") html = viewSongs();
-  else if (kind === "s") html = viewSong(a);
+  else if (kind === "songs" && SHOW_SONG_LIST) html = viewSongs();
+  else if (kind === "s" && SHOW_SONG_LIST) html = viewSong(a);
   else if (kind === "q") return viewSearch(location.hash.slice(3));
   else html = viewHome();
   $("view").innerHTML = html;
-  if (kind === "songs") { ["q", "onlyThakur", "sort"].forEach(id => $(id).addEventListener("input", renderSongList)); renderSongList(); }
+  if (kind === "songs" && SHOW_SONG_LIST) { ["q", "onlyThakur", "sort"].forEach(id => $(id).addEventListener("input", renderSongList)); renderSongList(); }
   const hit = kind === "r" ? $("b" + b) : kind === "e" ? $("hit") : null;
   if (hit) hit.scrollIntoView({block: "center"}); else window.scrollTo(0, 0);
 }
@@ -508,8 +587,12 @@ document.querySelector(".lang").addEventListener("click", e => {
   route();
 });
 
-Promise.all(["problems", "songs", "meta", "groups"].map(n => fetch(`data/${n}.json`).then(r => r.ok ? r.json() : {})))
-  .then(([p, s, m, g]) => { PROBLEMS = p; SONGS = s.songs || []; META = m || {}; GROUPS = Array.isArray(g) ? g : []; route(); })
+Promise.all(["problems", SHOW_SONG_LIST ? "songs" : "", "meta", "groups"].map(n => n ? fetch(`data/${n}.json`).then(r => r.ok ? r.json() : {}) : {}))
+  .then(([p, s, m, g]) => {
+    PROBLEMS = p; SONGS = s.songs || []; META = m || {}; GROUPS = Array.isArray(g) ? g : []; route();
+    // get the question search ready in the background, so the first question is usually answered at once
+    if (mayPreload()) setTimeout(() => (window.requestIdleCallback || setTimeout)(warmUp), 1500);
+  })
   .catch(() => { $("view").textContent = "Could not load data."; });
 addEventListener("hashchange", route);
 </script>
