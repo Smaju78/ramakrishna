@@ -1,0 +1,97 @@
+{
+ "problems": [
+  {
+   "id": "doubt",
+   "group": "spiritual",
+   "title": "সন্দেহ ও অবিশ্বাস",
+   "subtitle": "ঈশ্বর আছেন কি?",
+   "title_en": "Doubt",
+   "subtitle_en": "Is there really a God?",
+   "keywords": ["সন্দেহ", "সংশয়", "অবিশ্বাস", "বিশ্বাস হয় না", "নাস্তিক", "দেখা যায়", "দর্শন হয়", "ঈশ্বর আছেন", "প্রমাণ", "শাস্ত্র"],
+   "passages": [
+    {"ref": "36_c_wealthofgod_658_659#p5", "head": "সত্য বলছি, দর্শন হয়!", "head_en": "I tell you truly, God can be seen"},
+    {"ref": "38_b_withdevotees_712_714#p6", "head": "দেখা যাচ্ছে না বলে কি সূর্য নাই?", "head_en": "Clouds hide the sun, but the sun is there"},
+    {"ref": "20_y_at_dakshineshwar_426_429#p39", "head": "প্রমাণ? ঈশ্বরকে দেখা যায়", "head_en": "Proof? God can be seen"},
+    {"ref": "36_c_wealthofgod_658_659#p8", "head": "নিজে ডুব দিলে তবে সন্দেহ দূর হয়", "head_en": "Doubts go only when you dive in yourself"},
+    {"ref": "24_b_penance_478_481#p12", "head": "পাঁজি টিপলে এক ফোঁটা জলও পড়ে না", "head_en": "Squeeze the almanac: not one drop of rain"},
+    {"ref": "14_f_with_hajra_203_206#p30", "head": "নাস্তিকভাব এলেও চাষা চাষ ছাড়ে না", "head_en": "Even in a dry year, the farmer keeps farming"},
+    {"ref": "32_a_atdakshineshwar_588_590#p13", "head": "জীবের স্বভাব — ‘হাঁ, বটে, কিন্তু —’", "head_en": "Our nature: 'Yes, true, but...'"}
+   ],
+   "songs": ["মন কি তত্ত্ব কর তাঁরে যেন উন্মত্ত আঁধার ঘরে"]
+  },
+  {
+   "id": "whichpath",
+   "group": "spiritual",
+   "title": "কোন পথ ঠিক?",
+   "subtitle": "নানা ধর্ম, নানা মত",
+   "title_en": "Which path is right?",
+   "subtitle_en": "So many religions and views",
+   "keywords": ["সব ধর্ম", "সব মত", "মত পথ", "নানা পথ", "পানি", "ওয়াটার", "বহুরূপী", "গিরগিটি", "ঘড়ি ঠিক", "ছাদে", "আন্তরিক"],
+   "passages": [
+    {"ref": "16_f_at_khelat_ghoshs_238_240#p9", "head": "জল, পানি, ওয়াটার — বস্তু এক", "head_en": "Jal, pani, water: one substance, many names"},
+    {"ref": "12_g_withgoswami_150_152#p23", "head": "গিরগিটির রঙ নিয়ে ঝগড়া", "head_en": "The quarrel over the chameleon's colour"},
+    {"ref": "28_b_reconciliation_523_525#p8", "head": "ছাদে ওঠার নানা উপায়, একটা ধরে ওঠো", "head_en": "Many ways to the roof; hold firmly to one"},
+    {"ref": "58_d_godorscience_1121_1123#p13", "head": "যার যা পেটে সয় — মায়ের মাছ রান্না", "head_en": "A mother cooks the fish to suit each child"},
+    {"ref": "03_a_atbalaramhome_33_35#p12", "head": "সব্বাই বলে, আমার ঘড়ি ঠিক চলছে", "head_en": "Everyone thinks their own watch is right"},
+    {"ref": "52_h_aboutavatars_933_937#p53", "head": "যে পথেই থাকো, ব্যাকুল হয়ে ডাকো", "head_en": "Whatever your path, call on Him with longing"},
+    {"ref": "24_d_god_realization_485_488#p12", "head": "কোন্‌ পথ ভাল, অত বিচার কেন?", "head_en": "Why argue over which path is better?"}
+   ],
+   "songs": []
+  },
+  {
+   "id": "prayer",
+   "group": "spiritual",
+   "title": "কীভাবে ডাকব",
+   "subtitle": "প্রার্থনা ও সাধন",
+   "title_en": "How to pray",
+   "subtitle_en": "Calling on God",
+   "keywords": ["প্রার্থনা কর", "ব্যাকুল", "কাঁদ", "একঘটি", "চুষি", "তিন টান", "আব্দার", "অন্তর্যামী", "আন্তরিক", "শুনবেনই"],
+   "passages": [
+    {"ref": "07_e_formorformless_100_102#p10", "head": "চুষি ফেলে ছেলে কাঁদলে মা ছুটে আসে", "head_en": "Drop the toy and cry, and Mother comes running"},
+    {"ref": "09_g_bhaktiyoga_122_125#p31", "head": "চোখের জলে মনের ময়লা ধুয়ে যায়", "head_en": "Tears wash the mud off the needle"},
+    {"ref": "36_e_powerofattorney_662_663#p27", "head": "তিনি আপনারই মা — আব্দার কর", "head_en": "She is your own Mother: insist like a child"},
+    {"ref": "38_c_seeinggod_714_716#p5", "head": "তিন টান একসঙ্গে হলে দর্শন", "head_en": "Love God with three loves combined"},
+    {"ref": "36_i_kali_brahma_668_671#p28", "head": "সরল মনে, শুদ্ধ মনে প্রার্থনা কর", "head_en": "Pray with a simple, pure heart"},
+    {"ref": "58_d_godorscience_1121_1123#p11", "head": "আন্তরিক হলে তিনি শুনবেনই শুনবেন", "head_en": "If you are sincere, He will surely listen"},
+    {"ref": "35_k_desirebhakti_646_648#p6", "head": "ঠাকুরের প্রার্থনা — কেবল শুদ্ধাভক্তি দাও", "head_en": "Thakur's own prayer: only pure devotion"}
+   ],
+   "songs": ["ডাক দেখি মন ডাকার মতো কেমন শ্যামা থাকতে পারে"]
+  },
+  {
+   "id": "despair",
+   "group": "spiritual",
+   "title": "ঈশ্বরলাভ হচ্ছে না",
+   "subtitle": "এত করেও কিছু হচ্ছে না",
+   "title_en": "Getting nowhere",
+   "subtitle_en": "Spiritual effort seems fruitless",
+   "keywords": ["রোখ", "চাষা", "খানা কেটে", "হালদার-পুকুর", "চার ফেল", "দৌড়াদৌড়ি", "ডুব দাও", "রত্ন", "একটু সাধনা", "জন্ম জন্ম"],
+   "passages": [
+    {"ref": "09_c_intenserenunciation_116_117#p8", "head": "জল না আসা পর্যন্ত খানা কাটা", "head_en": "The farmer who dug until the water came"},
+    {"ref": "37_c_with_devotees_682_685#p23", "head": "পাড়ে বসে থাকলে কি মাছ পাওয়া যায়?", "head_en": "You won't catch fish just sitting on the bank"},
+    {"ref": "05_c_masterdisciple_62_66#p45", "head": "ছেলের দৌড়াদৌড়ি দেখে মা দেখা দেয়", "head_en": "Seeing the child run about, the hiding mother appears"},
+    {"ref": "16_y_brahma_shakti_269_274#p35", "head": "উপর উপর ভাসলে কি রত্ন পাওয়া যায়?", "head_en": "Gems aren't found by floating on the surface"},
+    {"ref": "19_d_yoga_356_357#p15", "head": "বড় গাছ শেষে আপনিই ভেঙে পড়ে", "head_en": "Cut most of the tree, and it falls by itself"},
+    {"ref": "09_a_realisedsoul_113_114#p12", "head": "জন্ম জন্মের সাধনা বৃথা যায় না", "head_en": "Effort from past lives is never wasted"}
+   ],
+   "songs": ["ডুব্ ডুব্ ডুব্ রূপসাগরে আমার মন"]
+  },
+  {
+   "id": "purpose",
+   "group": "spiritual",
+   "title": "জীবনের উদ্দেশ্য",
+   "subtitle": "কেন এই জীবন",
+   "title_en": "The purpose of life",
+   "subtitle_en": "What is life for?",
+   "keywords": ["জীবনের উদ্দেশ্য", "উদ্দেশ্য", "মানবজন্ম", "মানুষ জনম", "আম খেতে", "ঈশ্বরলাভ", "ঈশ্বরদর্শন", "হাসপাতাল", "বাবুর সঙ্গে আলাপ"],
+   "passages": [
+    {"ref": "58_d_godorscience_1121_1123#p9", "head": "আম খেতে এসেছিস, আম খেয়ে যা", "head_en": "You came to eat mangoes, so eat them"},
+    {"ref": "21_f_moneyworship_453_456#p16", "head": "মানবজন্মের উদ্দেশ্য ঈশ্বরলাভ, হাসপাতাল নয়", "head_en": "Life's aim is God, not building hospitals"},
+    {"ref": "20_r_at_dakshineshwar_403_407#p37", "head": "অর্জুন কেবল পাখির চোখ দেখলেন", "head_en": "Like Arjuna, see only the bird's eye"},
+    {"ref": "03_a_atbalaramhome_33_35#p16", "head": "মানবজীবনের উদ্দেশ্য ঈশ্বরকে ভালবাসা", "head_en": "The aim of life is to love God"},
+    {"ref": "07_e_formorformless_100_102#p23", "head": "দুর্লভ মানুষ জনম পেয়ে ভক্তি চাই", "head_en": "Given a rare human birth, seek devotion"},
+    {"ref": "24_d_god_realization_485_488#p8", "head": "জো-সো করে বাবুর সঙ্গে আলাপ করা", "head_en": "Somehow, get to meet the Master of the house"}
+   ],
+   "songs": ["মন রে কৃষি কাজ জানো না"]
+  }
+ ]
+}

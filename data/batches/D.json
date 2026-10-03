@@ -1,0 +1,70 @@
+{"problems": [
+ {"id": "work", "group": "family",
+  "title": "কাজ ও কর্ম", "subtitle": "কীভাবে কাজ করব",
+  "title_en": "Work", "subtitle_en": "How to work in the world",
+  "keywords": ["কর্ম", "কাজ", "নিষ্কাম", "নিষ্কামকর্ম", "অনাসক্ত হয়ে", "কর্মযোগ", "এক হাতে", "হাতে তেল", "কর্মের ফল", "সেবা"],
+  "passages": [
+   {"ref": "13_d_at_sinthee_178_180#p18", "head": "হাতে তেল মেখে কাঁঠাল ভাঙবে", "head_en": "Oil your hands before you cut the jackfruit"},
+   {"ref": "36_d_renunciation_660_661#p8", "head": "এক হাতে কাজ, আর এক হাতে তাঁর পাদপদ্ম", "head_en": "One hand for work, the other holding God"},
+   {"ref": "21_f_moneyworship_453_456#p9", "head": "কর্ম ছাড়ার জো নাই — ফল চেয়ো না", "head_en": "You can't stop working, so don't work for rewards"},
+   {"ref": "06_i_karmayoga_92_93#p12", "head": "সম্মুখে যেটা পড়ল, সেটাই নিষ্কাম হয়ে কর", "head_en": "Do what comes your way; don't pile on more"},
+   {"ref": "58_c_sriramakrishna_1119_1121#p12", "head": "সর্বভূতে হরির সেবা", "head_en": "Serving others is serving God in them"},
+   {"ref": "12_b_atdakshineshwar_142_145#p10", "head": "কর্ম করতে করতে মনের ময়লা কেটে যায়", "head_en": "Work, done rightly, washes the mind clean"},
+   {"ref": "21_f_moneyworship_453_456#p15", "head": "কর্ম উপায়, উদ্দেশ্য নয়", "head_en": "Work is a means, not the goal of life"}
+  ],
+  "songs": ["মন রে কৃষি কাজ জানো না"]},
+ {"id": "illness", "group": "family",
+  "title": "অসুখ ও শরীরের কষ্ট", "subtitle": "রোগ ও যন্ত্রণা",
+  "title_en": "Illness and pain", "subtitle_en": "Suffering in the body",
+  "keywords": ["অসুখ", "রোগ", "ব্যামো", "শরীর", "দেহের সুখ-দুঃখ", "কষ্ট", "যন্ত্রণা", "প্রারব্ধ", "খোল", "গলার অসুখ"],
+  "passages": [
+   {"ref": "52_k_completeknowledge_940_942#p13", "head": "দেহটা একটু তার দিয়ে এঁটে দাও", "head_en": "Hold my body together so I can sing Your name"},
+   {"ref": "51_l_drrakhal_913_915#p17", "head": "মা, তরবারির খাপটা একটু মেরামত করে দাও", "head_en": "The body is only the sword's sheath"},
+   {"ref": "53_v_selfworship_1055_1057#p16", "head": "তাঁতে মনের যোগ হলে কষ্ট একধারে পড়ে থাকে", "head_en": "When the mind rests in God, pain moves aside"},
+   {"ref": "16_m_divine_mother_250_252#p21", "head": "দেহের সুখ-দুঃখ যাই হোক, ভক্তির ঐশ্বর্য যায় না", "head_en": "Whatever the body suffers, inner wealth remains"},
+   {"ref": "17_i_with_keshab_307_309#p11", "head": "খুব অসুখ, কিন্তু রাতদিন ঈশ্বরীয় কথা", "head_en": "Very ill, yet talking of God night and day"},
+   {"ref": "16_m_divine_mother_250_252#p19", "head": "প্রারব্ধ কর্মের ভোগ — কানার গঙ্গাস্নান", "head_en": "The blind man's bath: some suffering must run its course"},
+   {"ref": "17_i_with_keshab_307_309#p5", "head": "তোমার অসুখ হয়েছে কেন তার মানে আছে", "head_en": "Your illness has a meaning"}
+  ],
+  "songs": ["কর তাঁর নাম গান যতদিন দেহে রহে প্রাণ"]},
+ {"id": "badpeople", "group": "family",
+  "title": "খারাপ লোক", "subtitle": "দুষ্ট লোকের সঙ্গে কীভাবে চলব",
+  "title_en": "Difficult people", "subtitle_en": "Dealing with bad or harmful people",
+  "keywords": ["দুষ্ট লোক", "দুষ্টলোক", "অসৎ লোক", "খারাপ লোক", "ফোঁস", "কামড়", "অনিষ্ট", "মাহুত", "বাঘ", "তফাতে"],
+  "passages": [
+   {"ref": "02_f_thirdvisit_21_25#p23", "head": "কামড়াতে বারণ করেছি, ফোঁস করতে নয়", "head_en": "Don't bite, but you may hiss"},
+   {"ref": "52_d_avatars_920_923#p21", "head": "মাহুত নারায়ণের কথাও শুনতে হয়", "head_en": "Listen to the elephant-driver's warning too"},
+   {"ref": "11_atgovindamukhopadhyayas_138_139#p6", "head": "বাঘনারায়ণকে দূর থেকে প্রণাম", "head_en": "God is in the tiger too, but bow from afar"},
+   {"ref": "30_b_vijayagoswami_578_580#p6", "head": "কামারশালের নাই — সব সহ্য করবে", "head_en": "Be like the blacksmith's anvil"},
+   {"ref": "12_n_atdakshineshwar_162_164#p19", "head": "যিনি মেরেছিলেন, তিনিই দুধ খাওয়াচ্ছেন", "head_en": "\"He who beat me is now giving me milk\""},
+   {"ref": "03_b_atshyampukur_35_38#p24", "head": "দুষ্ট লোকেরও দরকার আছে", "head_en": "Even difficult people have their place"}
+  ],
+  "songs": []},
+ {"id": "notime", "group": "spiritual",
+  "title": "সময় নেই", "subtitle": "সংসারের চাপে ঈশ্বরকে ডাকার সময় নেই",
+  "title_en": "No time for God", "subtitle_en": "Too busy with worldly life",
+  "keywords": ["সময় নাই", "অবসর", "দুবেলা", "সন্ধ্যা-সকালে", "আমমোক্তারি", "বকলমা", "ঢেঁকি", "বারো আনা মন", "কচ্ছপ", "রোজ", "অভ্যাস", "মাঝে মাঝে নির্জনে"],
+  "passages": [
+   {"ref": "20_h_shibpur_devotees_382_383#p11", "head": "দুবেলা প্রণাম — তাঁকে বকলমা দাও", "head_en": "Bow to Him morning and evening; give Him charge"},
+   {"ref": "38_c_seeinggod_714_716#p9", "head": "সন্ধ্যা-সকালে হাততালি দিয়ে হরিবোল", "head_en": "No time? Clap and call His name morning and evening"},
+   {"ref": "28_f_withnarendra_534_535#p14", "head": "ঢেঁকির পাড়ে বারো আনা মন হাতের উপর", "head_en": "The rice-pounding woman: busy hands, mind on what matters"},
+   {"ref": "20_t_mahimas_scholarship_411_413#p26", "head": "কচ্ছপের মতো সংসারে থাক", "head_en": "Like the tortoise, whose mind stays with its eggs"},
+   {"ref": "41_b_calmnessofgirish_742_744#p28", "head": "রোজ তাঁকে ডাকা অভ্যাস করতে হয়", "head_en": "Make calling on Him a daily habit"},
+   {"ref": "40_c_withdevotees_734_736#p6", "head": "মাঝে মাঝে নির্জনে গিয়ে ব্যাকুল হয়ে ডাকবে", "head_en": "Now and then, go apart and call on Him"}
+  ],
+  "songs": ["যাবে কি হে দিন আমার বিফলে চলিয়ে"]},
+ {"id": "attachment", "group": "spiritual",
+  "title": "মায়া ও আসক্তি", "subtitle": "বন্ধন ছাড়তে পারি না",
+  "title_en": "Attachment", "subtitle_en": "Can't let go",
+  "keywords": ["মায়া", "আসক্তি", "অনাসক্ত", "বন্ধন", "আমার আমার", "গুটিপোকা", "উট", "পাঁকাল মাছ", "দাসী", "দয়া আর মায়া"],
+  "passages": [
+   {"ref": "09_b_fourtypes_115_116#p8", "head": "উট কাঁটা ঘাস খায়, তবু ছাড়ে না", "head_en": "The camel keeps eating thorns that make it bleed"},
+   {"ref": "12_q_ramlals_songs_168_170#p13", "head": "নিজে ঘর বানিয়েছে, ছেড়ে আসতে মায়া হয়", "head_en": "The silkworm trapped in the cocoon it built"},
+   {"ref": "21_h_teachingpratap_458_459#p8", "head": "'আমার হরি' — কিন্তু জানে, হরি মনিবের ছেলে", "head_en": "The nursemaid loves the child but knows he isn't hers"},
+   {"ref": "16_g_at_dakshineshwar_241_242#p18", "head": "দয়া আর মায়া অনেক তফাত", "head_en": "Compassion is not the same as attachment"},
+   {"ref": "44_b_sriramakrishnasdivinetrance_797_799#p10", "head": "পাঁকাল মাছের মতো — কাদা ঝেড়ে ফেলবে", "head_en": "Like the mudfish: live in the mud, shake it off"},
+   {"ref": "37_f_maya_691_693#p28", "head": "তাঁকে চিন্তা যত করবে, আসক্তি তত কমবে", "head_en": "The more you think of God, the more attachment fades"},
+   {"ref": "17_k_jaygopal_sen_310_312#p18", "head": "যাদের 'আমার আমার' করছ, চোখ বুজলেই নাই", "head_en": "All you call 'mine' vanishes when your eyes close"}
+  ],
+  "songs": ["ভেবে দেখ মন কেউ কারু নয় মিছে ভ্রম ভূমণ্ডলে", "এমনি মহামায়ার মায়া রেখেছ কি কুহক করে"]}
+]}

@@ -1,0 +1,80 @@
+{"problems": [
+ {
+  "id": "family", "group": "family",
+  "title": "সংসারের চাপ ও কর্তব্য", "subtitle": "পরিবার ও দায়িত্ব",
+  "title_en": "Family and duty", "subtitle_en": "The weight of household life",
+  "keywords": ["সংসার", "সংসারী", "গৃহস্থ", "কর্তব্য", "পরিবার", "দাসী", "কচ্ছপ", "কাঁঠাল", "পাঁকাল মাছ", "কেল্লা", "ঢেঁকি", "অনাসক্ত"],
+  "passages": [
+   {"ref": "30_b_vijayagoswami_578_580#p19", "head": "বড়মানুষের বাড়ির ঝির মতো সংসারে থাকো", "head_en": "Live like the maid in a rich man's house"},
+   {"ref": "20_t_mahimas_scholarship_411_413#p26", "head": "কচ্ছপের মতো সংসারে থাক", "head_en": "Like the tortoise, whose mind stays with her eggs"},
+   {"ref": "02_e_wayofdevotion_19_21#p16", "head": "হাতে তেল মেখে কাঁঠাল ভাঙো", "head_en": "Oil your hands before you break the jackfruit"},
+   {"ref": "19_f_at_kolkata_359_363#p29", "head": "পনর আনা মন ভগবানে, এক আনায় কাজ", "head_en": "Most of the mind on God, a little on chores"},
+   {"ref": "37_d_sannyasi_and_householder_685_688#p14", "head": "গৃহে থেকে যুদ্ধ — কেল্লা থেকে যুদ্ধ", "head_en": "Home is a fort to fight from"},
+   {"ref": "44_b_sriramakrishnasdivinetrance_797_799#p10", "head": "কাদা লাগবে, ঝেড়ে ফেলবে — পাঁকাল মাছের মতো", "head_en": "Mud will stick; shake it off like the mudfish"},
+   {"ref": "16_zg_with_devotees_293_294#p16", "head": "সংসারে আছ তা ভয় কি?", "head_en": "You live in the world. What is there to fear?"}
+  ],
+  "songs": ["মন রে কৃষি কাজ জানো না"]
+ },
+ {
+  "id": "marriage", "group": "family",
+  "title": "স্বামী-স্ত্রী", "subtitle": "দাম্পত্য জীবন",
+  "title_en": "Marriage", "subtitle_en": "Husband and wife",
+  "keywords": ["স্ত্রী", "স্বামী", "পরিবার", "সহধর্মিণী", "ধর্মপত্নী", "বিদ্যারূপিণী", "বিবাহ", "বিয়ে", "ভালবাসা", "অমিল", "ধর্মের সহায়"],
+  "passages": [
+   {"ref": "20_p_at_dakshineshwar_397_401#p37", "head": "স্ত্রীর উপর ভালবাসা হবে না?", "head_en": "Of course a man loves his wife"},
+   {"ref": "42_e_dakshineshwar_756_758#p10", "head": "স্ত্রীর সঙ্গে একটু আমোদ-আহ্লাদ করবি", "head_en": "Have some fun with your wife"},
+   {"ref": "20_p_at_dakshineshwar_397_401#p39", "head": "বিদ্যারূপিণী স্ত্রী যথার্থ সহধর্মিণী", "head_en": "A true partner helps you toward God"},
+   {"ref": "37_f_maya_691_693#p28", "head": "নিজের স্ত্রীকে ধর্মের সহায় বন্ধু বোধ হবে", "head_en": "Your spouse becomes your friend on the spiritual path"},
+   {"ref": "17_l_householder_312_316#p7", "head": "দুজনেরই ভাল হওয়া চাই, না হলে অমিল", "head_en": "Both must be good, or there is discord"},
+   {"ref": "36_d_renunciation_660_661#p10", "head": "বুদ্ধিমতী স্ত্রী — এই একঘরই ভাল", "head_en": "The sensible wife: better to stay in one home"}
+  ],
+  "songs": []
+ },
+ {
+  "id": "children", "group": "family",
+  "title": "সন্তান", "subtitle": "সন্তান মানুষ করা, সন্তানের প্রতি টান",
+  "title_en": "Children", "subtitle_en": "Raising children, love for them",
+  "keywords": ["ছেলে", "ছেলেপুলে", "ছেলেমেয়ে", "সন্তান", "মানুষ করা", "সাবালক", "প্রতিপালন", "গোপাল", "মায়া", "দয়া", "মাগছেলে"],
+  "passages": [
+   {"ref": "36_e_powerofattorney_662_663#p8", "head": "ছেলেদের মানুষ করা — কর্তব্য আছে বইকি", "head_en": "Raising your children is your duty"},
+   {"ref": "36_e_powerofattorney_662_663#p10", "head": "পাখি বড় হলে ধাড়ী ঠোকরায়", "head_en": "When the chick can fend for itself, let it go"},
+   {"ref": "02_c_secondvisit_16_17#p21", "head": "ছেলেদের কি ও-পাড়ার লোক এসে খাওয়াবে?", "head_en": "Should others feed your children?"},
+   {"ref": "17_l_householder_312_316#p5", "head": "ছেলেদের খাওয়াবে, যেন গোপালকে খাওয়াচ্ছ", "head_en": "Feed your child as though feeding God"},
+   {"ref": "09_h_withbaburam_125_128#p20", "head": "দয়া আর মায়া আলাদা জিনিস", "head_en": "Love for your own, and love for all"},
+   {"ref": "47_a_atramshome_833_837#p54", "head": "আমি না থাকলে এদের কি হবে!", "head_en": "'What will become of them without me?'"}
+  ],
+  "songs": ["যশোদা নাচাতো গো মা বলে নীলমণি"]
+ },
+ {
+  "id": "money", "group": "family",
+  "title": "টাকাপয়সার চিন্তা", "subtitle": "অর্থের দুশ্চিন্তা",
+  "title_en": "Money worries", "subtitle_en": "Anxiety about money",
+  "keywords": ["টাকা", "পয়সা", "রোজগার", "উপার্জন", "উপায়", "সঞ্চয়", "ভাবনা", "খাওয়া-পরা", "যদৃচ্ছালাভ", "দেনা", "সদ্ব্যবহার"],
+  "passages": [
+   {"ref": "02_e_wayofdevotion_19_21#p20", "head": "টাকায় কি হয়? ভাত হয়, ডাল হয়", "head_en": "What does money give? Food, clothes, a home"},
+   {"ref": "26_c_withdevotees_510_514#p60", "head": "টাকার দরকার বটে, কিন্তু অত ভেবো না", "head_en": "You need money, but don't worry so much"},
+   {"ref": "58_c_sriramakrishna_1119_1121#p10", "head": "পাখির ছানা হলে তারও সঞ্চয় করতে হয়", "head_en": "Even a bird stores food for its chicks"},
+   {"ref": "05_c_masterdisciple_62_66#p13", "head": "বেশি উপায়ের চেষ্টা করবে, কিন্তু সদুপায়ে", "head_en": "Earn more if you can, but honestly"},
+   {"ref": "16_u_tantric_worship_262_264#p15", "head": "টাকার সদ্ব্যবহার", "head_en": "The right use of money"},
+   {"ref": "40_b_birthdaycelebration_731_734#p53", "head": "তুমি তো 'খ' — ঘটিবাটি নিয়ে যাক", "head_en": "You are like the sky; let them take the pots"},
+   {"ref": "37_j_save_698_701#p17", "head": "ঈশ্বর আগে থাকতে বন্দোবস্ত করছেন", "head_en": "God provides before the need arises"}
+  ],
+  "songs": ["আপনাতে আপনি থেকো মন যেও নাকো কারু ঘরে"]
+ },
+ {
+  "id": "oldage", "group": "family",
+  "title": "বার্ধক্য", "subtitle": "বয়স বাড়লে",
+  "title_en": "Old age", "subtitle_en": "Growing old",
+  "keywords": ["বুড়ো", "বৃদ্ধ", "বয়স", "বয়স হলে", "শেষ বয়সে", "বুড়ো বয়সে", "পঞ্চাশ", "কাশী", "নির্জন", "মৃত্যু সময়"],
+  "passages": [
+   {"ref": "16_zg_with_devotees_293_294#p11", "head": "শেষ বয়সে নির্জনে ঈশ্বরচিন্তা", "head_en": "In later years, turn to God in quiet"},
+   {"ref": "20_l_at_dakshineshwar_388_390#p24", "head": "বয়স হলে সংসার থেকে সরে ঈশ্বরচিন্তা", "head_en": "When you grow old, step back and think of God"},
+   {"ref": "09_b_fourtypes_115_116#p10", "head": "পঞ্চাশ বছর বয়সে তাস খেলছে!", "head_en": "Fifty years old and still playing cards"},
+   {"ref": "43_l_atdebendrashome_788_789#p19", "head": "বুড়ো বয়সে হরিনাম — মন্দের ভাল", "head_en": "God's name in old age is still worth it"},
+   {"ref": "52_g_yugadharma_927_933#p31", "head": "'বুড়োর আমি' — অনেকগুলি পাশ", "head_en": "The old man's ego and its many bonds"},
+   {"ref": "16_zc_at_dakshineshwar_282_284#p31", "head": "অত টাকা, তবু ছেলেরা মানে না", "head_en": "Rich, yet unhappy: his sons won't listen"},
+   {"ref": "32_e_ishwarguardian_595_597#p14", "head": "মা বুড়ো হয়েছেন — তাঁর কাছেই যাই", "head_en": "My mother is old; I will go back to her"}
+  ],
+  "songs": ["হরি হরি বল রে বীণে"]
+ }
+]}

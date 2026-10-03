@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ঠাকুরের কথা</title>
+<meta name="theme-color" content="#F3EFE7">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tiro+Bangla&family=Anek+Bangla:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* One narrow column, Bengali or English (toggle, remembered). Views (by URL hash):
+   #                 problems people face
+   #p/<id>           what Thakur said about one problem, plus songs
+   #r/<file>/<para>  the whole Bengali section, chosen paragraph highlighted
+   #e/<day>/<ref>    the whole English day (private build only), chosen passage highlighted
+   #songs, #s/<id>   all songs from the Kathamrita */
+:root{
+  --bg:#F3EFE7; --surface:#FFFFFF; --ink:#1F1B16; --muted:#6B6358; --line:#DDD5C8;
+  --accent:#8A3B12; --accent-soft:#F4E4D8; --hl:#FBEFC9;
+  --story:"Tiro Bangla","Noto Serif Bengali",serif;
+  --story-en:"Source Serif 4",Georgia,serif;
+  --ui:"Anek Bangla","Noto Sans Bengali",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#16130F;--surface:#201C17;--ink:#ECE5DA;--muted:#A69C8E;--line:#352E26;
+  --accent:#E59A6B;--accent-soft:#3A2618;--hl:#3B3220;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#16130F;--surface:#201C17;--ink:#ECE5DA;--muted:#A69C8E;--line:#352E26;
+  --accent:#E59A6B;--accent-soft:#3A2618;--hl:#3B3220;color-scheme:dark}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--ui);font-size:15px;line-height:1.5;padding-inline:16px;
+  padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+.wrap{max-width:620px;margin:0 auto;padding-bottom:48px}
+a{color:var(--accent)}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.serif{font-family:var(--story)}
+html[lang="en"] .serif{font-family:var(--story-en)}
+
+.banner{background:var(--accent-soft);color:var(--accent);border-radius:10px;padding:8px 12px;margin-top:12px;font-size:13px}
+.bar{display:flex;justify-content:flex-end;padding-top:10px}
+.lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--surface)}
+.lang button{border:0;background:none;padding:4px 12px;font-size:13px;cursor:pointer;color:var(--muted)}
+.lang button.on{background:var(--accent);color:#fff}
+header.top{padding-block:6px 8px}
+.brand{font-size:30px;margin:0;font-weight:400;line-height:1.2}
+.tag{color:var(--muted);margin:4px 0 0}
+nav.tabs{display:flex;gap:16px;margin:14px 0 6px;border-bottom:1px solid var(--line)}
+nav.tabs a{text-decoration:none;color:var(--muted);padding:6px 0;border-bottom:2px solid transparent;margin-bottom:-1px}
+nav.tabs a.on{color:var(--ink);border-color:var(--accent)}
+.back{display:inline-block;margin:10px 0 4px;text-decoration:none;font-size:14px}
+
+h2.group{font-size:13px;font-weight:600;color:var(--muted);letter-spacing:.04em;text-transform:uppercase;margin:24px 0 0}
+ul.problems{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:10px}
+ul.problems a{display:block;text-decoration:none;color:inherit;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px}
+ul.problems a:hover{border-color:var(--accent)}
+ul.problems .t{font-size:20px;line-height:1.3}
+ul.problems .s{color:var(--muted);font-size:13px;margin-top:2px}
+ul.problems .soon{opacity:.55;pointer-events:none}
+
+.ptitle{font-weight:400;font-size:28px;line-height:1.3;margin:6px 0 2px}
+h3{font-size:14px;font-weight:600;color:var(--muted);margin:26px 0 8px;letter-spacing:.02em}
+details.say{background:var(--surface);border:1px solid var(--line);border-radius:14px;margin-bottom:10px;overflow:hidden}
+details.say>summary{list-style:none;cursor:pointer;padding:14px 16px}
+details.say>summary::-webkit-details-marker{display:none}
+.say .head{font-weight:600;font-size:16px;line-height:1.35}
+.say .head .ev{font-weight:500;font-size:12px;color:var(--accent);background:var(--accent-soft);border-radius:999px;padding:1px 8px;margin-left:6px;vertical-align:2px}
+.say .peek{color:var(--muted);font-size:16px;line-height:1.6;margin-top:6px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+details.say[open] .peek{display:none}
+.say .full{font-size:18px;line-height:1.75;padding:0 16px;margin:0}
+.say .orig{margin:10px 16px 0}
+.say .orig summary{cursor:pointer;color:var(--accent);font-size:13px}
+.say .orig p{font-family:var(--story);font-size:17px;line-height:1.7;color:var(--muted);margin:6px 0 0}
+.say .src{color:var(--muted);font-size:13px;padding:10px 16px 14px;display:flex;flex-wrap:wrap;gap:4px 12px;align-items:center}
+.say .src a{text-decoration:none;font-weight:500}
+.pending{color:var(--muted);font-size:12px;font-style:italic;padding:6px 16px 0}
+
+.song{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:10px}
+.song .fl{font-family:var(--story);font-size:19px;line-height:1.4}
+.song .by{color:var(--muted);font-size:13px;margin-top:2px}
+details.lyr summary{cursor:pointer;color:var(--accent);font-size:14px;margin-top:10px}
+.lyrics{font-family:var(--story);white-space:pre-line;font-size:18px;line-height:1.75;margin:8px 0 0}
+
+.reader .meta{color:var(--muted);font-size:13px}
+.reader h2{font-weight:400;font-size:24px;line-height:1.35;margin:4px 0 14px}
+.reader p{font-size:18px;line-height:1.8;margin:0 0 14px;border-radius:8px}
+.reader p.sub{font-family:var(--ui);font-size:14px;color:var(--muted);text-align:center}
+.reader p.sng{white-space:pre-line;padding-left:14px;border-left:3px solid var(--line)}
+.reader p.hl,.reader mark{background:var(--hl);color:inherit}
+.reader p.hl{box-shadow:0 0 0 8px var(--hl)}
+.reader mark{box-shadow:0 0 0 4px var(--hl);border-radius:4px}
+
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.controls input[type=search]{flex:1 1 100%;min-width:0;border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:9px 12px}
+.controls select{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:6px 10px}
+.toggle{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;cursor:pointer;font-size:14px}
+.toggle input{accent-color:var(--accent);margin:0}
+.count{color:var(--muted);font-size:13px;margin:10px 0 4px}
+ul.songs{list-style:none;margin:0;padding:0}
+ul.songs li{border-bottom:1px solid var(--line)}
+ul.songs a{display:block;padding:12px 2px;text-decoration:none;color:inherit}
+ul.songs .fl{font-family:var(--story);font-size:18px;line-height:1.4}
+.meta{color:var(--muted);font-size:13px;margin-top:3px;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center}
+.chip{display:inline-block;font-size:12px;border-radius:999px;padding:1px 8px;background:var(--accent-soft);color:var(--accent)}
+.songpage h2{font-family:var(--story);font-weight:400;font-size:24px;line-height:1.35;margin:6px 0 8px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 14px;margin-bottom:8px}
+.card .where{color:var(--muted);font-size:13px}
+.ctx{font-family:var(--story);font-size:15px;line-height:1.6;color:var(--muted);margin:8px 0 0}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:14px 0 6px}
+.ocr{font-family:var(--story);white-space:pre-wrap;font-size:15px;line-height:1.6;margin:8px 0 0;color:var(--muted)}
+.note{color:var(--muted);font-size:13px}
+footer{color:var(--muted);font-size:12px;margin-top:40px;border-top:1px solid var(--line);padding-top:12px}
+
+/* ask a question */
+form.ask{margin:14px 0 4px;display:flex;flex-direction:column;gap:8px}
+form.ask textarea{width:100%;min-height:76px;resize:vertical;border:1px solid var(--line);background:var(--surface);
+  border-radius:12px;padding:10px 12px;font:inherit;font-size:16px;line-height:1.5;color:var(--ink)}
+form.ask button{align-self:flex-end;border:0;background:var(--accent);color:#fff;border-radius:999px;padding:8px 18px;font-size:15px;cursor:pointer}
+.ask-hint{color:var(--muted);font-size:13px;margin:0}
+.status{color:var(--muted);font-size:13px;margin:10px 0}
+.status .bar2{height:4px;background:var(--line);border-radius:2px;overflow:hidden;margin-top:6px}
+.status .bar2 i{display:block;height:100%;background:var(--accent);width:0;transition:width .3s}
+.qline{font-family:var(--story);font-size:18px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 14px;margin:8px 0 0}
+html[lang="en"] .qline{font-family:var(--story-en)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.chips a{text-decoration:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:4px 12px;font-size:14px}
+.chips a.best{background:var(--accent-soft);border-color:var(--accent)}
+.morelink{display:inline-block;margin:2px 0 6px;font-size:14px;text-decoration:none}
+.auto{color:var(--muted);font-size:12px;margin:-4px 0 8px}
+.care{background:var(--accent-soft);border:1px solid var(--accent);border-radius:12px;padding:12px 14px;margin:12px 0;font-size:15px}
+.care b{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="bar"><div class="lang" role="group" aria-label="Language">
+    <button data-lang="bn">বাংলা</button><button data-lang="en">English</button></div></div>
+  <div id="banner" class="banner" hidden></div>
+  <main id="view"></main>
+  <footer id="foot"></footer>
+</div>
+
+<script>
+/* ---------- language ---------- */
+const T = {
+  bn: {brand: "ঠাকুরের কথা", tag: "জীবনের নানা সমস্যায় শ্রীরামকৃষ্ণ কী বলেছেন — কথামৃত থেকে",
+       problems: "সমস্যা", allSongs: "সব গান", soon: "শীঘ্রই", backAll: "← সব সমস্যা", back: "← ফিরে যান",
+       said: "ঠাকুর যা বলেছেন", songs: "গান", event: "ঘটনা", readMore: "পুরো প্রসঙ্গ পড়ুন →",
+       chapter: "অধ্যায়", lyrics: "গানের কথা", times: n => `কথামৃতে ${BN(n)} বার`, thakurSang: "ঠাকুর নিজে গেয়েছেন",
+       search: "গানের প্রথম লাইন বা গায়কের নাম…", byDate: "তারিখ অনুযায়ী", byCount: "বেশিবার গাওয়া", byAlpha: "বর্ণানুক্রমে",
+       nSongs: n => `${BN(n)}টি গান`, noDate: "তারিখ নেই", singer: "গায়ক: ", composer: "রচয়িতা: ", notNamed: "কথামৃতে উল্লেখ নেই",
+       where: "কথামৃতে যেখানে আছে", xcheck: "উইকিসংকলনের স্ক্যানের সঙ্গে মিলিয়ে দেখুন", backSongs: "← সব গান",
+       foot: "পাঠ: মহেন্দ্রনাথ গুপ্ত (শ্রীম) — শ্রীশ্রীরামকৃষ্ণকথামৃত।", draft: "খসড়া — প্রকাশের জন্য নয়।",
+       private: "ব্যক্তিগত পাঠের জন্য — শেয়ার করবেন না। ইংরেজি অনুবাদ © শ্রী মা ট্রাস্ট; অনুমতির অপেক্ষায়।",
+       askPh: "আপনার সমস্যা বা প্রশ্ন নিজের ভাষায় লিখুন… যেমন: ‘অফিসে খুব রাগ হয়ে যায়’", ask: "ঠাকুরের কথা দেখুন",
+       askHint: "বাংলা বা ইংরেজিতে লিখতে পারেন। উত্তর সবসময় কথামৃত থেকে ঠাকুরের নিজের কথা।",
+       youAsked: "আপনার প্রশ্ন", pagesHelp: "যে পাতাগুলি সাহায্য করতে পারে", morePages: "এই পাতায় আরও →",
+       moreFound: "কথামৃত থেকে আরও কিছু অংশ", autoNote: "এগুলি স্বয়ংক্রিয়ভাবে খুঁজে পাওয়া — সবসময় পুরোপুরি মিলবে না।",
+       loadingModel: p => `প্রথমবার প্রশ্ন বোঝার মডেল নামানো হচ্ছে (প্রায় ১৩৫ MB, একবারই)… ${p ? BN(p) + "%" : ""}`,
+       thinking: "প্রশ্নটি বোঝার চেষ্টা চলছে…", quick: "দ্রুত মিল — পুরো খোঁজ চলছে…", noQuick: "পুরো খোঁজ চলছে…",
+       failed: "মডেল নামানো গেল না (ইন্টারনেট?)। নিচে শব্দ মিলিয়ে পাওয়া পাতা দেখানো হল।",
+       care: "আপনি যা লিখেছেন তা খুব কষ্টের। দয়া করে এখনই কারও সঙ্গে কথা বলুন — <b>টেলি-মানস: ১৪৪১৬</b> (বিনামূল্যে, ২৪ ঘণ্টা, বাংলায়ও)। আপনি একা নন।"},
+  en: {brand: "What Thakur Said", tag: "Sri Ramakrishna on the problems of life — from the Kathamrita",
+       problems: "Problems", allSongs: "All songs", soon: "coming soon", backAll: "← All problems", back: "← Back",
+       said: "What Thakur said", songs: "Songs", event: "Event", readMore: "Read the whole conversation →",
+       chapter: "Chapter", lyrics: "Lyrics (Bengali)", times: n => `${n} time${n > 1 ? "s" : ""} in the Kathamrita`,
+       thakurSang: "Thakur sang it himself", search: "First line or singer…", byDate: "By date", byCount: "Most sung",
+       byAlpha: "Alphabetical", nSongs: n => `${n} songs`, noDate: "Undated", singer: "Singer: ", composer: "Composer: ",
+       notNamed: "not named in the Kathamrita", where: "Where it appears", xcheck: "Compare with the Wikisource scan",
+       backSongs: "← All songs", original: "Bengali original", pending: "English translation coming soon — showing the Bengali original.",
+       src: (v, p) => `Sri Sri Ramakrishna Kathamrita (tr. Sri Ma Trust), vol. ${v}, p. ${p}`,
+       foot: "Text: Mahendranath Gupta (Sri M), Sri Sri Ramakrishna Kathamrita.", draft: "Draft — not for publication.",
+       private: "Private reading copy — do not share. English translation © Sri Ma Trust; permission requested.",
+       askPh: "Describe what you're going through, in your own words… e.g. ‘I can't control my anger at work’", ask: "See what Thakur said",
+       askHint: "Write in English or Bengali. The answers are always Thakur's own words from the Kathamrita.",
+       youAsked: "You asked", pagesHelp: "Pages that may help", morePages: "More on this page →",
+       moreFound: "More from the Kathamrita", autoNote: "Found automatically — they won't always fit perfectly.",
+       loadingModel: p => `First time only: downloading the model that understands questions (about 135 MB)… ${p ? p + "%" : ""}`,
+       thinking: "Understanding your question…", quick: "Quick match — full search running…", noQuick: "Full search running…",
+       failed: "Couldn't download the model (internet?). Showing pages matched by words instead.",
+       care: "What you wrote sounds very painful. Please talk to someone now — <b>Tele-MANAS: 14416</b> (free, 24 hours, India). You are not alone."},
+};
+let LANG = "bn";
+try { LANG = localStorage.getItem("lang") === "en" ? "en" : "bn"; } catch (e) {}
+const t = k => T[LANG][k];
+
+const BN = s => String(s).replace(/\d/g, d => "০১২৩৪৫৬৭৮৯"[d]);
+const NUM = s => LANG === "bn" ? BN(s) : String(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const strip = s => (s || "").normalize("NFC").replace(/[\s,;:!?।॥৷'"“”‘’()\-—–‌‍]/g, "");
+const $ = id => document.getElementById(id);
+let PROBLEMS = [], SONGS = [], META = {}, GROUPS = [];
+const cache = {};
+
+/* "১৮৮৩, ১১ই মার্চ" -> "11 March 1883" */
+const BN_MONTHS = {"জানুয়ারি":"January","জানুয়ারী":"January","ফেব্রুয়ারি":"February","ফেব্রুয়ারী":"February","মার্চ":"March",
+  "এপ্রিল":"April","মে":"May","জুন":"June","জুলাই":"July","আগস্ট":"August","অগস্ট":"August","সেপ্টেম্বর":"September",
+  "সেপ্টম্বর":"September","অক্টোবর":"October","নভেম্বর":"November","ডিসেম্বর":"December"};
+function dateText(bn){
+  if (!bn || LANG === "bn") return bn || "";
+  const d = bn.normalize("NFC").replace(/[০-৯]/g, c => "০১২৩৪৫৬৭৮৯".indexOf(c));
+  const y = (d.match(/18\d\d/) || [""])[0];
+  const mk = Object.keys(BN_MONTHS).find(k => d.includes(k.normalize("NFC")));
+  const day = mk ? (d.slice(0, d.indexOf(mk.normalize("NFC"))).replace(y, "").match(/(\d{1,2})\D*$/) || [])[1] : "";
+  return [day, mk ? BN_MONTHS[mk] : "", y].filter(Boolean).join(" ");
+}
+function where(o){ return `${t("chapter")} ${NUM(o.chapter)}${o.section ? "." + NUM(o.section) : ""}`; }
+const ptitle = p => LANG === "en" && p.title_en ? p.title_en : p.title;
+const psub = p => LANG === "en" && p.subtitle_en ? p.subtitle_en : p.subtitle;
+
+/* ---------- home ---------- */
+function tabs(on){
+  return `<nav class="tabs"><a href="#" class="${on === "home" ? "on" : ""}">${t("problems")}</a>
+    <a href="#songs" class="${on === "songs" ? "on" : ""}">${t("allSongs")} (${NUM(SONGS.length)})</a></nav>`;
+}
+function problemList(list){
+  return `<ul class="problems">${list.map(p => `<li><a href="#p/${p.id}" class="${p.passages.length ? "" : "soon"}">
+      <div class="t serif">${esc(ptitle(p))}</div>
+      <div class="s">${esc(psub(p))}${p.passages.length ? "" : " · " + t("soon")}</div></a></li>`).join("")}</ul>`;
+}
+function viewHome(){
+  const byId = Object.fromEntries(PROBLEMS.map(p => [p.id, p]));
+  const body = GROUPS.length
+    ? GROUPS.map(g => `<h2 class="group">${esc(LANG === "en" ? g.title_en : g.title)}</h2>
+        ${problemList(g.problems.map(id => byId[id]).filter(Boolean))}`).join("")
+    : problemList(PROBLEMS);
+  return `<header class="top"><h1 class="brand serif">${t("brand")}</h1><p class="tag">${t("tag")}</p></header>
+    ${askForm("")}${tabs("home")}${body}`;
+}
+function askForm(q){
+  return `<form class="ask" onsubmit="event.preventDefault(); const v=this.q.value.trim(); if (v) location.hash='q/'+encodeURIComponent(v);">
+      <textarea name="q" placeholder="${esc(t("askPh"))}" aria-label="${esc(t("askPh"))}">${esc(q)}</textarea>
+      <p class="ask-hint">${t("askHint")}</p>
+      <button type="submit">${t("ask")}</button></form>`;
+}
+
+/* ---------- ask a question: meaning-based search, in the browser ----------
+   Mirrors eval_search.py. Model: Xenova/multilingual-e5-small (same quantized file the index was
+   built with). Index rows: every Thakur passage, then each page described in Bengali, then in English. */
+const S = {index: null, vecs: null, n: 0, row: null, picks: {}, cent: {}, hub: null, ext: null, phrases: {}};
+const W = {desc: 0.4, picks: 0.6, phrase: 0.02, theme: 0.5, hub: 1.0, minLen: 150};
+const CRISIS = /আত্মহত্যা|মরে যেতে চাই|বাঁচতে চাই না|নিজেকে শেষ|suicid|kill myself|end my life|want to die|self[- ]harm/i;
+
+function dotRow(r, v){ const d = S.index.dim, o = r * d; let s = 0; for (let k = 0; k < d; k++) s += S.vecs[o + k] * v[k]; return s / S.index.scale; }
+async function loadIndex(){
+  if (S.index) return;
+  const [ix, buf, ph] = await Promise.all([fetch("data/search/index.json").then(r => r.json()),
+    fetch("data/search/vectors.bin").then(r => r.arrayBuffer()), fetch("data/problem_phrases.json").then(r => r.ok ? r.json() : {})]);
+  S.index = ix; S.vecs = new Int8Array(buf); S.n = ix.passages.length; S.phrases = ph;
+  S.row = new Map(ix.passages.map((p, i) => [p.id, i]));
+  const d = ix.dim;
+  for (const p of PROBLEMS) {       // each page's theme = average of its hand-picked passages
+    const rows = p.passages.map(it => S.row.get(it.ref)).filter(r => r !== undefined), c = new Float32Array(d);
+    for (const r of rows) for (let k = 0; k < d; k++) c[k] += S.vecs[r * d + k];
+    const len = Math.hypot(...c) || 1; for (let k = 0; k < d; k++) c[k] /= len;
+    S.picks[p.id] = rows; S.cent[p.id] = c;
+  }
+  const cents = PROBLEMS.map(p => S.cent[p.id]);  // "hubs": passages close to every theme get a penalty
+  S.hub = new Float32Array(S.n);
+  for (let i = 0; i < S.n; i++) { let s = 0; for (const c of cents) s += dotRow(i, c); S.hub[i] = s / cents.length; }
+}
+async function embed(q, onProgress){
+  if (!S.ext) {
+    const {pipeline} = await import("https://cdn.jsdelivr.net/npm/@huggingface/transformers@3");
+    S.ext = await pipeline("feature-extraction", "Xenova/multilingual-e5-small", {dtype: "q8", progress_callback: onProgress});
+  }
+  const out = await S.ext("query: " + q, {pooling: "mean", normalize: true});
+  return out.data;
+}
+function phraseHits(q, ph){
+  const qb = q.normalize("NFC"), ql = " " + q.toLowerCase().replace(/[^a-z' ]/g, " ") + " ";
+  let h = 0;
+  for (const p of ph.bn || []) if (qb.includes(p.normalize("NFC"))) h++;
+  for (const p of ph.en || []) if ((ql.includes(" " + p) && (p.length >= 5 || ql.includes(" " + p + " "))) || (p.length >= 6 && ql.includes(" " + p.slice(0, -1)))) h++;
+  return h;
+}
+function rankPages(q, sims){
+  const P = S.index.problems.length, n = S.n, scores = {};
+  S.index.problems.forEach((id, k) => {
+    const ps = (S.picks[id] || []).map(r => sims ? sims[r] : 0).sort((a, b) => b - a).slice(0, 3);
+    const pickMean = ps.length ? ps.reduce((a, b) => a + b, 0) / ps.length : 0;
+    const desc = sims ? Math.max(sims[n + k], sims[n + P + k]) : 0;
+    scores[id] = W.desc * desc + W.picks * pickMean + W.phrase * Math.min(3, phraseHits(q, S.phrases[id] || {}));
+  });
+  return Object.keys(scores).sort((a, b) => scores[b] - scores[a]).map(id => ({id, score: scores[id]}));
+}
+function rankMore(sims, topId, exclude){
+  const c = S.cent[topId], out = [];
+  for (let i = 0; i < S.n; i++) {
+    if (exclude.has(i) || S.index.passages[i].t.length < W.minLen) continue;
+    out.push([sims[i] + W.theme * dotRow(i, c) - W.hub * S.hub[i], i]);
+  }
+  return out.sort((a, b) => b[0] - a[0]).slice(0, 3).map(x => x[1]);
+}
+function moreCard(i){
+  const p = S.index.passages[i];
+  return `<details class="say"><summary><div class="peek serif">${esc(p.t)}</div></summary>
+      ${LANG === "en" ? `<div class="pending">${t("pending")}</div>` : ""}
+      <p class="full serif">${esc(p.t)}</p>
+      <div class="src"><span>${esc(dateText(p.d))}</span><span>${where({chapter: p.ch, section: p.s})}</span>
+        <a href="#r/${p.f}/${p.p}">${t("readMore")}</a></div></details>`;
+}
+function renderResults(q, pages, sims, status){
+  const byId = Object.fromEntries(PROBLEMS.map(p => [p.id, p]));
+  const show = pages.filter((x, i) => i === 0 || (i === 1 && pages[0].score - x.score < 0.02));
+  const shownRows = new Set();
+  const blocks = show.map(({id}) => {
+    const p = byId[id];
+    let items = p.passages.slice();
+    if (sims) items.sort((a, b) => (sims[S.row.get(b.ref)] || 0) - (sims[S.row.get(a.ref)] || 0));
+    items.forEach(it => shownRows.add(S.row.get(it.ref)));
+    return `<h3>${esc(ptitle(p))} — ${esc(psub(p))}</h3>${items.slice(0, 4).map(sayCard).join("")}
+      <a class="morelink" href="#p/${p.id}">${t("morePages")}</a>`;
+  }).join("");
+  const more = sims ? rankMore(sims, show[0].id, shownRows) : [];
+  return `${CRISIS.test(q) ? `<div class="care">${t("care")}</div>` : ""}
+    ${status ? `<div class="status" id="status">${status}</div>` : ""}
+    <h3>${t("pagesHelp")}</h3><div class="chips">${pages.slice(0, 3).map((x, i) =>
+      `<a class="${i === 0 ? "best" : ""}" href="#p/${x.id}">${esc(ptitle(byId[x.id]))}</a>`).join("")}</div>
+    ${blocks}
+    ${more.length ? `<h3>${t("moreFound")}</h3><p class="auto">${t("autoNote")}</p>${more.map(moreCard).join("")}` : ""}`;
+}
+async function viewSearch(qEnc){
+  const q = decodeURIComponent(qEnc || "");
+  const head = `<a class="back" href="#">${t("backAll")}</a>${askForm(q)}`;
+  $("view").innerHTML = head + `<div id="results"><div class="status">${t("thinking")}</div></div>`;
+  window.scrollTo(0, 0);
+  const box = () => $("results");
+  await loadIndex();
+  const quick = rankPages(q, null);                       // option 2: instant, by everyday phrases
+  const hasQuick = quick[0].score > 0;
+  if (box()) box().innerHTML = hasQuick ? renderResults(q, quick, null, t("quick")) : `<div class="status">${t("noQuick")}</div>`;
+  let pct = 0;
+  const onProgress = e => {
+    if (e.status === "progress" && e.file && e.file.endsWith(".onnx")) {
+      pct = Math.round(e.progress || 0);
+      const st = $("status"); if (st) st.innerHTML = `${t("loadingModel")(pct)}<div class="bar2"><i style="width:${pct}%"></i></div>`;
+    }
+  };
+  try {
+    const qv = await embed(q, onProgress);                // option 1: meaning-based
+    const sims = new Float32Array(S.vecs.length / S.index.dim);
+    for (let r = 0; r < sims.length; r++) sims[r] = dotRow(r, qv);
+    if (box() && location.hash.slice(1) === "q/" + qEnc) box().innerHTML = renderResults(q, rankPages(q, sims), sims, "");
+  } catch (err) {
+    console.error(err);
+    if (box()) box().innerHTML = hasQuick ? renderResults(q, quick, null, t("failed")) : `<div class="status">${t("failed")}</div>`;
+  }
+}
+
+/* ---------- one problem ---------- */
+function sayCard(it){
+  const en = LANG === "en" && it.en;
+  const head = LANG === "en" && it.head_en ? it.head_en : it.head;
+  const body = en ? it.en.text : it.text;
+  const more = en ? `#e/${it.en.day}/${encodeURIComponent(it.ref)}` : `#r/${it.file}/${it.para}`;
+  return `<details class="say">
+      <summary><div class="head">${esc(head)}${it.type === "event" ? `<span class="ev">${t("event")}</span>` : ""}</div>
+        <div class="peek serif">${esc(body)}</div></summary>
+      ${LANG === "en" && !it.en ? `<div class="pending">${t("pending")}</div>` : ""}
+      <p class="full serif">${esc(body)}</p>
+      ${en ? `<details class="orig"><summary>${t("original")}</summary><p>${esc(it.text)}</p></details>` : ""}
+      <div class="src"><span>${esc(dateText(it.date_bn))}</span><span>${where(it)}</span>
+        ${en ? `<span>${esc(T.en.src(it.en.vol, it.en.page))}</span>` : ""}
+        <a href="${more}">${t("readMore")}</a></div>
+    </details>`;
+}
+function viewProblem(id){
+  const p = PROBLEMS.find(x => x.id === id);
+  if (!p) return viewHome();
+  const songs = p.songs.map(s => `<div class="song">
+      <div class="fl">${esc(s.first_line)}</div>
+      <div class="by">${s.composer ? esc(s.composer) + " · " : ""}${t("times")(s.times)}${s.thakur ? " · " + t("thakurSang") : ""}</div>
+      <details class="lyr"><summary>${t("lyrics")}</summary><div class="lyrics">${esc(s.lyrics)}</div></details>
+    </div>`).join("");
+  return `<a class="back" href="#">${t("backAll")}</a>
+    <h1 class="ptitle serif">${esc(ptitle(p))}</h1><p class="tag">${esc(psub(p))}</p>
+    <h3>${t("said")}</h3>${p.passages.map(sayCard).join("")}
+    ${songs ? `<h3>${t("songs")}</h3>${songs}` : ""}`;
+}
+const backTo = file => { const p = PROBLEMS.find(p => p.passages.some(it => it.file === file || it.ref === file)); return p ? "#p/" + p.id : "#"; };
+
+/* ---------- whole Bengali section ---------- */
+async function viewReader(file, para){
+  const s = cache[file] = cache[file] || await fetch(`data/sections/${file}.json`).then(r => r.json());
+  const body = s.blocks.map(b => `<p id="b${b.i}" class="serif ${b.cls === "chaphead" ? "sub" : b.cls === "song" ? "sng" : ""}${b.i === +para ? " hl" : ""}">${esc(b.text)}</p>`).join("");
+  return `<a class="back" href="${backTo(file)}">${t("back")}</a>
+    <article class="reader" lang="bn"><div class="meta">${esc(s.date_bn)} · ${where(s)}</div>
+    <h2 class="serif" style="font-family:var(--story)">${esc(s.section_title)}</h2>${body}</article>`;
+}
+
+/* ---------- whole English day (private build) ---------- */
+function paragraphs(pages){
+  // PDF lines are wrapped; start a new paragraph after a line that ends a sentence
+  // when the next line opens a quote or a speaker label.
+  const lines = pages.join("\n").split("\n").map(l => l.trim()).filter(Boolean);
+  const out = [];
+  let cur = "";
+  for (const ln of lines) {
+    const brk = cur && /[.!?’”)]$/.test(cur) && /^(“|[A-Z][\w.]*( [A-Z][\w.]*)?( \([^)]*\))? ?[—:]|Sri Ramakrishna|M\.|Chapter )/.test(ln);
+    if (brk) { out.push(cur); cur = ln; } else cur = cur ? (cur.endsWith("-") ? cur + ln : cur + " " + ln) : ln;
+  }
+  if (cur) out.push(cur);
+  return out;
+}
+async function viewEnglish(day, ref){
+  ref = decodeURIComponent(ref);
+  const pages = cache["en:" + day] = cache["en:" + day] || await fetch(`data/english/${day}.json`).then(r => r.json());
+  const it = PROBLEMS.flatMap(p => p.passages).find(x => x.ref === ref);
+  const target = it && it.en ? it.en.text.replace(/\s+/g, " ") : "";
+  let found = false;
+  const html = paragraphs(pages).map(p => {
+    let h = esc(p);
+    if (!found && target) {
+      const probe = esc(target.slice(0, 60));
+      const i = h.indexOf(probe);
+      if (i >= 0) {
+        const full = esc(target);
+        const j = h.indexOf(full, i) >= 0 ? i + full.length : h.length;
+        h = h.slice(0, i) + `<mark id="hit">` + h.slice(i, j) + `</mark>` + h.slice(j);
+        found = true;
+      }
+    }
+    return `<p class="serif">${h}</p>`;
+  }).join("");
+  return `<a class="back" href="${backTo(ref)}">${t("back")}</a>
+    <article class="reader" lang="en"><div class="meta">${esc(it ? dateText(it.date_bn) : "")} · ${esc(it && it.en ? T.en.src(it.en.vol, it.en.page) : "")}</div>${html}</article>`;
+}
+
+/* ---------- songs ---------- */
+function earliest(s){
+  const dated = s.occurrences.filter(o => o.date_iso).sort((a, b) => a.date_iso.localeCompare(b.date_iso));
+  return dated.find(o => (o.date_precision || "").startsWith("day")) || dated[0] || s.occurrences[0];
+}
+function viewSongs(){
+  return `<header class="top"><h1 class="brand serif">${t("brand")}</h1></header>${tabs("songs")}
+    <div class="controls">
+      <input id="q" type="search" placeholder="${t("search")}" aria-label="${t("search")}">
+      <label class="toggle"><input id="onlyThakur" type="checkbox"> ${t("thakurSang")}</label>
+      <select id="sort"><option value="date">${t("byDate")}</option><option value="count">${t("byCount")}</option>
+        <option value="alpha">${t("byAlpha")}</option></select>
+    </div><p class="count" id="count"></p><ul class="songs" id="list"></ul>`;
+}
+function renderSongList(){
+  const q = strip($("q").value), only = $("onlyThakur").checked, sort = $("sort").value;
+  let rows = SONGS.filter(s => (!only || s.thakur) &&
+    (!q || strip(s.first_line).includes(q) || s.occurrences.some(o => strip(o.singer).includes(q))));
+  if (sort === "date") rows.sort((a, b) => (earliest(a).date_iso || "9").localeCompare(earliest(b).date_iso || "9"));
+  if (sort === "count") rows.sort((a, b) => b.occurrences.length - a.occurrences.length);
+  if (sort === "alpha") rows.sort((a, b) => a.first_line.localeCompare(b.first_line, "bn"));
+  $("count").textContent = t("nSongs")(NUM(rows.length));
+  $("list").innerHTML = rows.map(s => {
+    const o = earliest(s), n = s.occurrences.length;
+    return `<li><a href="#s/${s.id}"><div class="fl">${esc(s.first_line)}</div>
+      <div class="meta"><span>${esc(dateText(o.date_bn) || t("noDate"))}</span>${n > 1 ? `<span>×${NUM(n)}</span>` : ""}
+      ${s.composer ? `<span>${esc(s.composer)}</span>` : ""}${s.thakur ? `<span class="chip">${t("thakurSang")}</span>` : ""}</div></a></li>`;
+  }).join("");
+}
+function viewSong(id){
+  const s = SONGS.find(x => x.id === id);
+  if (!s) return viewSongs();
+  const occ = s.occurrences.map(o => `<div class="card"><div>${esc(dateText(o.date_bn) || t("noDate"))}</div>
+      <div class="where">${where(o)} — ${esc(o.section_title)}</div>
+      <div class="where">${o.singer ? t("singer") + esc(o.singer) : ""}${o.thakur ? " · " + t("thakurSang") : ""}</div>
+      ${o.context ? `<p class="ctx">…${esc(o.context)}</p>` : ""}</div>`).join("");
+  const ws = s.wikisource.map(w => `<div class="card"><div class="where">${NUM(w.part)} · ${NUM(w.page)} ·
+      <a href="${esc(w.url)}" target="_blank" rel="noopener">Wikisource ↗</a></div><p class="ocr">${esc(w.ocr_text)}</p></div>`).join("");
+  return `<a class="back" href="#songs">${t("backSongs")}</a><div class="songpage">
+    <h2>${esc(s.first_line)}</h2>
+    <div class="note">${t("composer")}${s.composer ? esc(s.composer) + (s.composer_source ? ` (${esc(s.composer_source)})` : "") : t("notNamed")}
+      · ${t("times")(s.occurrences.length)}${s.thakur ? " · " + t("thakurSang") : ""}</div>
+    <div class="box lyrics">${esc(s.lyrics)}</div>
+    <h3>${t("where")}</h3>${occ}
+    ${ws ? `<details><summary class="note" style="cursor:pointer;margin-top:18px">${t("xcheck")}</summary>${ws}</details>` : ""}</div>`;
+}
+
+/* ---------- router ---------- */
+async function route(){
+  const [kind, a, b] = location.hash.slice(1).split("/");
+  document.documentElement.lang = LANG;
+  document.title = t("brand");
+  document.querySelectorAll(".lang button").forEach(x => x.classList.toggle("on", x.dataset.lang === LANG));
+  $("banner").hidden = !(META.private || META.preview);
+  $("banner").textContent = META.private ? t("private") : t("draft");
+  $("foot").textContent = t("foot");
+  let html;
+  if (kind === "p") html = viewProblem(a);
+  else if (kind === "r") html = await viewReader(a, b);
+  else if (kind === "e") html = await viewEnglish(a, b);
+  else if (kind === "songs") html = viewSongs();
+  else if (kind === "s") html = viewSong(a);
+  else if (kind === "q") return viewSearch(location.hash.slice(3));
+  else html = viewHome();
+  $("view").innerHTML = html;
+  if (kind === "songs") { ["q", "onlyThakur", "sort"].forEach(id => $(id).addEventListener("input", renderSongList)); renderSongList(); }
+  const hit = kind === "r" ? $("b" + b) : kind === "e" ? $("hit") : null;
+  if (hit) hit.scrollIntoView({block: "center"}); else window.scrollTo(0, 0);
+}
+document.querySelector(".lang").addEventListener("click", e => {
+  const b = e.target.closest("button[data-lang]");
+  if (!b || b.dataset.lang === LANG) return;
+  LANG = b.dataset.lang;
+  try { localStorage.setItem("lang", LANG); } catch (err) {}
+  route();
+});
+
+Promise.all(["problems", "songs", "meta", "groups"].map(n => fetch(`data/${n}.json`).then(r => r.ok ? r.json() : {})))
+  .then(([p, s, m, g]) => { PROBLEMS = p; SONGS = s.songs || []; META = m || {}; GROUPS = Array.isArray(g) ? g : []; route(); })
+  .catch(() => { $("view").textContent = "Could not load data."; });
+addEventListener("hashchange", route);
+</script>
+</body>
+</html>

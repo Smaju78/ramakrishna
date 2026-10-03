@@ -1,0 +1,18 @@
+# Secrets (YouTube API key). Never commit.
+.env
+# Raw downloaded pages (our private archive copy). Data files built from them are fine to commit.
+cache/
+__pycache__/
+
+# Sri Ma Trust English (private reading only until they grant rights)
+cache/srimatrust/
+data/english_srimatrust.json
+private_site/
+
+# Local Python env and downloaded model (rebuildable)
+.venv/
+models/
+
+# Rebuildable / local only
+data/search_vectors.npy
+.claude/

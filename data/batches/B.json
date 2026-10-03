@@ -1,0 +1,348 @@
+{
+ "problems": [
+  {
+   "id": "ego",
+   "group": "character",
+   "title": "অহংকার",
+   "subtitle": "অভিমান ও অহং",
+   "title_en": "Ego and pride",
+   "subtitle_en": "The sense of 'I' and 'mine'",
+   "keywords": [
+    "অহংকার",
+    "অভিমান",
+    "অহং",
+    "আমি আমি",
+    "কাঁচা আমি",
+    "পাকা আমি",
+    "দাস আমি",
+    "উঁচু ঢিপি",
+    "জাঁক"
+   ],
+   "passages": [
+    {
+     "ref": "36_h_vijay_667_668#p6",
+     "head": "বাছুরের ‘হাম্বা’ — আমি আমি করেই যন্ত্রণা",
+     "head_en": "The calf cries 'I, I' — and suffers for it"
+    },
+    {
+     "ref": "52_m_advicetodrsarkar_944_946#p4",
+     "head": "উঁচু ঢিপিতে জল জমে না",
+     "head_en": "Water won't stay on a high mound"
+    },
+    {
+     "ref": "52_g_yugadharma_927_933#p28",
+     "head": "কাঁচা আমি আর পাকা আমি",
+     "head_en": "The 'unripe I' and the 'ripe I'"
+    },
+    {
+     "ref": "36_f_i_conciousness_664_666#p4",
+     "head": "যতই সাজো-গোজো, সব দুদিনের জন্য",
+     "head_en": "However grand you look, it's all for two days"
+    },
+    {
+     "ref": "09_f_veilofmaya_119_122#p14",
+     "head": "এক টাকার ব্যাঙ হাতিকে লাথি দেখায়",
+     "head_en": "The frog with one rupee kicks at an elephant"
+    },
+    {
+     "ref": "48_d_selfishness_848_854#p54",
+     "head": "দাঁড়িপাল্লার হালকা দিকটাই উঁচু হয়",
+     "head_en": "On a scale, the lighter pan rises"
+    },
+    {
+     "ref": "52_zb_panditspride_975_976#p5",
+     "head": "যে দিল্লী গেছে, সে কি জাঁক করে?",
+     "head_en": "Does someone who's been to Delhi brag about it?"
+    }
+   ],
+   "songs": [
+    "সকলি তোমার ইচ্ছা ইচ্ছাময়ী তারা তুমি"
+   ]
+  },
+  {
+   "id": "desire",
+   "group": "character",
+   "title": "কামনা ও লোভ",
+   "subtitle": "আরও চাই",
+   "title_en": "Desire and greed",
+   "subtitle_en": "Wanting more and more",
+   "keywords": [
+    "লোভ",
+    "কামনা",
+    "বাসনা",
+    "ভোগ",
+    "ভোগবাসনা",
+    "বিষয়বাসনা",
+    "টাকা",
+    "কাঞ্চন",
+    "সাধ",
+    "তৃষ্ণা"
+   ],
+   "passages": [
+    {
+     "ref": "20_y_at_dakshineshwar_426_429#p24",
+     "head": "চিলের মুখে মাছ, পেছনে হাজার কাক",
+     "head_en": "The kite with a fish, chased by crows"
+    },
+    {
+     "ref": "09_b_fourtypes_115_116#p8",
+     "head": "উট কাঁটা ঘাস খায়, রক্ত পড়লেও ছাড়ে না",
+     "head_en": "The camel keeps eating thorns though its mouth bleeds"
+    },
+    {
+     "ref": "02_e_wayofdevotion_19_21#p20",
+     "head": "টাকায় কি হয়? ভাত, ডাল, থাকার জায়গা",
+     "head_en": "What can money buy? Food, clothes, a roof"
+    },
+    {
+     "ref": "28_l_sayings_547_551#p13",
+     "head": "মন, এর নাম রূপার গুড়গুড়িতে তামাক খাওয়া!",
+     "head_en": "'So this is the silver hookah, O mind!'"
+    },
+    {
+     "ref": "37_f_maya_691_693#p24",
+     "head": "ব্রহ্মানন্দ পেলে মন আর দৌড়ায় না",
+     "head_en": "Taste God's bliss, and the mind stops running after things"
+    },
+    {
+     "ref": "13_d_at_sinthee_178_180#p31",
+     "head": "খেলা শেষ হলে ছেলে বলে, ‘মা যাব’",
+     "head_en": "When play is over, the child cries for Mother"
+    }
+   ],
+   "songs": [
+    "মন চল নিজ নিকেতনে"
+   ]
+  },
+  {
+   "id": "lust",
+   "group": "character",
+   "title": "কাম",
+   "subtitle": "ইন্দ্রিয়ের টান",
+   "title_en": "Lust",
+   "subtitle_en": "The pull of the senses",
+   "keywords": [
+    "কাম",
+    "কামিনী",
+    "ইন্দ্রিয়",
+    "জিতেন্দ্রিয়",
+    "রিপু",
+    "মাতৃবৎ",
+    "মা বোধ",
+    "আচার তেঁতুল",
+    "চুম্বক",
+    "বস্তুবিচার"
+   ],
+   "passages": [
+    {
+     "ref": "36_d_renunciation_660_661#p6",
+     "head": "বিকারের রোগীর ঘরে আচার-তেঁতুল আর জলের জালা",
+     "head_en": "A fever patient beside pickles and a water jar"
+    },
+    {
+     "ref": "09_d_lustandlucre_117_118#p12",
+     "head": "ঈশ্বর বড় চুম্বক, কামিনী ছোট চুম্বক",
+     "head_en": "God is the bigger magnet"
+    },
+    {
+     "ref": "20_y_at_dakshineshwar_426_429#p20",
+     "head": "ছয় রিপুর মোড় ঈশ্বরের দিকে ফিরিয়ে দাও",
+     "head_en": "Turn the passions toward God"
+    },
+    {
+     "ref": "37_f_maya_691_693#p28",
+     "head": "পরস্ত্রী মাতৃবৎ, নিজের স্ত্রী ধর্মের সহায়",
+     "head_en": "Others' wives as mothers, your own as a spiritual companion"
+    },
+    {
+     "ref": "03_b_atshyampukur_35_38#p23",
+     "head": "ইন্দ্রিয় জয় করলে মহৎ হয়",
+     "head_en": "Mastering the senses makes a person great"
+    },
+    {
+     "ref": "02_e_wayofdevotion_19_21#p22",
+     "head": "বস্তুবিচার — সুন্দর দেহেই বা কি আছে?",
+     "head_en": "Think it through: what is in a beautiful body?"
+    }
+   ],
+   "songs": [
+    "ডুব দে মন কালী বলে হৃদি রত্নাকরের অগাধ জলে"
+   ]
+  },
+  {
+   "id": "hypocrisy",
+   "group": "character",
+   "title": "কপটতা",
+   "subtitle": "মুখে এক, মনে আর",
+   "title_en": "Hypocrisy",
+   "subtitle_en": "Saying one thing, meaning another",
+   "keywords": [
+    "কপট",
+    "কপটতা",
+    "সরল",
+    "ভেক",
+    "মুখে বলে",
+    "মিথ্যা",
+    "সত্যকথা",
+    "শকুনি",
+    "পাঁজি",
+    "সিদ্ধি সিদ্ধি"
+   ],
+   "passages": [
+    {
+     "ref": "20_p_at_dakshineshwar_397_401#p32",
+     "head": "মুখে বলে ঈশ্বরকে ভালবাসি",
+     "head_en": "'I love God,' they say — but only in words"
+    },
+    {
+     "ref": "12_l_ochreclothes_157_159#p9",
+     "head": "ভেকের মতো মন না হলে সর্বনাশ",
+     "head_en": "If the mind doesn't match the outer garb, ruin follows"
+    },
+    {
+     "ref": "20_v_truth_417_419#p18",
+     "head": "শকুনি উঁচুতে ওড়ে, নজর ভাগাড়ে",
+     "head_en": "The vulture soars high but eyes the carrion"
+    },
+    {
+     "ref": "28_g_naran_535_537#p26",
+     "head": "পাঁজি টিপলে এক ফোঁটা জলও পড়ে না",
+     "head_en": "Squeeze the almanac — not a drop of rain"
+    },
+    {
+     "ref": "19_f_at_kolkata_359_363#p33",
+     "head": "‘সিদ্ধি সিদ্ধি’ বললে নেশা হয় না",
+     "head_en": "Saying 'hemp, hemp' won't make you high"
+    },
+    {
+     "ref": "22_a_baburamrakhal_460_463#p19",
+     "head": "সরল হলে ঈশ্বরকে সহজে পাওয়া যায়",
+     "head_en": "The guileless reach God easily"
+    },
+    {
+     "ref": "44_c_truthisworship_799_800#p11",
+     "head": "সত্যকথা কলির তপস্যা",
+     "head_en": "Truthfulness is the austerity of this age"
+    }
+   ],
+   "songs": [
+    "অমূল্যধন পাবি রে মন হলে খাঁটি"
+   ]
+  },
+  {
+   "id": "laziness",
+   "group": "character",
+   "title": "আলস্য ও শিথিলতা",
+   "subtitle": "চেষ্টা না করা",
+   "title_en": "Laziness",
+   "subtitle_en": "Not making the effort",
+   "keywords": [
+    "রোখ",
+    "ঢিমে তেতালা",
+    "ঢিমে তেতলা",
+    "পুরুষকার",
+    "চেষ্টা",
+    "এগিয়ে পড়",
+    "ডুব দাও",
+    "খেটে নিতে",
+    "আলস্য",
+    "দৃঢ় প্রতিজ্ঞা"
+   ],
+   "passages": [
+    {
+     "ref": "09_c_intenserenunciation_116_117#p8",
+     "head": "চাষার রোখ — জল না এনে ছাড়বে না",
+     "head_en": "The farmer who wouldn't stop till the water came"
+    },
+    {
+     "ref": "12_r_divine_form_170_172#p10",
+     "head": "এক জায়গায় খুঁড়ে গেলে তবে জল",
+     "head_en": "Keep digging in one spot and you'll find water"
+    },
+    {
+     "ref": "14_i_with_manirampur_devotees_b_209_211#p18",
+     "head": "ঢিমে তেতালা হলে হয় না",
+     "head_en": "Going slow and easy gets you nowhere"
+    },
+    {
+     "ref": "14_g_with_devotees_206_207#p17",
+     "head": "এগিয়ে পড় — চন্দন কাঠের পরও আছে",
+     "head_en": "Go forward — there's more beyond the sandalwood"
+    },
+    {
+     "ref": "16_y_brahma_shakti_269_274#p35",
+     "head": "উপর উপর ভাসলে রত্ন মেলে না, ডুব দাও",
+     "head_en": "Floating on the surface finds no gems — dive"
+    },
+    {
+     "ref": "12_s_advice_to_adhar_172_173#p13",
+     "head": "প্রথমে একটু খেটে নিতে হয়, তারপর পেনশন",
+     "head_en": "Work hard first, then enjoy the pension"
+    },
+    {
+     "ref": "20_p_at_dakshineshwar_397_401#p29",
+     "head": "পুরুষকারের জন্য প্রার্থনা কর",
+     "head_en": "Pray for the strength to act"
+    }
+   ],
+   "songs": [
+    "মন রে কৃষি কাজ জানো না"
+   ]
+  },
+  {
+   "id": "insult",
+   "group": "character",
+   "title": "নিন্দা ও অপমান",
+   "subtitle": "লোকের কথা",
+   "title_en": "Criticism and insult",
+   "subtitle_en": "What people say",
+   "keywords": [
+    "নিন্দা",
+    "অপমান",
+    "গালাগালি",
+    "লোকে বলবে",
+    "লোকে যা বলবে",
+    "লোকে বলুক",
+    "কূটস্থ",
+    "নেয়াই",
+    "সহ্য",
+    "লজ্জা ঘৃণা ভয়"
+   ],
+   "passages": [
+    {
+     "ref": "02_f_thirdvisit_21_25#p11",
+     "head": "হাতি চলে যায়, পেছনে কত জানোয়ার চেঁচায়",
+     "head_en": "The elephant walks on while the animals howl"
+    },
+    {
+     "ref": "30_b_vijayagoswami_578_580#p6",
+     "head": "কামারশালের নেয়াইয়ের মতো হও",
+     "head_en": "Be like the blacksmith's anvil"
+    },
+    {
+     "ref": "28_h_teachingnarendra_537_541#p56",
+     "head": "লোকে যা বলবে তাই কি শুনতে হবে?",
+     "head_en": "Must you listen to whatever people say?"
+    },
+    {
+     "ref": "37_c_with_devotees_682_685#p22",
+     "head": "লোকে বলুক, ঈশ্বরের জন্য পাগল হয়েছে",
+     "head_en": "Let people say you've gone mad for God"
+    },
+    {
+     "ref": "20_k_simplicity_387_388#p8",
+     "head": "‘দেখবে এস, আমার হাত ভেঙে গেছে!’",
+     "head_en": "Not hiding things for fear of gossip"
+    },
+    {
+     "ref": "28_o_hazra_557_559#p14",
+     "head": "কারু নিন্দা করো না — পোকাটিরও না",
+     "head_en": "Don't find fault with anyone — not even an insect"
+    }
+   ],
+   "songs": [
+    "লজ্জা নিবারণ হরি আমার"
+   ]
+  }
+ ]
+}
