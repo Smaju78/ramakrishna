@@ -1,0 +1,457 @@
+{
+ "problems": [
+  {
+   "id": "doubt",
+   "passages": [
+    {
+     "ref": "38_b_withdevotees_712_714#p6",
+     "head": "দেখা যাচ্ছে না বলে কি সূর্য নাই?",
+     "head_en": "Clouds hide the sun, but the sun is there"
+    },
+    {
+     "ref": "14_f_with_hajra_203_206#p30",
+     "head": "নাস্তিকভাব এলেও চাষা চাষ ছাড়ে না",
+     "head_en": "Even in a dry year, the farmer keeps farming"
+    },
+    {
+     "ref": "34_e_whentorenouncework_613_616#p14",
+     "head": "সাকার না নিরাকার ভেবো না — কেঁদে বলো, ‘যেমন তুমি, তাই দেখাও’",
+     "head_en": "Don't puzzle over what God is — just pray, 'Show me what You are'"
+    },
+    {
+     "ref": "36_c_wealthofgod_658_659#p8",
+     "head": "নিজে ডুব দিলে তবে সন্দেহ দূর হয়",
+     "head_en": "Doubts go only when you dive in yourself"
+    },
+    {
+     "ref": "13_a_with_devotees_174_175#p28",
+     "head": "একদিনে কি নাড়ী দেখা শেখা যায়?",
+     "head_en": "Can you learn to read a pulse in a day? Keep company with those who know"
+    },
+    {
+     "ref": "36_c_wealthofgod_658_659#p5",
+     "head": "ব্যাকুল হয়ে খুঁজলে দর্শন হয় — সত্য বলছি",
+     "head_en": "Seek Him with longing and He can be seen — I tell you truly"
+    },
+    {
+     "ref": "20_y_at_dakshineshwar_426_429#p39",
+     "head": "প্রমাণ চাও? সায়েন্সে নয়, সাধনায় তাঁকে জানা যায়",
+     "head_en": "Want proof? God is known by direct experience, not by science"
+    }
+   ],
+   "songs": [
+    "মন কি তত্ত্ব কর তাঁরে যেন উন্মত্ত আঁধার ঘরে"
+   ],
+   "review": [
+    {
+     "ref": "38_b_withdevotees_712_714#p6",
+     "verdict": "keep",
+     "reason": "Clear image for a doubter: not seeing is not absence"
+    },
+    {
+     "ref": "14_f_with_hajra_203_206#p30",
+     "verdict": "keep",
+     "reason": "Directly addresses atheistic phases; keep going like the farmer"
+    },
+    {
+     "ref": "36_c_wealthofgod_658_659#p8",
+     "verdict": "keep",
+     "reason": "Books can't settle doubt; dive in yourself"
+    },
+    {
+     "ref": "36_c_wealthofgod_658_659#p5",
+     "verdict": "keep",
+     "reason": "Thakur's own testimony plus the way: seek with longing; headline sharpened"
+    },
+    {
+     "ref": "20_y_at_dakshineshwar_426_429#p39",
+     "verdict": "keep",
+     "reason": "Speaks to the modern 'where is the proof / science' doubt; headline sharpened"
+    },
+    {
+     "ref": "24_b_penance_478_481#p12",
+     "verdict": "drop",
+     "reason": "Near-duplicate of 36_c#p8 (scripture vs. direct experience)"
+    },
+    {
+     "ref": "32_a_atdakshineshwar_588_590#p13",
+     "verdict": "drop",
+     "reason": "Descriptive (jivakoti vs ishvarakoti), no way forward; can read as dismissive"
+    },
+    {
+     "ref": "34_e_whentorenouncework_613_616#p14",
+     "verdict": "new",
+     "reason": "The doubter's prayer: no need to settle theology, ask Him to show Himself"
+    },
+    {
+     "ref": "13_a_with_devotees_174_175#p28",
+     "verdict": "new",
+     "reason": "Why others' testimony doesn't convince, and the remedy: patient holy company"
+    }
+   ],
+   "notes": "Trimmed overlapping 'seeing removes doubt' picks; added the doubter's prayer and the pulse-reading analogy; song kept (reason cannot grasp Him)."
+  },
+  {
+   "id": "whichpath",
+   "passages": [
+    {
+     "ref": "16_f_at_khelat_ghoshs_238_240#p9",
+     "head": "জল, পানি, ওয়াটার — বস্তু এক",
+     "head_en": "Jal, pani, water: one substance, many names"
+    },
+    {
+     "ref": "05_a_kedarsfestival_59_60#p15",
+     "head": "সব ধর্মেই ভুল আছে, ব্যাকুলতাই আসল",
+     "head_en": "Every faith has flaws; yearning is what counts — the Father hears 'ba' and 'pa'"
+    },
+    {
+     "ref": "12_g_withgoswami_150_152#p23",
+     "head": "গিরগিটির রঙ নিয়ে ঝগড়া",
+     "head_en": "The quarrel over the chameleon's colour"
+    },
+    {
+     "ref": "28_b_reconciliation_523_525#p8",
+     "head": "ছাদে ওঠার নানা উপায়, একটা ধরে ওঠো",
+     "head_en": "Many ways to the roof; hold firmly to one"
+    },
+    {
+     "ref": "26_c_withdevotees_510_514#p45",
+     "head": "একটা পথে ভালবাসা হলেই হল, বাকি তিনি বুঝিয়ে দেবেন",
+     "head_en": "Love Him along one path; He will show you the rest"
+    },
+    {
+     "ref": "13_h_with_devotees_187_190#p8",
+     "head": "নিজের ধর্মে নিষ্ঠা, অন্য ধর্মে মিষ্ট ব্যবহার",
+     "head_en": "Be devoted to your own path, and kind to others'"
+    },
+    {
+     "ref": "52_h_aboutavatars_933_937#p53",
+     "head": "যে পথেই থাকো, ব্যাকুল হয়ে ডাকো",
+     "head_en": "Whatever your path, call on Him with longing"
+    },
+    {
+     "ref": "58_d_godorscience_1121_1123#p13",
+     "head": "যার যা পেটে সয় — মায়ের মাছ রান্না",
+     "head_en": "A mother cooks the fish to suit each child"
+    }
+   ],
+   "songs": [],
+   "review": [
+    {
+     "ref": "16_f_at_khelat_ghoshs_238_240#p9",
+     "verdict": "keep",
+     "reason": "Core answer: one God, many names, every path leads to Him"
+    },
+    {
+     "ref": "12_g_withgoswami_150_152#p23",
+     "verdict": "keep",
+     "reason": "Chameleon parable ends quarrels over who is right"
+    },
+    {
+     "ref": "28_b_reconciliation_523_525#p8",
+     "verdict": "keep",
+     "reason": "Practical: hold firmly to one way"
+    },
+    {
+     "ref": "52_h_aboutavatars_933_937#p53",
+     "verdict": "keep",
+     "reason": "Form or formless, with longing either path reaches Him"
+    },
+    {
+     "ref": "58_d_godorscience_1121_1123#p13",
+     "verdict": "keep",
+     "reason": "Different paths suit different temperaments; now the only 58_d pick in batch E"
+    },
+    {
+     "ref": "03_a_atbalaramhome_33_35#p12",
+     "verdict": "replace",
+     "reason": "Mostly Thakur's own wish to watch a church service; replaced by 05_a#p15 (same watch saying, addressed to the reader)"
+    },
+    {
+     "ref": "24_d_god_realization_485_488#p12",
+     "verdict": "replace",
+     "reason": "Fragment that breaks off mid-story; replaced by 26_c#p45"
+    },
+    {
+     "ref": "05_a_kedarsfestival_59_60#p15",
+     "verdict": "new",
+     "reason": "All faiths have flaws, yearning is enough; the father understands every child"
+    },
+    {
+     "ref": "26_c_withdevotees_510_514#p45",
+     "verdict": "new",
+     "reason": "Stop comparing paths; love along one, He reveals the others"
+    },
+    {
+     "ref": "13_h_with_devotees_187_190#p8",
+     "verdict": "new",
+     "reason": "How to hold one's own faith without disdain for others"
+    }
+   ],
+   "notes": "Replaced Thakur's personal church-door prayer and a broken fragment with reader-facing teachings."
+  },
+  {
+   "id": "prayer",
+   "passages": [
+    {
+     "ref": "07_e_formorformless_100_102#p10",
+     "head": "চুষি ফেলে ছেলে কাঁদলে মা ছুটে আসে",
+     "head_en": "Drop the toy and cry, and Mother comes running"
+    },
+    {
+     "ref": "36_i_kali_brahma_668_671#p28",
+     "head": "সরল মনে, শুদ্ধ মনে প্রার্থনা কর",
+     "head_en": "Pray with a simple, pure heart"
+    },
+    {
+     "ref": "19_f_at_kolkata_359_363#p46",
+     "head": "হিসাব নয় — বিড়ালছানার মতো কেবল ডাকো",
+     "head_en": "No counting and calculating — just cry to Him like a kitten"
+    },
+    {
+     "ref": "37_c_with_devotees_682_685#p22",
+     "head": "নির্জনে ডাকো, ‘দেখা দাও’ বলে কাঁদো",
+     "head_en": "Go apart and call Him; weep, 'Reveal Yourself to me'"
+    },
+    {
+     "ref": "36_e_powerofattorney_662_663#p27",
+     "head": "তিনি আপনারই মা — আব্দার কর",
+     "head_en": "She is your own Mother: insist like a child"
+    },
+    {
+     "ref": "38_c_seeinggod_714_716#p5",
+     "head": "তিন টান একসঙ্গে হলে দর্শন",
+     "head_en": "Love God with three loves combined"
+    },
+    {
+     "ref": "09_g_bhaktiyoga_122_125#p31",
+     "head": "চোখের জলে মনের ময়লা ধুয়ে যায়",
+     "head_en": "Tears wash the mud off the needle"
+    },
+    {
+     "ref": "35_k_desirebhakti_646_648#p6",
+     "head": "কি চাইবে? ঠাকুর চেয়েছিলেন কেবল শুদ্ধাভক্তি",
+     "head_en": "What to pray for: Thakur asked for nothing but pure love"
+    }
+   ],
+   "songs": [
+    "ডাক দেখি মন ডাকার মতো কেমন শ্যামা থাকতে পারে"
+   ],
+   "review": [
+    {
+     "ref": "07_e_formorformless_100_102#p10",
+     "verdict": "keep",
+     "reason": "The essential teaching: cry for God and Mother comes"
+    },
+    {
+     "ref": "36_i_kali_brahma_668_671#p28",
+     "verdict": "keep",
+     "reason": "Simple, direct instruction on how to pray"
+    },
+    {
+     "ref": "36_e_powerofattorney_662_663#p27",
+     "verdict": "keep",
+     "reason": "Pray as His own child, with insistence"
+    },
+    {
+     "ref": "38_c_seeinggod_714_716#p5",
+     "verdict": "keep",
+     "reason": "The intensity of love prayer needs"
+    },
+    {
+     "ref": "09_g_bhaktiyoga_122_125#p31",
+     "verdict": "keep",
+     "reason": "Tears of repentance clear the mind; consoling for those who feel unworthy"
+    },
+    {
+     "ref": "35_k_desirebhakti_646_648#p6",
+     "verdict": "keep",
+     "reason": "Models what to ask for; headline reframed for the reader (no English)"
+    },
+    {
+     "ref": "58_d_godorscience_1121_1123#p11",
+     "verdict": "replace",
+     "reason": "Reduce 58_d overuse; sincerity-is-heard covered by 07_e/36_i; replaced by 19_f#p46"
+    },
+    {
+     "ref": "19_f_at_kolkata_359_363#p46",
+     "verdict": "new",
+     "reason": "Consoling for those who can't keep a practice: just cry, He cannot stay away"
+    },
+    {
+     "ref": "37_c_with_devotees_682_685#p22",
+     "verdict": "new",
+     "reason": "Concrete how-to: solitude, weeping, 'show Yourself'"
+    }
+   ],
+   "notes": "Swapped 58_d#p11 for the kitten teaching and added the solitude-and-tears instruction; song kept."
+  },
+  {
+   "id": "despair",
+   "passages": [
+    {
+     "ref": "46_d_assurance_831_832#p5",
+     "head": "আন্তরিক যে চাইবে, তারই হবে — হবেই হবে",
+     "head_en": "Whoever sincerely seeks God will surely reach Him"
+    },
+    {
+     "ref": "53_d_narendrasearnestness_1014_1017#p33",
+     "head": "প্রাণ ব্যাকুল হলে জেনো, অরুণোদয় হয়েছে",
+     "head_en": "Your very longing is the dawn: the sun is not far"
+    },
+    {
+     "ref": "07_b_teachingofdevotees_96_98#p11",
+     "head": "কার্নিসের বীজ — ফল দেরিতে, কিন্তু হবেই",
+     "head_en": "The seed on the cornice: slow to show, but it will bear fruit"
+    },
+    {
+     "ref": "05_c_masterdisciple_62_66#p45",
+     "head": "ছেলের দৌড়াদৌড়ি দেখে মা দেখা দেয়",
+     "head_en": "Seeing the child run about, the hiding mother appears"
+    },
+    {
+     "ref": "37_c_with_devotees_682_685#p23",
+     "head": "পাড়ে বসে থাকলে কি মাছ পাওয়া যায়?",
+     "head_en": "You won't catch fish just sitting on the bank"
+    },
+    {
+     "ref": "09_c_intenserenunciation_116_117#p8",
+     "head": "জল না আসা পর্যন্ত খানা কাটা",
+     "head_en": "The farmer who dug until the water came"
+    },
+    {
+     "ref": "09_a_realisedsoul_113_114#p12",
+     "head": "জন্ম জন্মের সাধনা বৃথা যায় না",
+     "head_en": "Effort from past lives is never wasted"
+    }
+   ],
+   "songs": [
+    "ডুব্ ডুব্ ডুব্ রূপসাগরে আমার মন"
+   ],
+   "review": [
+    {
+     "ref": "05_c_masterdisciple_62_66#p45",
+     "verdict": "keep",
+     "reason": "Grace comes to the child who keeps running about"
+    },
+    {
+     "ref": "37_c_with_devotees_682_685#p23",
+     "verdict": "keep",
+     "reason": "Keep casting bait; the first ripple brings joy"
+    },
+    {
+     "ref": "09_c_intenserenunciation_116_117#p8",
+     "verdict": "keep",
+     "reason": "Model of perseverance until the water flows"
+    },
+    {
+     "ref": "09_a_realisedsoul_113_114#p12",
+     "verdict": "keep",
+     "reason": "No effort is ever wasted, even across lives"
+    },
+    {
+     "ref": "16_y_brahma_shakti_269_274#p35",
+     "verdict": "replace",
+     "reason": "One-line fragment; the dive image is carried by the song; replaced by 46_d#p5"
+    },
+    {
+     "ref": "19_d_yoga_356_357#p15",
+     "verdict": "drop",
+     "reason": "Mainly about the guru doing the work; weaker for this reader"
+    },
+    {
+     "ref": "46_d_assurance_831_832#p5",
+     "verdict": "new",
+     "reason": "Thakur's direct promise: it will happen, it must"
+    },
+    {
+     "ref": "53_d_narendrasearnestness_1014_1017#p33",
+     "verdict": "new",
+     "reason": "Reframes longing itself as the sign that realization is near"
+    },
+    {
+     "ref": "07_b_teachingofdevotees_96_98#p11",
+     "verdict": "new",
+     "reason": "Results may be slow but are certain"
+    }
+   ],
+   "notes": "Led with Thakur's assurances (it will surely happen; longing is the dawn; the seed bears fruit), then the perseverance parables; song kept."
+  },
+  {
+   "id": "purpose",
+   "passages": [
+    {
+     "ref": "09_h_withbaburam_125_128#p16",
+     "head": "বোঝার দরকার নাই — জীবনের উদ্দেশ্য ভক্তি, আম খাও",
+     "head_en": "No need to understand it all: life's aim is love of God — eat the mangoes"
+    },
+    {
+     "ref": "21_f_moneyworship_453_456#p16",
+     "head": "সৎকর্ম প্রথম ধাপ, জীবনের উদ্দেশ্য ঈশ্বরলাভ",
+     "head_en": "Good works are a first step; the goal of life is God"
+    },
+    {
+     "ref": "20_r_at_dakshineshwar_403_407#p37",
+     "head": "অর্জুনের মতো লক্ষ্য একটাই — ঈশ্বরলাভ",
+     "head_en": "Make God your one aim, as Arjuna saw only the bird's eye"
+    },
+    {
+     "ref": "03_a_atbalaramhome_33_35#p16",
+     "head": "মানবজীবনের উদ্দেশ্য ঈশ্বরকে ভালবাসা",
+     "head_en": "The aim of life is to love God"
+    },
+    {
+     "ref": "07_e_formorformless_100_102#p23",
+     "head": "দুর্লভ মানুষ জনম পেয়ে ভক্তি চাই",
+     "head_en": "Given a rare human birth, seek devotion"
+    },
+    {
+     "ref": "24_d_god_realization_485_488#p8",
+     "head": "জো-সো করে বাবুর সঙ্গে আলাপ করা",
+     "head_en": "Somehow, get to meet the Master of the house"
+    }
+   ],
+   "songs": [
+    "মন রে কৃষি কাজ জানো না"
+   ],
+   "review": [
+    {
+     "ref": "21_f_moneyworship_453_456#p16",
+     "verdict": "keep",
+     "reason": "States life's aim plainly; headline reworded so it doesn't read as dismissing charity"
+    },
+    {
+     "ref": "20_r_at_dakshineshwar_403_407#p37",
+     "verdict": "keep",
+     "reason": "Opens with the aim stated, plus a focusing image; headline clarified"
+    },
+    {
+     "ref": "03_a_atbalaramhome_33_35#p16",
+     "verdict": "keep",
+     "reason": "Aim of life is love of God, in brief"
+    },
+    {
+     "ref": "07_e_formorformless_100_102#p23",
+     "verdict": "keep",
+     "reason": "Rare human birth; seek devotion, the easy path"
+    },
+    {
+     "ref": "24_d_god_realization_485_488#p8",
+     "verdict": "keep",
+     "reason": "Somehow meet the Master; the rest follows"
+    },
+    {
+     "ref": "58_d_godorscience_1121_1123#p9",
+     "verdict": "replace",
+     "reason": "Reduce 58_d overuse; mango saying kept via 09_h#p16, which also meets 'why does God do this?'"
+    },
+    {
+     "ref": "09_h_withbaburam_125_128#p16",
+     "verdict": "new",
+     "reason": "Aim of life is love of God; we need not understand His purposes"
+    }
+   ],
+   "notes": "Swapped the 58_d mango saying for the 09_h version (same image, plus life's aim and acceptance); headlines tightened; song kept."
+  }
+ ]
+}

@@ -1,0 +1,412 @@
+{
+ "problems": [
+  {
+   "id": "family",
+   "passages": [
+    {
+     "ref": "30_b_vijayagoswami_578_580#p19",
+     "head": "বড়মানুষের বাড়ির ঝির মতো সংসারে থাকো",
+     "head_en": "Live like the maid in a rich man's house"
+    },
+    {
+     "ref": "20_t_mahimas_scholarship_411_413#p26",
+     "head": "কচ্ছপের মতো সংসারে থাক",
+     "head_en": "Like the tortoise, whose mind stays with her eggs"
+    },
+    {
+     "ref": "02_e_wayofdevotion_19_21#p16",
+     "head": "হাতে তেল মেখে কাঁঠাল ভাঙো",
+     "head_en": "Oil your hands before you break the jackfruit"
+    },
+    {
+     "ref": "19_f_at_kolkata_359_363#p29",
+     "head": "পনর আনা মন ভগবানে, এক আনায় কাজ",
+     "head_en": "Most of the mind on God, a little on chores"
+    },
+    {
+     "ref": "37_d_sannyasi_and_householder_685_688#p14",
+     "head": "গৃহে থেকে যুদ্ধ — কেল্লা থেকে যুদ্ধ",
+     "head_en": "Home is a fort to fight from"
+    },
+    {
+     "ref": "44_b_sriramakrishnasdivinetrance_797_799#p10",
+     "head": "কাদা লাগবে, ঝেড়ে ফেলবে — পাঁকাল মাছের মতো",
+     "head_en": "Mud will stick; shake it off like the mudfish"
+    },
+    {
+     "ref": "16_zg_with_devotees_293_294#p16",
+     "head": "সংসারও তিনি — তবে ভয় কি?",
+     "head_en": "The household too is God. What is there to fear?"
+    }
+   ],
+   "songs": [
+    "মন রে কৃষি কাজ জানো না"
+   ],
+   "review": [
+    {
+     "ref": "30_b_vijayagoswami_578_580#p19",
+     "verdict": "keep",
+     "reason": "Core practical image: do every family duty, keep the mind on God."
+    },
+    {
+     "ref": "20_t_mahimas_scholarship_411_413#p26",
+     "verdict": "keep",
+     "reason": "Reassures householders they need not give up family."
+    },
+    {
+     "ref": "02_e_wayofdevotion_19_21#p16",
+     "verdict": "keep",
+     "reason": "Clear, memorable way not to get entangled."
+    },
+    {
+     "ref": "19_f_at_kolkata_359_363#p29",
+     "verdict": "keep",
+     "reason": "Practical model for juggling many duties."
+    },
+    {
+     "ref": "37_d_sannyasi_and_householder_685_688#p14",
+     "verdict": "keep",
+     "reason": "Recasts home as a support, not an obstacle."
+    },
+    {
+     "ref": "44_b_sriramakrishnasdivinetrance_797_799#p10",
+     "verdict": "keep",
+     "reason": "Consoling: worldly mud will stick, but can be shaken off."
+    },
+    {
+     "ref": "16_zg_with_devotees_293_294#p16",
+     "verdict": "keep",
+     "reason": "Kept; headline sharpened to its real point (nothing to renounce, God is all)."
+    }
+   ],
+   "notes": "Strong page; one headline adjusted. Song kept: Thakur sang it in answer to how to realize God in family life (17_l)."
+  },
+  {
+   "id": "marriage",
+   "passages": [
+    {
+     "ref": "20_p_at_dakshineshwar_397_401#p37",
+     "head": "স্ত্রীর উপর ভালবাসা হবে না?",
+     "head_en": "Of course you love your wife; that love is the Mother's own spell"
+    },
+    {
+     "ref": "37_f_maya_691_693#p28",
+     "head": "নিজের স্ত্রীকে ধর্মের সহায় বন্ধু বোধ হবে",
+     "head_en": "Your spouse becomes your friend on the spiritual path"
+    },
+    {
+     "ref": "20_p_at_dakshineshwar_397_401#p39",
+     "head": "বিদ্যারূপিণী স্ত্রী যথার্থ সহধর্মিণী",
+     "head_en": "A true partner helps you toward God"
+    },
+    {
+     "ref": "20_l_at_dakshineshwar_388_390#p27",
+     "head": "স্ত্রীকে পূজা — সকল স্ত্রীই ভগবতীর রূপ",
+     "head_en": "Gauri worshipped his wife: every woman is a form of the Divine Mother"
+    },
+    {
+     "ref": "42_e_dakshineshwar_756_758#p10",
+     "head": "স্ত্রীর সঙ্গে একটু আমোদ-আহ্লাদ করবি",
+     "head_en": "Have some fun with your wife"
+    },
+    {
+     "ref": "36_d_renunciation_660_661#p10",
+     "head": "বুদ্ধিমতী স্ত্রীর পরামর্শ — এই একঘরই ভাল",
+     "head_en": "A wise wife's counsel: don't run away, this one home is best"
+    },
+    {
+     "ref": "17_l_householder_312_316#p10",
+     "head": "সংসারে অমিল, অশান্তি? — তবু উপায় আছে",
+     "head_en": "Discord at home? There is still a way"
+    }
+   ],
+   "songs": [],
+   "review": [
+    {
+     "ref": "20_p_at_dakshineshwar_397_401#p37",
+     "verdict": "keep",
+     "reason": "Affirms love for one's spouse; English headline made accurate (the Mother's maya)."
+    },
+    {
+     "ref": "42_e_dakshineshwar_756_758#p10",
+     "verdict": "keep",
+     "reason": "Warm and practical: enjoy your spouse's company."
+    },
+    {
+     "ref": "20_p_at_dakshineshwar_397_401#p39",
+     "verdict": "keep",
+     "reason": "Picture of a spiritual partnership."
+    },
+    {
+     "ref": "37_f_maya_691_693#p28",
+     "verdict": "keep",
+     "reason": "Spouse becomes a friend on the path as devotion grows."
+    },
+    {
+     "ref": "17_l_householder_312_316#p7",
+     "verdict": "drop",
+     "reason": "Starts mid-answer and ends on a wife's bitter complaint, no way forward."
+    },
+    {
+     "ref": "36_d_renunciation_660_661#p10",
+     "verdict": "keep",
+     "reason": "A wise spouse's counsel against running away; headline clarified."
+    },
+    {
+     "ref": "20_l_at_dakshineshwar_388_390#p27",
+     "verdict": "new",
+     "reason": "Reverence for one's wife as the Divine Mother: a positive model."
+    },
+    {
+     "ref": "17_l_householder_312_316#p10",
+     "verdict": "new",
+     "reason": "Right after naming discord with one's wife among household trials, Thakur gives the remedy: solitude and prayer."
+    }
+   ],
+   "notes": "Dropped the fragmentary discord passage; added a reverence model and Thakur's remedy for discord at home."
+  },
+  {
+   "id": "children",
+   "passages": [
+    {
+     "ref": "36_e_powerofattorney_662_663#p8",
+     "head": "ছেলেদের মানুষ করা — কর্তব্য আছে বইকি",
+     "head_en": "Raising your children is your duty"
+    },
+    {
+     "ref": "05_c_masterdisciple_62_66#p15",
+     "head": "খাওয়া-পরার কষ্ট না থাকে — সমর্থ হলে ছেড়ে দাও",
+     "head_en": "Provide for them, then let go once they can stand on their own"
+    },
+    {
+     "ref": "60_a_ashwinikumar_1164_1170#p41",
+     "head": "তাঁকে বকলমা দাও — ঝির মতো যত্নে মানুষ করো",
+     "head_en": "Give God the power of attorney; raise them with love, knowing they are His"
+    },
+    {
+     "ref": "17_l_householder_312_316#p5",
+     "head": "ছেলেদের খাওয়াবে, যেন গোপালকে খাওয়াচ্ছ",
+     "head_en": "Feed your child as though feeding God"
+    },
+    {
+     "ref": "09_h_withbaburam_125_128#p20",
+     "head": "দয়া আর মায়া আলাদা জিনিস",
+     "head_en": "Love for your own, and love for all"
+    }
+   ],
+   "songs": [
+    "যশোদা নাচাতো গো মা বলে নীলমণি"
+   ],
+   "review": [
+    {
+     "ref": "36_e_powerofattorney_662_663#p8",
+     "verdict": "keep",
+     "reason": "Clear statement of a parent's duty."
+    },
+    {
+     "ref": "36_e_powerofattorney_662_663#p10",
+     "verdict": "replace",
+     "reason": "Fragment ('Until they come of age') needing the question; replaced by 05_c#p15, same point, self-contained."
+    },
+    {
+     "ref": "02_c_secondvisit_16_17#p21",
+     "verdict": "drop",
+     "reason": "Scolding of a third party; the duty point is already covered by 36_e#p8."
+    },
+    {
+     "ref": "17_l_householder_312_316#p5",
+     "verdict": "keep",
+     "reason": "Feed children as Gopal: sanctifies everyday parenting."
+    },
+    {
+     "ref": "09_h_withbaburam_125_128#p20",
+     "verdict": "keep",
+     "reason": "Helps understand attachment (maya) vs wider love (daya)."
+    },
+    {
+     "ref": "47_a_atramshome_833_837#p54",
+     "verdict": "replace",
+     "reason": "Calls anxious parents 'drunk' with no way forward; replaced by 60_a#p41 (hand the burden to God, love like the nurse)."
+    },
+    {
+     "ref": "05_c_masterdisciple_62_66#p15",
+     "verdict": "new",
+     "reason": "How long to carry children: provide, then let them stand on their own."
+    },
+    {
+     "ref": "60_a_ashwinikumar_1164_1170#p41",
+     "verdict": "new",
+     "reason": "Answers parental worry: give God the power of attorney; love fully, hold lightly."
+    }
+   ],
+   "notes": "Five strong picks; removed a fragment, a scolding anecdote and a harsh diagnosis."
+  },
+  {
+   "id": "money",
+   "passages": [
+    {
+     "ref": "26_c_withdevotees_510_514#p60",
+     "head": "টাকার দরকার বটে, কিন্তু অত ভেবো না",
+     "head_en": "You need money, but don't worry so much"
+    },
+    {
+     "ref": "58_c_sriramakrishna_1119_1121#p10",
+     "head": "পাখির ছানা হলে তারও সঞ্চয় করতে হয়",
+     "head_en": "Even a bird stores food for its chicks"
+    },
+    {
+     "ref": "05_c_masterdisciple_62_66#p13",
+     "head": "বেশি উপায়ের চেষ্টা করবে, কিন্তু সদুপায়ে",
+     "head_en": "Earn more if you can, but honestly"
+    },
+    {
+     "ref": "16_u_tantric_worship_262_264#p15",
+     "head": "টাকার সদ্ব্যবহার",
+     "head_en": "The right use of money"
+    },
+    {
+     "ref": "02_e_wayofdevotion_19_21#p20",
+     "head": "টাকায় কি হয়? ভাত হয়, ডাল হয়",
+     "head_en": "What can money give? Food and a roof, not God"
+    },
+    {
+     "ref": "36_e_powerofattorney_662_663#p5",
+     "head": "তাঁকে আমমোক্তারী দাও — নিশ্চিন্ত হয়ে থাক",
+     "head_en": "Hand God your power of attorney and rest free of worry"
+    },
+    {
+     "ref": "40_b_birthdaycelebration_731_734#p53",
+     "head": "তুমি তো 'খ' — ঘটিবাটি নিয়ে যাক",
+     "head_en": "You are like the sky; let them take the pots"
+    }
+   ],
+   "songs": [
+    "আপনাতে আপনি থেকো মন যেও নাকো কারু ঘরে"
+   ],
+   "review": [
+    {
+     "ref": "02_e_wayofdevotion_19_21#p20",
+     "verdict": "keep",
+     "reason": "Puts money in proportion; English headline fixed (food and shelter, not clothes)."
+    },
+    {
+     "ref": "26_c_withdevotees_510_514#p60",
+     "verdict": "keep",
+     "reason": "Directly addresses money anxiety."
+    },
+    {
+     "ref": "58_c_sriramakrishna_1119_1121#p10",
+     "verdict": "keep",
+     "reason": "Validates saving for one's family."
+    },
+    {
+     "ref": "05_c_masterdisciple_62_66#p13",
+     "verdict": "keep",
+     "reason": "Earn more, but honestly: practical."
+    },
+    {
+     "ref": "16_u_tantric_worship_262_264#p15",
+     "verdict": "keep",
+     "reason": "The right use of money."
+    },
+    {
+     "ref": "40_b_birthdaycelebration_731_734#p53",
+     "verdict": "keep",
+     "reason": "Consoling, humorous perspective on a debt threat."
+    },
+    {
+     "ref": "37_j_save_698_701#p17",
+     "verdict": "replace",
+     "reason": "Framed as the highest monks' ajagara-vritti; replaced by 36_e#p5, said to a householder."
+    },
+    {
+     "ref": "36_e_powerofattorney_662_663#p5",
+     "verdict": "new",
+     "reason": "Trust for worried householders: entrust everything to God and do your work."
+    }
+   ],
+   "notes": "One monk-oriented story replaced with Thakur's power-of-attorney counsel to a householder."
+  },
+  {
+   "id": "oldage",
+   "passages": [
+    {
+     "ref": "16_zg_with_devotees_293_294#p11",
+     "head": "শেষ বয়সে নির্জনে ঈশ্বরচিন্তা",
+     "head_en": "In later years, turn to God in quiet"
+    },
+    {
+     "ref": "20_l_at_dakshineshwar_388_390#p25",
+     "head": "বয়স হলে সংসার থেকে সরে ঈশ্বরচিন্তা",
+     "head_en": "When you grow old, step back and think of God"
+    },
+    {
+     "ref": "16_zg_with_devotees_293_294#p10",
+     "head": "নাম অভ্যাস করো — শেষে যেন তাঁর নামই আসে",
+     "head_en": "Practise His name now, so it is what comes at the end"
+    },
+    {
+     "ref": "16_b_at_dakshineshwar_229_231#p10",
+     "head": "রোগ-শোক দেহের, আত্মার নয়",
+     "head_en": "Illness and decline belong to the body, not the Self"
+    },
+    {
+     "ref": "43_l_atdebendrashome_788_789#p19",
+     "head": "বুড়ো বয়সে হরিনাম — মন্দের ভাল",
+     "head_en": "Never too late: God's name in old age still counts"
+    }
+   ],
+   "songs": [
+    "হরি হরি বল রে বীণে"
+   ],
+   "review": [
+    {
+     "ref": "16_zg_with_devotees_293_294#p11",
+     "verdict": "keep",
+     "reason": "Direct counsel for later years."
+    },
+    {
+     "ref": "20_l_at_dakshineshwar_388_390#p24",
+     "verdict": "replace",
+     "reason": "Only the Jaynarayan anecdote; replaced by the next line (#p25), the actual advice, said to a 65-year-old."
+    },
+    {
+     "ref": "09_b_fourtypes_115_116#p10",
+     "verdict": "drop",
+     "reason": "Fragmentary jab at a 50-year-old; no way forward."
+    },
+    {
+     "ref": "43_l_atdebendrashome_788_789#p19",
+     "verdict": "keep",
+     "reason": "Hope that it is not too late; English headline reframed."
+    },
+    {
+     "ref": "52_g_yugadharma_927_933#p31",
+     "verdict": "drop",
+     "reason": "Catalogue of the old man's faults; reads as disparaging, no remedy."
+    },
+    {
+     "ref": "16_zc_at_dakshineshwar_282_284#p31",
+     "verdict": "drop",
+     "reason": "Fragment about a rich man's sons; mainly about money."
+    },
+    {
+     "ref": "32_e_ishwarguardian_595_597#p14",
+     "verdict": "drop",
+     "reason": "Thakur's own decision about his aged mother, not guidance for the ageing reader."
+    },
+    {
+     "ref": "16_zg_with_devotees_293_294#p10",
+     "verdict": "new",
+     "reason": "Told to an elderly woman: practise the Name so family and will-worries do not crowd the end."
+    },
+    {
+     "ref": "16_b_at_dakshineshwar_229_231#p10",
+     "verdict": "new",
+     "reason": "Consolation for bodily decline: suffering is of the body, not the Self."
+    }
+   ],
+   "notes": "Removed four weak or disparaging picks; five direct counsels for later life (16_zg#p10 and 16_b#p10 also appear on death/grief)."
+  }
+ ]
+}

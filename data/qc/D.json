@@ -1,0 +1,456 @@
+{
+ "problems": [
+  {
+   "id": "work",
+   "passages": [
+    {
+     "ref": "13_d_at_sinthee_178_180#p18",
+     "head": "হাতে তেল মেখে কাঁঠাল ভাঙবে",
+     "head_en": "Oil your hands before you cut the jackfruit"
+    },
+    {
+     "ref": "36_d_renunciation_660_661#p8",
+     "head": "এক হাতে কাজ, আর এক হাতে তাঁর পাদপদ্ম",
+     "head_en": "One hand for work, the other holding God"
+    },
+    {
+     "ref": "21_f_moneyworship_453_456#p9",
+     "head": "কর্ম ছাড়ার জো নাই — ফল চেয়ো না",
+     "head_en": "You can't stop working, so don't work for rewards"
+    },
+    {
+     "ref": "58_c_sriramakrishna_1119_1121#p11",
+     "head": "লাভ-লোকসান, সুখ-দুঃখ — কাজের ফল তাঁকে দাও",
+     "head_en": "Offer the results — profit, loss, joy or pain — to God"
+    },
+    {
+     "ref": "06_i_karmayoga_92_93#p12",
+     "head": "সম্মুখে যেটা পড়ল, সেটাই নিষ্কাম হয়ে কর",
+     "head_en": "Do what comes your way; don't pile on more"
+    },
+    {
+     "ref": "06_i_karmayoga_92_93#p10",
+     "head": "প্রার্থনা কর — কাজ যেন নিষ্কাম হয়, বেশি কাজ যেন তাঁকে ভুলিয়ে না দেয়",
+     "head_en": "Pray that your work stays selfless, and never crowds Him out"
+    },
+    {
+     "ref": "12_b_atdakshineshwar_142_145#p10",
+     "head": "কর্ম করতে করতে মনের ময়লা কেটে যায়",
+     "head_en": "Work, done rightly, washes the mind clean"
+    },
+    {
+     "ref": "10_b_superconcious_131_133#p33",
+     "head": "অফিসে, ব্যবসায় — সত্যে থাকো",
+     "head_en": "In the office or in business, hold to the truth"
+    }
+   ],
+   "songs": [],
+   "review": [
+    {
+     "ref": "13_d_at_sinthee_178_180#p18",
+     "verdict": "keep",
+     "reason": "Core image: work fully, mind at home in God"
+    },
+    {
+     "ref": "36_d_renunciation_660_661#p8",
+     "verdict": "keep",
+     "reason": "Clear, practical balance of work and God"
+    },
+    {
+     "ref": "21_f_moneyworship_453_456#p9",
+     "verdict": "keep",
+     "reason": "Work is unavoidable; drop the craving for reward"
+    },
+    {
+     "ref": "06_i_karmayoga_92_93#p12",
+     "verdict": "keep",
+     "reason": "Do what comes your way; don't pile on work"
+    },
+    {
+     "ref": "12_b_atdakshineshwar_142_145#p10",
+     "verdict": "keep",
+     "reason": "Work done rightly purifies the mind — encouraging"
+    },
+    {
+     "ref": "58_c_sriramakrishna_1119_1121#p12",
+     "verdict": "replace",
+     "reason": "About charity as seva and ends \"too hard for this age\"; replaced by p11 (offer results to God)"
+    },
+    {
+     "ref": "21_f_moneyworship_453_456#p15",
+     "verdict": "drop",
+     "reason": "Abstract one-liner; overlaps 06_i p12"
+    },
+    {
+     "ref": "58_c_sriramakrishna_1119_1121#p11",
+     "verdict": "new",
+     "reason": "Direct method for a worker: give gain/loss/joy/pain to God"
+    },
+    {
+     "ref": "06_i_karmayoga_92_93#p10",
+     "verdict": "new",
+     "reason": "For the overloaded: pray for selfless work, and less of it"
+    },
+    {
+     "ref": "10_b_superconcious_131_133#p33",
+     "verdict": "new",
+     "reason": "Practical ethics for office/business work"
+    },
+    {
+     "ref": "song:মন রে কৃষি কাজ জানো না",
+     "verdict": "drop",
+     "reason": "Farming is a metaphor for sadhana; lyrics are not about work"
+    }
+   ],
+   "notes": "Swapped an abstract/discouraging seva passage for practical ones: offering results, praying for less work, honesty at work; dropped off-topic song."
+  },
+  {
+   "id": "illness",
+   "passages": [
+    {
+     "ref": "16_m_divine_mother_250_252#p15",
+     "head": "দেহ ধরলেই সুখ-দুঃখ — মায়ের প্রিয় ভক্তেরও",
+     "head_en": "Having a body means pain — even for the Mother's favoured ones"
+    },
+    {
+     "ref": "16_m_divine_mother_250_252#p21",
+     "head": "দেহের সুখ-দুঃখ যাই হোক, ভক্তির ঐশ্বর্য যায় না",
+     "head_en": "Whatever the body suffers, inner wealth remains"
+    },
+    {
+     "ref": "53_v_selfworship_1055_1057#p16",
+     "head": "তাঁতে মনের যোগ হলে কষ্ট একধারে পড়ে থাকে",
+     "head_en": "When the mind rests in God, pain moves aside"
+    },
+    {
+     "ref": "17_f_samadhi_303_304#p24",
+     "head": "দেহ আসে যায়, আত্মার মৃত্যু নাই",
+     "head_en": "The body comes and goes; the soul does not die"
+    },
+    {
+     "ref": "20_m_with_manilal_390_391#p18",
+     "head": "অসুখে অধৈর্য? শিশুর মতো মায়ের উপর নির্ভর কর",
+     "head_en": "Impatient when ill? Lean on the Mother as a child does"
+    },
+    {
+     "ref": "17_i_with_keshab_307_309#p11",
+     "head": "খুব অসুখ, কিন্তু রাতদিন ঈশ্বরীয় কথা",
+     "head_en": "Very ill, yet talking of God night and day"
+    },
+    {
+     "ref": "20_n_at_dakshineshwar_391_395#p43",
+     "head": "শরীর দুদিনের — শক্তি চাইলে চেয়ো তাঁর নাম করার জন্য",
+     "head_en": "The body is brief; if you ask for strength, ask it to praise Him"
+    }
+   ],
+   "songs": [
+    "কর তাঁর নাম গান যতদিন দেহে রহে প্রাণ"
+   ],
+   "review": [
+    {
+     "ref": "16_m_divine_mother_250_252#p21",
+     "verdict": "keep",
+     "reason": "Whatever the body suffers, the devotee's inner wealth stays"
+    },
+    {
+     "ref": "53_v_selfworship_1055_1057#p16",
+     "verdict": "keep",
+     "reason": "Short, direct: mind on God puts pain aside"
+    },
+    {
+     "ref": "17_i_with_keshab_307_309#p11",
+     "verdict": "keep",
+     "reason": "Models keeping God-talk alive through severe illness"
+    },
+    {
+     "ref": "52_k_completeknowledge_940_942#p13",
+     "verdict": "replace",
+     "reason": "Same skeleton prayer as 20_n p43, which opens with the teaching \"body is brief, He alone is real\""
+    },
+    {
+     "ref": "51_l_drrakhal_913_915#p17",
+     "verdict": "drop",
+     "reason": "Describes his own fading sense of \"I\" — not guidance for the reader"
+    },
+    {
+     "ref": "16_m_divine_mother_250_252#p19",
+     "verdict": "replace",
+     "reason": "Past-karma framing can read as blame to an ill reader; p15 (pain comes with a body, even to the beloved) consoles instead"
+    },
+    {
+     "ref": "17_i_with_keshab_307_309#p5",
+     "verdict": "drop",
+     "reason": "Specific to Keshab (illness caused by spiritual emotion); doesn't apply to the reader"
+    },
+    {
+     "ref": "16_m_divine_mother_250_252#p15",
+     "verdict": "new",
+     "reason": "Suffering is not a sign God has abandoned you"
+    },
+    {
+     "ref": "17_f_samadhi_303_304#p24",
+     "verdict": "new",
+     "reason": "Body vs immortal soul — perspective for the seriously ill"
+    },
+    {
+     "ref": "20_m_with_manilal_390_391#p18",
+     "verdict": "new",
+     "reason": "Permission to be impatient; rely on the Mother like a child"
+    },
+    {
+     "ref": "20_n_at_dakshineshwar_391_395#p43",
+     "verdict": "new",
+     "reason": "How to pray when ill — strength in order to praise Him"
+    }
+   ],
+   "notes": "Removed Thakur-/Keshab-specific states and a karma-as-cause passage; added consoling perspective and a model for praying when ill."
+  },
+  {
+   "id": "badpeople",
+   "passages": [
+    {
+     "ref": "02_f_thirdvisit_21_25#p23",
+     "head": "কামড়াতে বারণ করেছি, ফোঁস করতে নয়",
+     "head_en": "Don't bite, but you may hiss"
+    },
+    {
+     "ref": "02_f_thirdvisit_21_25#p19",
+     "head": "নিজেকে রক্ষা কর — কিন্তু উলটে অনিষ্ট কোরো না",
+     "head_en": "Protect yourself — but don't harm them in return"
+    },
+    {
+     "ref": "52_d_avatars_920_923#p21",
+     "head": "মাহুত নারায়ণের কথাও শুনতে হয়",
+     "head_en": "Listen to the elephant-driver's warning too"
+    },
+    {
+     "ref": "11_atgovindamukhopadhyayas_138_139#p6",
+     "head": "বাঘনারায়ণকে দূর থেকে প্রণাম",
+     "head_en": "God is in the tiger too, but bow from afar"
+    },
+    {
+     "ref": "02_f_thirdvisit_21_25#p11",
+     "head": "নিন্দা? হাতি চলে যায়, ফিরেও চায় না",
+     "head_en": "Slandered? The elephant walks on without looking back"
+    },
+    {
+     "ref": "30_b_vijayagoswami_578_580#p6",
+     "head": "কামারশালের নাই — সব সহ্য করবে",
+     "head_en": "Be like the blacksmith's anvil"
+    },
+    {
+     "ref": "03_b_atshyampukur_35_38#p24",
+     "head": "দুষ্ট লোকেরও দরকার আছে",
+     "head_en": "Even difficult people have their place"
+    }
+   ],
+   "songs": [],
+   "review": [
+    {
+     "ref": "02_f_thirdvisit_21_25#p23",
+     "verdict": "keep",
+     "reason": "Classic: don't bite, but hiss to protect yourself"
+    },
+    {
+     "ref": "52_d_avatars_920_923#p21",
+     "verdict": "keep",
+     "reason": "Heed the warning; seeing God in all is no reason to stand in harm's way"
+    },
+    {
+     "ref": "11_atgovindamukhopadhyayas_138_139#p6",
+     "verdict": "keep",
+     "reason": "Respect from a distance — a clear boundary"
+    },
+    {
+     "ref": "30_b_vijayagoswami_578_580#p6",
+     "verdict": "keep",
+     "reason": "Bearing slander like the anvil"
+    },
+    {
+     "ref": "03_b_atshyampukur_35_38#p24",
+     "verdict": "keep",
+     "reason": "Understanding why such people exist"
+    },
+    {
+     "ref": "12_n_atdakshineshwar_162_164#p19",
+     "verdict": "drop",
+     "reason": "About the illumined beyond sin/virtue; to a reader being harmed it can read as \"accept the beating\""
+    },
+    {
+     "ref": "02_f_thirdvisit_21_25#p19",
+     "verdict": "new",
+     "reason": "Direct answer to \"should I just keep quiet when harmed?\""
+    },
+    {
+     "ref": "02_f_thirdvisit_21_25#p11",
+     "verdict": "new",
+     "reason": "For those mocked or slandered: walk on like the elephant"
+    }
+   ],
+   "notes": "Dropped the passive \"he who beat me feeds me\" story; added the direct self-protection answer and the elephant image for slander."
+  },
+  {
+   "id": "notime",
+   "passages": [
+    {
+     "ref": "20_h_shibpur_devotees_382_383#p11",
+     "head": "দুবেলা প্রণাম — তাঁকে বকলমা দাও",
+     "head_en": "Bow to Him morning and evening; give Him charge"
+    },
+    {
+     "ref": "38_c_seeinggod_714_716#p9",
+     "head": "সন্ধ্যা-সকালে হাততালি দিয়ে হরিবোল",
+     "head_en": "No time? Clap and call His name morning and evening"
+    },
+    {
+     "ref": "28_f_withnarendra_534_535#p14",
+     "head": "ঢেঁকির পাড়ে বারো আনা মন হাতের উপর",
+     "head_en": "The rice-pounding woman: busy hands, mind on what matters"
+    },
+    {
+     "ref": "20_t_mahimas_scholarship_411_413#p26",
+     "head": "কচ্ছপের মতো সংসারে থাক",
+     "head_en": "Like the tortoise, whose mind stays with its eggs"
+    },
+    {
+     "ref": "41_b_calmnessofgirish_742_744#p28",
+     "head": "রোজ তাঁকে ডাকা অভ্যাস করতে হয়",
+     "head_en": "Make calling on Him a daily habit"
+    },
+    {
+     "ref": "40_c_withdevotees_734_736#p6",
+     "head": "মাঝে মাঝে নির্জনে গিয়ে ব্যাকুল হয়ে ডাকবে",
+     "head_en": "Now and then, go apart and call on Him"
+    }
+   ],
+   "songs": [
+    "যাবে কি হে দিন আমার বিফলে চলিয়ে"
+   ],
+   "review": [
+    {
+     "ref": "20_h_shibpur_devotees_382_383#p11",
+     "verdict": "keep",
+     "reason": "Minimum practice for the very busy; hand Him the charge"
+    },
+    {
+     "ref": "38_c_seeinggod_714_716#p9",
+     "verdict": "keep",
+     "reason": "Simple morning/evening practice for those without time"
+    },
+    {
+     "ref": "28_f_withnarendra_534_535#p14",
+     "verdict": "keep",
+     "reason": "A busy woman whose mind stays on what matters"
+    },
+    {
+     "ref": "20_t_mahimas_scholarship_411_413#p26",
+     "verdict": "keep",
+     "reason": "Live in the world, mind with God — like the tortoise"
+    },
+    {
+     "ref": "41_b_calmnessofgirish_742_744#p28",
+     "verdict": "keep",
+     "reason": "Daily habit builds longing — practical"
+    },
+    {
+     "ref": "40_c_withdevotees_734_736#p6",
+     "verdict": "keep",
+     "reason": "Occasional solitude: realistic for householders"
+    }
+   ],
+   "notes": "All six speak directly to the busy reader; song fits; no changes."
+  },
+  {
+   "id": "attachment",
+   "passages": [
+    {
+     "ref": "30_b_vijayagoswami_578_580#p19",
+     "head": "বড়মানুষের বাড়ির ঝির মতো — সব কর, কিন্তু জেনো এ-সব তাঁর",
+     "head_en": "Like the nursemaid: do everything, but know it is all His"
+    },
+    {
+     "ref": "37_f_maya_691_693#p28",
+     "head": "তাঁকে যত চিন্তা করবে, আসক্তি তত কমবে",
+     "head_en": "The more you think of Him, the more attachment loosens"
+    },
+    {
+     "ref": "21_g_brahmosamajandramakrishna_456_458#p19",
+     "head": "\"আমি-আমার\" অজ্ঞান; \"তুমি-তোমার\" জ্ঞান",
+     "head_en": "\"I and mine\" is ignorance; \"You and Yours\" is wisdom"
+    },
+    {
+     "ref": "16_g_at_dakshineshwar_241_242#p18",
+     "head": "দয়া আর মায়া অনেক তফাত",
+     "head_en": "Compassion is not the same as attachment"
+    },
+    {
+     "ref": "44_b_sriramakrishnasdivinetrance_797_799#p10",
+     "head": "পাঁকাল মাছের মতো — কাদা ঝেড়ে ফেলবে",
+     "head_en": "Like the mudfish: live in the mud, shake it off"
+    },
+    {
+     "ref": "12_q_ramlals_songs_168_170#p13",
+     "head": "নিজে ঘর বানিয়েছে, ছেড়ে আসতে মায়া হয়",
+     "head_en": "The silkworm trapped in the cocoon it built"
+    },
+    {
+     "ref": "17_k_jaygopal_sen_310_312#p18",
+     "head": "যাদের 'আমার আমার' করছ, চোখ বুজলেই নাই",
+     "head_en": "All you call 'mine' vanishes when your eyes close"
+    }
+   ],
+   "songs": [
+    "ভেবে দেখ মন কেউ কারু নয় মিছে ভ্রম ভূমণ্ডলে",
+    "এমনি মহামায়ার মায়া রেখেছ কি কুহক করে"
+   ],
+   "review": [
+    {
+     "ref": "09_b_fourtypes_115_116#p8",
+     "verdict": "drop",
+     "reason": "Camel image is apt but mocks grieving mothers and remarriage — harsh, no way forward"
+    },
+    {
+     "ref": "21_h_teachingpratap_458_459#p8",
+     "verdict": "replace",
+     "reason": "Nursemaid image only; 30_b p19 has the same image plus the instruction (all is His, I am His servant)"
+    },
+    {
+     "ref": "16_g_at_dakshineshwar_241_242#p18",
+     "verdict": "keep",
+     "reason": "Compassion vs attachment — key distinction"
+    },
+    {
+     "ref": "44_b_sriramakrishnasdivinetrance_797_799#p10",
+     "verdict": "keep",
+     "reason": "Mudfish: live in it, shake it off"
+    },
+    {
+     "ref": "12_q_ramlals_songs_168_170#p13",
+     "verdict": "keep",
+     "reason": "Silkworm: you could cut free if you chose"
+    },
+    {
+     "ref": "17_k_jaygopal_sen_310_312#p18",
+     "verdict": "keep",
+     "reason": "Impermanence of what we call \"mine\""
+    },
+    {
+     "ref": "30_b_vijayagoswami_578_580#p19",
+     "verdict": "new",
+     "reason": "Fuller nursemaid teaching with the practical conclusion"
+    },
+    {
+     "ref": "37_f_maya_691_693#p28",
+     "verdict": "new",
+     "reason": "The way forward: attachment falls away as devotion grows"
+    },
+    {
+     "ref": "21_g_brahmosamajandramakrishna_456_458#p19",
+     "verdict": "new",
+     "reason": "Shift from \"mine\" to \"Yours\" — the core remedy"
+    }
+   ],
+   "notes": "Page was diagnosis-heavy; added remedies (devotion loosens attachment, \"Yours not mine\") and dropped the harsh camel passage."
+  }
+ ]
+}

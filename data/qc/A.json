@@ -1,0 +1,669 @@
+{
+ "problems": [
+  {
+   "id": "grief",
+   "passages": [
+    {
+     "ref": "12_r_divine_form_170_172#p24",
+     "head": "শোক হবে না? আপনার সন্তান!",
+     "head_en": "Of course you grieve — he was your own child"
+    },
+    {
+     "ref": "42_e_dakshineshwar_756_758#p27",
+     "head": "বশিষ্ঠদেবেরও পুত্রশোক হয়েছিল",
+     "head_en": "Even the sage Vashishtha wept for his son"
+    },
+    {
+     "ref": "37_f_maya_691_693#p5",
+     "head": "চাষার স্বপ্ন — কার জন্য কাঁদব?",
+     "head_en": "The farmer's dream: whom should I weep for?"
+    },
+    {
+     "ref": "48_b_sriramakrishnaradhika_843_846#p35",
+     "head": "যে জলে উৎপত্তি, সেই জলেই লয়",
+     "head_en": "The bubble merges back into the water it came from"
+    },
+    {
+     "ref": "20_o_with_narendra_395_397#p6",
+     "head": "তিনি কখনও সুখে রাখেন, কখনও দুঃখে",
+     "head_en": "Sometimes He keeps us happy, sometimes in sorrow"
+    },
+    {
+     "ref": "20_o_with_narendra_395_397#p16",
+     "head": "ভীষ্মের চোখের জল — ঈশ্বরের কাজ বোঝা যায় না",
+     "head_en": "Bhishma's tears: God's ways can't be understood"
+    }
+   ],
+   "songs": [
+    "দেখিলে তোমার সেই অতুল প্রেম আননে",
+    "কর তাঁর নাম গান যতদিন দেহে রহে প্রাণ"
+   ],
+   "review": [
+    {
+     "ref": "12_r_divine_form_170_172#p24",
+     "verdict": "new",
+     "reason": "Validates grief for one's own child before anything else; has English"
+    },
+    {
+     "ref": "48_b_sriramakrishnaradhika_843_846#p35",
+     "verdict": "new",
+     "reason": "Said to a grieving mother: we return to God like bubbles to water; has English"
+    },
+    {
+     "ref": "37_f_maya_691_693#p5",
+     "verdict": "keep",
+     "reason": "Classic grief parable"
+    },
+    {
+     "ref": "20_o_with_narendra_395_397#p16",
+     "verdict": "keep",
+     "reason": "Speaks to 'why did this happen'"
+    },
+    {
+     "ref": "16_b_at_dakshineshwar_229_231#p10",
+     "verdict": "drop",
+     "reason": "Moved to death page, where it fits best (one's own death as birth into something better)"
+    },
+    {
+     "ref": "42_e_dakshineshwar_756_758#p27",
+     "verdict": "keep",
+     "reason": "Even the wise grieve: no shame in tears; headline sharpened"
+    },
+    {
+     "ref": "16_m_divine_mother_250_252#p15",
+     "verdict": "drop",
+     "reason": "Near-duplicate of 20_o p6 (body brings joy and sorrow)"
+    },
+    {
+     "ref": "20_o_with_narendra_395_397#p6",
+     "verdict": "keep",
+     "reason": "Concrete: Narendra's father died; joy and sorrow both come"
+    },
+    {
+     "ref": "50_d_griefstrickenbrahmani_883_885#p14",
+     "verdict": "drop",
+     "reason": "Event paragraph is the mother's excited chatter; needs context, no guidance"
+    }
+   ],
+   "notes": "Thakur's actual words to a grieving mother (48_b p35) replace the event paragraph; songs replaced with hymns that speak to grief ('অভয় পদে' moved to death)."
+  },
+  {
+   "id": "death",
+   "passages": [
+    {
+     "ref": "16_b_at_dakshineshwar_229_231#p10",
+     "head": "দেহের মৃত্যুর পর হয়তো ভাল জায়গায় নিয়ে যাচ্ছেন",
+     "head_en": "After death, perhaps He takes us somewhere better"
+    },
+    {
+     "ref": "17_f_samadhi_303_304#p24",
+     "head": "দেহ এসেছে, যাবে — আত্মার মৃত্যু নাই",
+     "head_en": "The body came and will go; the soul does not die"
+    },
+    {
+     "ref": "12_b_atdakshineshwar_142_145#p27",
+     "head": "দেহমাত্র বিনাশ হল — আত্মার মৃত্যু নাই",
+     "head_en": "Only the body perishes; the soul does not die"
+    },
+    {
+     "ref": "16_zg_with_devotees_293_294#p10",
+     "head": "বিড়ালে ধরলে পাখি নিজের বুলিই বলে",
+     "head_en": "Practise His name now; it will come at the end"
+    },
+    {
+     "ref": "20_n_at_dakshineshwar_391_395#p44",
+     "head": "বেঁচে থাকলে আরও লীলা দেখব — নিকষার সাধ",
+     "head_en": "Nikasha's wish to live: to see more of God's play"
+    }
+   ],
+   "songs": [
+    "অভয় পদে প্রাণ সঁপেছি",
+    "জয় কালী জয় কালী বলে যদি আমার প্রাণ যায়"
+   ],
+   "review": [
+    {
+     "ref": "16_b_at_dakshineshwar_229_231#p10",
+     "verdict": "new",
+     "reason": "Moved from grief: the most direct consolation about one's own death"
+    },
+    {
+     "ref": "17_f_samadhi_303_304#p24",
+     "verdict": "new",
+     "reason": "Plain statement: body comes and goes, soul is deathless; has English"
+    },
+    {
+     "ref": "12_b_atdakshineshwar_142_145#p27",
+     "verdict": "keep",
+     "reason": "Short consolation when a life ends"
+    },
+    {
+     "ref": "42_f_samadhi_759_761#p34",
+     "verdict": "replace",
+     "reason": "About the jivanmukta; same nut/shell image as 17_f p24, which is plainer"
+    },
+    {
+     "ref": "14_f_with_hajra_203_206#p11",
+     "verdict": "drop",
+     "reason": "Opens mid-story about a murdered sadhu; needs context"
+    },
+    {
+     "ref": "21_g_brahmosamajandramakrishna_456_458#p18",
+     "verdict": "drop",
+     "reason": "'No death in the sea of bliss' is about fear of losing oneself in God, not death"
+    },
+    {
+     "ref": "16_zg_with_devotees_293_294#p10",
+     "verdict": "keep",
+     "reason": "Practical preparation for the end"
+    },
+    {
+     "ref": "20_n_at_dakshineshwar_391_395#p44",
+     "verdict": "keep",
+     "reason": "Reframes clinging to life; headline now says what it offers"
+    }
+   ],
+   "notes": "Little direct comfort for fear of one's own death beyond body/soul teaching; 5 strong ones rather than padding (16_zg p11 is on oldage). Song 'শমন আসবার পথ' dropped (esoteric yogic imagery)."
+  },
+  {
+   "id": "fear",
+   "passages": [
+    {
+     "ref": "37_k_jnanayoga_701_703#p23",
+     "head": "ঈশ্বর যাকে ধরে আছেন, তার ভয় নাই",
+     "head_en": "Whom the Lord holds by the hand need not fear"
+    },
+    {
+     "ref": "16_zb_at_dakshineshwar_279_282#p32",
+     "head": "আমার মা আছে, আমার ভাবনা কি?",
+     "head_en": "I have a mother — why should I worry?"
+    },
+    {
+     "ref": "36_e_powerofattorney_662_663#p5",
+     "head": "তাঁকে আমমোক্তারি দাও, নিশ্চিন্ত হও",
+     "head_en": "Give God your power of attorney and be at peace"
+    },
+    {
+     "ref": "56_c_manomohan_1105_1107#p7",
+     "head": "খুঁটি ধরে ঘুরলে আর ভয় নাই",
+     "head_en": "Hold on to the post as you spin, and you won't fall"
+    },
+    {
+     "ref": "37_d_sannyasi_and_householder_685_688#p15",
+     "head": "ঝড়ের এঁটো পাতার মতো থাকো",
+     "head_en": "Live like a leaf carried by the storm"
+    },
+    {
+     "ref": "28_e_chaitanyadeb_531_533#p16",
+     "head": "যিনি সৃষ্টি করেছেন, তিনিই খেতে দেবেন",
+     "head_en": "He who made me will feed me"
+    },
+    {
+     "ref": "14_d_with_manilal_b_200_202#p11",
+     "head": "তাঁর নাম করে বেরিয়েছি, আবার বিপদ!",
+     "head_en": "I set out in God's name — what harm can come?"
+    }
+   ],
+   "songs": [
+    "কেন রে মন ভাবিস এত দীন হীন কাঙালের মতো",
+    "কি ভয় সংসার শোক ঘোর বিপদ শাসনে"
+   ],
+   "review": [
+    {
+     "ref": "05_c_masterdisciple_62_66#p45",
+     "verdict": "replace",
+     "reason": "Already on despair and mostly about grace after longing; 37_k p23 gives the same image directly about fear"
+    },
+    {
+     "ref": "37_k_jnanayoga_701_703#p23",
+     "verdict": "new",
+     "reason": "'Those held by the Lord need have no fear'; has English"
+    },
+    {
+     "ref": "16_zb_at_dakshineshwar_279_282#p32",
+     "verdict": "keep",
+     "reason": "Childlike trust as the cure for worry"
+    },
+    {
+     "ref": "36_e_powerofattorney_662_663#p5",
+     "verdict": "keep",
+     "reason": "Hand over the burden, do your part"
+    },
+    {
+     "ref": "56_c_manomohan_1105_1107#p7",
+     "verdict": "new",
+     "reason": "Practical image for anxiety in a hectic life; has English"
+    },
+    {
+     "ref": "28_e_chaitanyadeb_531_533#p16",
+     "verdict": "keep",
+     "reason": "Worry about provision"
+    },
+    {
+     "ref": "37_d_sannyasi_and_householder_685_688#p15",
+     "verdict": "keep",
+     "reason": "Accepting uncertainty"
+    },
+    {
+     "ref": "14_d_with_manilal_b_200_202#p11",
+     "verdict": "keep",
+     "reason": "Faith against fear of danger"
+    }
+   ],
+   "notes": "Strong page; 26_c p60 (money worry) considered but it is already on money."
+  },
+  {
+   "id": "anger",
+   "passages": [
+    {
+     "ref": "14_l_at_dakshineshwar_215_217#p21",
+     "head": "কামনায় বাধা পড়লেই রাগ",
+     "head_en": "Anger comes when a desire is blocked"
+    },
+    {
+     "ref": "52_g_yugadharma_927_933#p36",
+     "head": "ক্রোধে দিক-বিদিক জ্ঞান থাকে না",
+     "head_en": "In anger we lose all sense of right and wrong"
+    },
+    {
+     "ref": "30_b_vijayagoswami_578_580#p9",
+     "head": "ছোবল সামলাতে বিচার আনতে হয়",
+     "head_en": "When someone strikes, think before you hit back"
+    },
+    {
+     "ref": "14_l_at_dakshineshwar_215_217#p23",
+     "head": "ফোঁস করবে, বিষ ঢালবে না",
+     "head_en": "Hiss if you must, but never pour out venom"
+    },
+    {
+     "ref": "47_a_atramshome_833_837#p42",
+     "head": "তোমার রাগও অনিত্য",
+     "head_en": "Your anger, too, will pass"
+    },
+    {
+     "ref": "12_a_atdakshineshwar_140_142#p37",
+     "head": "একেবারে যাবে না — কমাবার চেষ্টা কর",
+     "head_en": "It won't vanish entirely — keep reducing it"
+    },
+    {
+     "ref": "12_q_ramlals_songs_168_170#p10",
+     "head": "অনুরাগ-বাঘ কাম-ক্রোধ খেয়ে ফেলে",
+     "head_en": "The tiger of love devours lust and anger"
+    }
+   ],
+   "songs": [],
+   "review": [
+    {
+     "ref": "14_l_at_dakshineshwar_215_217#p21",
+     "verdict": "new",
+     "reason": "Explains where anger comes from (thwarted desire); has English"
+    },
+    {
+     "ref": "52_g_yugadharma_927_933#p36",
+     "verdict": "keep",
+     "reason": "What anger does to judgment"
+    },
+    {
+     "ref": "14_l_at_dakshineshwar_215_217#p23",
+     "verdict": "keep",
+     "reason": "Show firmness without harming"
+    },
+    {
+     "ref": "30_b_vijayagoswami_578_580#p9",
+     "verdict": "keep",
+     "reason": "Practical: pause and reflect, keep good company"
+    },
+    {
+     "ref": "14_a_at_dakshineshwar_196_197#p24",
+     "verdict": "replace",
+     "reason": "Mostly Thakur's vision about Hazra; the anger lesson needs context"
+    },
+    {
+     "ref": "12_n_atdakshineshwar_162_164#p19",
+     "verdict": "drop",
+     "reason": "Already on badpeople; about seeing God in all, not handling one's own anger"
+    },
+    {
+     "ref": "52_g_yugadharma_927_933#p29",
+     "verdict": "drop",
+     "reason": "Mainly about the child-like state beyond the gunas"
+    },
+    {
+     "ref": "47_a_atramshome_833_837#p42",
+     "verdict": "new",
+     "reason": "Rama calms Lakshmana: your anger too is passing; has English"
+    },
+    {
+     "ref": "12_a_atdakshineshwar_140_142#p37",
+     "verdict": "new",
+     "reason": "Realistic and kind: reduce it, don't despair; has English"
+    },
+    {
+     "ref": "12_q_ramlals_songs_168_170#p10",
+     "verdict": "keep",
+     "reason": "The lasting cure: love of God"
+    }
+   ],
+   "notes": "No song in the catalog genuinely addresses anger."
+  },
+  {
+   "id": "jealousy",
+   "passages": [
+    {
+     "ref": "29_b_occultpower_564_565#p12",
+     "head": "‘আর সব বোকা’ — এ বুদ্ধি করো না",
+     "head_en": "Don't think you alone are wise; love everyone"
+    },
+    {
+     "ref": "58_d_godorscience_1121_1123#p13",
+     "head": "যার যা পেটে সয় — মা কাউকে কম ভালবাসেন না",
+     "head_en": "Each child gets what suits it — and none is loved less"
+    },
+    {
+     "ref": "36_i_kali_brahma_668_671#p30",
+     "head": "সকলকে ভালবাসবে, বিদ্বেষ রাখবে না",
+     "head_en": "Love everyone and hold no grudge"
+    },
+    {
+     "ref": "20_za_with_hari_430_433#p32",
+     "head": "পূজার কাজে মন দিলে হিংসা চলে যায়",
+     "head_en": "Keep your hands busy in worship, and spite and envy fall away"
+    },
+    {
+     "ref": "28_o_hazra_557_559#p14",
+     "head": "যেন কারু নিন্দা না করি",
+     "head_en": "Pray that you find fault with no one"
+    }
+   ],
+   "songs": [],
+   "review": [
+    {
+     "ref": "29_b_occultpower_564_565#p12",
+     "verdict": "keep",
+     "reason": "Antidote to comparison: no one is other; Prahlada prays for his tormentors"
+    },
+    {
+     "ref": "58_d_godorscience_1121_1123#p13",
+     "verdict": "new",
+     "reason": "Envy is comparison: the Mother gives each what suits him and loves none less; has English (also on whichpath)"
+    },
+    {
+     "ref": "36_i_kali_brahma_668_671#p30",
+     "verdict": "keep",
+     "reason": "Hold no ill will"
+    },
+    {
+     "ref": "20_za_with_hari_430_433#p32",
+     "verdict": "keep",
+     "reason": "Domestic envy (sisters-in-law) with a practical remedy; headline fixed"
+    },
+    {
+     "ref": "28_o_hazra_557_559#p14",
+     "verdict": "keep",
+     "reason": "Fault-finding is how envy shows itself (also on insult)"
+    },
+    {
+     "ref": "06_g_forthebenefitofall_90_91#p8",
+     "verdict": "drop",
+     "reason": "Joke about sectarian squabbles; not about envy"
+    }
+   ],
+   "notes": "Envy proper is thin in the Kathamrita; 5 honest passages rather than padding. 58_d p13 and 28_o p14 also appear on other pages."
+  },
+  {
+   "id": "loneliness",
+   "passages": [
+    {
+     "ref": "23_e_pilgrimage_471_473#p24",
+     "head": "ঈশ্বর আমাদের আপনার লোক, পর নন",
+     "head_en": "God is our very own, not a stranger"
+    },
+    {
+     "ref": "36_e_powerofattorney_662_663#p27",
+     "head": "তিনি ধর্ম-মা নন, আপনারই মা",
+     "head_en": "She is not a stepmother — She is your own Mother"
+    },
+    {
+     "ref": "28_q_shambhumallick_561_562#p8",
+     "head": "ভক্ত তাঁর আত্মীয় — তিনি টেনে নেবেন",
+     "head_en": "His devotees are His own; He will draw them to Him"
+    },
+    {
+     "ref": "48_d_selfishness_848_854#p27",
+     "head": "তাঁকে না পেলে মনে হয় পরের ছেলে",
+     "head_en": "Until we know Him, we feel like someone else's child"
+    },
+    {
+     "ref": "57_a_ramkeshabnarendra_1112_1114#p13",
+     "head": "মন একলা থাকলে শুকিয়ে যায় — সাধুসঙ্গ চাই",
+     "head_en": "Left alone, the mind dries up: seek holy company"
+    },
+    {
+     "ref": "16_r_at_dakshineswar_256_259#p32",
+     "head": "একলা থাকলে ভক্তিশাস্ত্র পড়বে",
+     "head_en": "When you are alone, read the devotional books"
+    }
+   ],
+   "songs": [
+    "তুমি সর্বস্ব আমার প্রাণাধার সারাৎসার",
+    "দয়াঘন তোমা হেন কে হিতকারী"
+   ],
+   "review": [
+    {
+     "ref": "16_s_guru_disciple_259_261#p16",
+     "verdict": "replace",
+     "reason": "Thakur's own longing for his disciples, not help for a lonely reader"
+    },
+    {
+     "ref": "46_a_narendraandhajra_822_825#p31",
+     "verdict": "replace",
+     "reason": "Thakur searching for a kindred soul; his yearning, not guidance"
+    },
+    {
+     "ref": "49_a_purna_855_857#p28",
+     "verdict": "drop",
+     "reason": "Describes Gopaler Ma's visions and Thakur's emotion; not guidance"
+    },
+    {
+     "ref": "23_e_pilgrimage_471_473#p24",
+     "verdict": "keep",
+     "reason": "God is one's own"
+    },
+    {
+     "ref": "36_e_powerofattorney_662_663#p27",
+     "verdict": "keep",
+     "reason": "Your own Mother, not a stranger"
+    },
+    {
+     "ref": "48_d_selfishness_848_854#p27",
+     "verdict": "keep",
+     "reason": "Names the feeling of being 'someone else's child' and its cure"
+    },
+    {
+     "ref": "28_q_shambhumallick_561_562#p8",
+     "verdict": "new",
+     "reason": "Devotees are His kin; He will draw them; has English"
+    },
+    {
+     "ref": "57_a_ramkeshabnarendra_1112_1114#p13",
+     "verdict": "new",
+     "reason": "Practical: a mind left alone dries up, seek good company (no English found)"
+    },
+    {
+     "ref": "16_r_at_dakshineswar_256_259#p32",
+     "verdict": "new",
+     "reason": "Practical use of time alone; has English"
+    }
+   ],
+   "notes": "Song 'আপনাতে আপনি থেকো' replaced by 'দয়াঘন তোমা হেন কে হিতকারী' (a friend in joy and sorrow), which speaks to loneliness directly."
+  },
+  {
+   "id": "hopeless",
+   "passages": [
+    {
+     "ref": "48_d_selfishness_848_854#p43",
+     "head": "উপায় থাকবে না কেন?",
+     "head_en": "Why should there be no way out?"
+    },
+    {
+     "ref": "41_c_atstartheater_744_747#p57",
+     "head": "‘আমার হবে না’ বললে হয় না",
+     "head_en": "Say 'it won't happen for me', and it won't"
+    },
+    {
+     "ref": "56_c_manomohan_1105_1107#p18",
+     "head": "তাঁর কৃপায় অসম্ভবও সম্ভব হয়",
+     "head_en": "By His grace even the impossible becomes possible"
+    },
+    {
+     "ref": "05_b_lustandgold_60_62#p12",
+     "head": "ঝড়-তুফানে মাঝি হাল ধরে থাকে",
+     "head_en": "In the storm, the boatman holds the rudder"
+    },
+    {
+     "ref": "19_d_yoga_356_357#p14",
+     "head": "সময় হলেই পাখি ডিম ফোটায়",
+     "head_en": "The mother bird breaks the shell at the right time"
+    },
+    {
+     "ref": "37_k_jnanayoga_701_703#p21",
+     "head": "খানদানি চাষা ফসল হোক না হোক, চাষ করে",
+     "head_en": "The born farmer keeps sowing, crop or no crop"
+    }
+   ],
+   "songs": [
+    "তোমারি করুণায় মা সকলি হইতে পারে",
+    "নামেরই ভরসা কেবল শ্যামা গো তোমার"
+   ],
+   "review": [
+    {
+     "ref": "48_d_selfishness_848_854#p43",
+     "verdict": "keep",
+     "reason": "Direct answer to 'is there no way?'"
+    },
+    {
+     "ref": "41_c_atstartheater_744_747#p57",
+     "verdict": "new",
+     "reason": "Speaks to the hopeless voice itself; has English"
+    },
+    {
+     "ref": "56_c_manomohan_1105_1107#p18",
+     "verdict": "keep",
+     "reason": "Light fills a long-dark room at once"
+    },
+    {
+     "ref": "05_b_lustandgold_60_62#p12",
+     "verdict": "keep",
+     "reason": "Hold on through the storm; it passes"
+    },
+    {
+     "ref": "16_m_divine_mother_250_252#p21",
+     "verdict": "drop",
+     "reason": "Already on illness page; about bodily suffering"
+    },
+    {
+     "ref": "20_s_advice_to_thakurdada_407_411#p40",
+     "verdict": "drop",
+     "reason": "Half about renouncing passions; anvil image already on insult/badpeople"
+    },
+    {
+     "ref": "19_d_yoga_356_357#p14",
+     "verdict": "new",
+     "reason": "Things happen in their time; has English"
+    },
+    {
+     "ref": "37_k_jnanayoga_701_703#p21",
+     "verdict": "new",
+     "reason": "Persevere when results don't come; has English"
+    }
+   ],
+   "notes": "Kept distinct from 'despair' (spiritual effort) by favouring hope and the self-defeating 'it won't happen for me' voice."
+  },
+  {
+   "id": "restless",
+   "passages": [
+    {
+     "ref": "05_b_lustandgold_60_62#p18",
+     "head": "সংসার-হাওয়ায় মনের দীপ কাঁপে",
+     "head_en": "The wind of the world makes the mind's flame flicker"
+    },
+    {
+     "ref": "06_e_purposeofcreation_86_87#p20",
+     "head": "মন যে রঙে ছোপাবে, সেই রঙে ছুপবে",
+     "head_en": "The mind takes whatever colour you dip it in"
+    },
+    {
+     "ref": "28_m_ramakrishna_radhika_551_555#p59",
+     "head": "অভ্যাস কর",
+     "head_en": "Practise, and the mind goes where you take it"
+    },
+    {
+     "ref": "41_b_calmnessofgirish_742_744#p28",
+     "head": "রোজ তাঁকে ডাকো — একদিনে হয় না",
+     "head_en": "Call on Him daily; it doesn't come in a day"
+    },
+    {
+     "ref": "02_e_wayofdevotion_19_21#p7",
+     "head": "মাঝে মাঝে নির্জনে যেতে হয়",
+     "head_en": "Go into solitude now and then"
+    },
+    {
+     "ref": "02_e_wayofdevotion_19_21#p17",
+     "head": "নির্জনে দই পাততে হয়",
+     "head_en": "Curd must be set in a quiet place"
+    },
+    {
+     "ref": "52_h_aboutavatars_933_937#p50",
+     "head": "একঘেয়ে নয় — কখন জপ, কখন ধ্যান, কখন গান",
+     "head_en": "Vary your practice, like fish cooked many ways"
+    }
+   ],
+   "songs": [
+    "ডুব দে মন কালী বলে হৃদি রত্নাকরের অগাধ জলে",
+    "মন রে কৃষি কাজ জানো না"
+   ],
+   "review": [
+    {
+     "ref": "05_b_lustandgold_60_62#p18",
+     "verdict": "keep",
+     "reason": "Explains why the mind won't settle"
+    },
+    {
+     "ref": "06_e_purposeofcreation_86_87#p20",
+     "verdict": "keep",
+     "reason": "Company shapes the mind; headline made explicit"
+    },
+    {
+     "ref": "28_m_ramakrishna_radhika_551_555#p59",
+     "verdict": "keep",
+     "reason": "The promise of practice"
+    },
+    {
+     "ref": "41_b_calmnessofgirish_742_744#p28",
+     "verdict": "new",
+     "reason": "Daily practice and patience; has English"
+    },
+    {
+     "ref": "11_atgovindamukhopadhyayas_138_139#p16",
+     "verdict": "replace",
+     "reason": "Near-duplicate of the practice passages; 41_b p28 adds 'not in a day'"
+    },
+    {
+     "ref": "02_e_wayofdevotion_19_21#p7",
+     "verdict": "keep",
+     "reason": "Practical: chanting, holy company, solitude"
+    },
+    {
+     "ref": "02_e_wayofdevotion_19_21#p17",
+     "verdict": "keep",
+     "reason": "Why solitude helps"
+    },
+    {
+     "ref": "52_h_aboutavatars_933_937#p50",
+     "verdict": "keep",
+     "reason": "Vary methods when one grows stale; headline now says so"
+    }
+   ],
+   "notes": "52_zg p78 (make a quiet meditation spot) is strong but has no English, so not swapped in."
+  }
+ ]
+}

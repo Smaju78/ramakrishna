@@ -19,29 +19,24 @@
   ],
   "passages": [
    {
+    "ref": "12_r_divine_form_170_172#p24",
+    "head": "শোক হবে না? আপনার সন্তান!",
+    "head_en": "Of course you grieve — he was your own child"
+   },
+   {
+    "ref": "42_e_dakshineshwar_756_758#p27",
+    "head": "বশিষ্ঠদেবেরও পুত্রশোক হয়েছিল",
+    "head_en": "Even the sage Vashishtha wept for his son"
+   },
+   {
     "ref": "37_f_maya_691_693#p5",
     "head": "চাষার স্বপ্ন — কার জন্য কাঁদব?",
     "head_en": "The farmer's dream: whom should I weep for?"
    },
    {
-    "ref": "20_o_with_narendra_395_397#p16",
-    "head": "ভীষ্মের চোখের জল — ঈশ্বরের কাজ বোঝা যায় না",
-    "head_en": "Bhishma's tears: God's ways can't be understood"
-   },
-   {
-    "ref": "16_b_at_dakshineshwar_229_231#p10",
-    "head": "দেহের মৃত্যুর পর হয়তো ভাল জায়গায় নিয়ে যাচ্ছেন",
-    "head_en": "After death, perhaps He takes us somewhere better"
-   },
-   {
-    "ref": "42_e_dakshineshwar_756_758#p27",
-    "head": "বশিষ্ঠদেবেরও পুত্রশোক হয়েছিল",
-    "head_en": "Even the sage Vashishtha grieved for his son"
-   },
-   {
-    "ref": "16_m_divine_mother_250_252#p15",
-    "head": "দেহধারণ করলেই সুখ-দুঃখ আছে",
-    "head_en": "With a body come pleasure and pain"
+    "ref": "48_b_sriramakrishnaradhika_843_846#p35",
+    "head": "যে জলে উৎপত্তি, সেই জলেই লয়",
+    "head_en": "The bubble merges back into the water it came from"
    },
    {
     "ref": "20_o_with_narendra_395_397#p6",
@@ -49,14 +44,14 @@
     "head_en": "Sometimes He keeps us happy, sometimes in sorrow"
    },
    {
-    "ref": "50_d_griefstrickenbrahmani_883_885#p14",
-    "head": "শোকাতুরা মায়ের বাড়িতে ঠাকুর",
-    "type": "event",
-    "head_en": "Thakur visits a grieving mother"
+    "ref": "20_o_with_narendra_395_397#p16",
+    "head": "ভীষ্মের চোখের জল — ঈশ্বরের কাজ বোঝা যায় না",
+    "head_en": "Bhishma's tears: God's ways can't be understood"
    }
   ],
   "songs": [
-   "অভয় পদে প্রাণ সঁপেছি"
+   "দেখিলে তোমার সেই অতুল প্রেম আননে",
+   "কর তাঁর নাম গান যতদিন দেহে রহে প্রাণ"
   ],
   "title_en": "Grief and loss",
   "subtitle_en": "Losing someone you love",
@@ -82,24 +77,19 @@
   ],
   "passages": [
    {
+    "ref": "16_b_at_dakshineshwar_229_231#p10",
+    "head": "দেহের মৃত্যুর পর হয়তো ভাল জায়গায় নিয়ে যাচ্ছেন",
+    "head_en": "After death, perhaps He takes us somewhere better"
+   },
+   {
+    "ref": "17_f_samadhi_303_304#p24",
+    "head": "দেহ এসেছে, যাবে — আত্মার মৃত্যু নাই",
+    "head_en": "The body came and will go; the soul does not die"
+   },
+   {
     "ref": "12_b_atdakshineshwar_142_145#p27",
     "head": "দেহমাত্র বিনাশ হল — আত্মার মৃত্যু নাই",
     "head_en": "Only the body perishes; the soul does not die"
-   },
-   {
-    "ref": "42_f_samadhi_759_761#p34",
-    "head": "ঝুনো নারকেলের শাঁস আর খোল আলাদা",
-    "head_en": "A dry coconut: the kernel comes loose from the shell"
-   },
-   {
-    "ref": "14_f_with_hajra_203_206#p11",
-    "head": "ওষুধ তৈরি হলে বোতল থাকলেই বা কি",
-    "head_en": "Once the medicine is made, what matters the bottle?"
-   },
-   {
-    "ref": "21_g_brahmosamajandramakrishna_456_458#p18",
-    "head": "সচ্চিদানন্দসাগরে ডুব দিলে মৃত্যু হয় না",
-    "head_en": "Dive into the sea of bliss: no one dies there"
    },
    {
     "ref": "16_zg_with_devotees_293_294#p10",
@@ -108,13 +98,13 @@
    },
    {
     "ref": "20_n_at_dakshineshwar_391_395#p44",
-    "head": "নিকষা কেন বাঁচতে চাইল",
-    "head_en": "Why Nikasha still wanted to live"
+    "head": "বেঁচে থাকলে আরও লীলা দেখব — নিকষার সাধ",
+    "head_en": "Nikasha's wish to live: to see more of God's play"
    }
   ],
   "songs": [
-   "জয় কালী জয় কালী বলে যদি আমার প্রাণ যায়",
-   "শমন আসবার পথ ঘুচেছে আমার মনের সন্দ ঘুচে গেছে"
+   "অভয় পদে প্রাণ সঁপেছি",
+   "জয় কালী জয় কালী বলে যদি আমার প্রাণ যায়"
   ]
  },
  {
@@ -137,9 +127,9 @@
   ],
   "passages": [
    {
-    "ref": "05_c_masterdisciple_62_66#p45",
-    "head": "বাপ যার হাত ধরে, তার ভয় নাই",
-    "head_en": "When the father holds your hand, there is no fear"
+    "ref": "37_k_jnanayoga_701_703#p23",
+    "head": "ঈশ্বর যাকে ধরে আছেন, তার ভয় নাই",
+    "head_en": "Whom the Lord holds by the hand need not fear"
    },
    {
     "ref": "16_zb_at_dakshineshwar_279_282#p32",
@@ -152,14 +142,19 @@
     "head_en": "Give God your power of attorney and be at peace"
    },
    {
-    "ref": "28_e_chaitanyadeb_531_533#p16",
-    "head": "যিনি সৃষ্টি করেছেন, তিনিই খেতে দেবেন",
-    "head_en": "He who made me will feed me"
+    "ref": "56_c_manomohan_1105_1107#p7",
+    "head": "খুঁটি ধরে ঘুরলে আর ভয় নাই",
+    "head_en": "Hold on to the post as you spin, and you won't fall"
    },
    {
     "ref": "37_d_sannyasi_and_householder_685_688#p15",
     "head": "ঝড়ের এঁটো পাতার মতো থাকো",
     "head_en": "Live like a leaf carried by the storm"
+   },
+   {
+    "ref": "28_e_chaitanyadeb_531_533#p16",
+    "head": "যিনি সৃষ্টি করেছেন, তিনিই খেতে দেবেন",
+    "head_en": "He who made me will feed me"
    },
    {
     "ref": "14_d_with_manilal_b_200_202#p11",
@@ -191,14 +186,14 @@
   ],
   "passages": [
    {
+    "ref": "14_l_at_dakshineshwar_215_217#p21",
+    "head": "কামনায় বাধা পড়লেই রাগ",
+    "head_en": "Anger comes when a desire is blocked"
+   },
+   {
     "ref": "52_g_yugadharma_927_933#p36",
     "head": "ক্রোধে দিক-বিদিক জ্ঞান থাকে না",
     "head_en": "In anger we lose all sense of right and wrong"
-   },
-   {
-    "ref": "14_l_at_dakshineshwar_215_217#p23",
-    "head": "ফোঁস করবে, বিষ ঢালবে না",
-    "head_en": "Hiss if you must, but never pour out venom"
    },
    {
     "ref": "30_b_vijayagoswami_578_580#p9",
@@ -206,19 +201,19 @@
     "head_en": "When someone strikes, think before you hit back"
    },
    {
-    "ref": "14_a_at_dakshineshwar_196_197#p24",
-    "head": "সে বেচারীরই বা দোষ কি?",
-    "head_en": "Angry at first — then: how could he have known?"
+    "ref": "14_l_at_dakshineshwar_215_217#p23",
+    "head": "ফোঁস করবে, বিষ ঢালবে না",
+    "head_en": "Hiss if you must, but never pour out venom"
    },
    {
-    "ref": "12_n_atdakshineshwar_162_164#p19",
-    "head": "যিনি মেরেছিলেন, তিনিই দুধ খাওয়াচ্ছেন",
-    "head_en": "He who beat me is now giving me milk"
+    "ref": "47_a_atramshome_833_837#p42",
+    "head": "তোমার রাগও অনিত্য",
+    "head_en": "Your anger, too, will pass"
    },
    {
-    "ref": "52_g_yugadharma_927_933#p29",
-    "head": "ছেলে এই ঝগড়া করে, আবার গলা ধরে",
-    "head_en": "Like a child: quarrel now, hug the next minute"
+    "ref": "12_a_atdakshineshwar_140_142#p37",
+    "head": "একেবারে যাবে না — কমাবার চেষ্টা কর",
+    "head_en": "It won't vanish entirely — keep reducing it"
    },
    {
     "ref": "12_q_ramlals_songs_168_170#p10",
@@ -253,9 +248,9 @@
     "head_en": "Don't think you alone are wise; love everyone"
    },
    {
-    "ref": "28_o_hazra_557_559#p14",
-    "head": "যেন কারু নিন্দা না করি",
-    "head_en": "Pray that you find fault with no one"
+    "ref": "58_d_godorscience_1121_1123#p13",
+    "head": "যার যা পেটে সয় — মা কাউকে কম ভালবাসেন না",
+    "head_en": "Each child gets what suits it — and none is loved less"
    },
    {
     "ref": "36_i_kali_brahma_668_671#p30",
@@ -264,13 +259,13 @@
    },
    {
     "ref": "20_za_with_hari_430_433#p32",
-    "head": "দুই জায়ে কথা হলে ঠাকুরের কথা",
-    "head_en": "Keep the mind on worship and pettiness falls away"
+    "head": "পূজার কাজে মন দিলে হিংসা চলে যায়",
+    "head_en": "Keep your hands busy in worship, and spite and envy fall away"
    },
    {
-    "ref": "06_g_forthebenefitofall_90_91#p8",
-    "head": "শিব-রামের ভাব হল, ভূত-বানরের ঝগড়া মেটে না",
-    "head_en": "Shiva and Rama made up; their followers still squabble"
+    "ref": "28_o_hazra_557_559#p14",
+    "head": "যেন কারু নিন্দা না করি",
+    "head_en": "Pray that you find fault with no one"
    }
   ],
   "songs": []
@@ -295,16 +290,6 @@
   ],
   "passages": [
    {
-    "ref": "16_s_guru_disciple_259_261#p16",
-    "head": "ওরে তোরা কে কোথায় আছিস আয়!",
-    "head_en": "Where are you all? I am dying to see you!"
-   },
-   {
-    "ref": "46_a_narendraandhajra_822_825#p31",
-    "head": "আমি সঙ্গী খুঁজছি",
-    "head_en": "Even Thakur searched for a kindred soul"
-   },
-   {
     "ref": "23_e_pilgrimage_471_473#p24",
     "head": "ঈশ্বর আমাদের আপনার লোক, পর নন",
     "head_en": "God is our very own, not a stranger"
@@ -315,19 +300,29 @@
     "head_en": "She is not a stepmother — She is your own Mother"
    },
    {
+    "ref": "28_q_shambhumallick_561_562#p8",
+    "head": "ভক্ত তাঁর আত্মীয় — তিনি টেনে নেবেন",
+    "head_en": "His devotees are His own; He will draw them to Him"
+   },
+   {
     "ref": "48_d_selfishness_848_854#p27",
     "head": "তাঁকে না পেলে মনে হয় পরের ছেলে",
     "head_en": "Until we know Him, we feel like someone else's child"
    },
    {
-    "ref": "49_a_purna_855_857#p28",
-    "head": "একলাটি থাকে, গোপাল কাছে শোয়",
-    "head_en": "She lives alone — yet Gopala sleeps beside her"
+    "ref": "57_a_ramkeshabnarendra_1112_1114#p13",
+    "head": "মন একলা থাকলে শুকিয়ে যায় — সাধুসঙ্গ চাই",
+    "head_en": "Left alone, the mind dries up: seek holy company"
+   },
+   {
+    "ref": "16_r_at_dakshineswar_256_259#p32",
+    "head": "একলা থাকলে ভক্তিশাস্ত্র পড়বে",
+    "head_en": "When you are alone, read the devotional books"
    }
   ],
   "songs": [
    "তুমি সর্বস্ব আমার প্রাণাধার সারাৎসার",
-   "আপনাতে আপনি থেকো মন যেও নাকো কারু ঘরে"
+   "দয়াঘন তোমা হেন কে হিতকারী"
   ]
  },
  {
@@ -355,24 +350,29 @@
     "head_en": "Why should there be no way out?"
    },
    {
+    "ref": "41_c_atstartheater_744_747#p57",
+    "head": "‘আমার হবে না’ বললে হয় না",
+    "head_en": "Say 'it won't happen for me', and it won't"
+   },
+   {
     "ref": "56_c_manomohan_1105_1107#p18",
     "head": "তাঁর কৃপায় অসম্ভবও সম্ভব হয়",
     "head_en": "By His grace even the impossible becomes possible"
    },
    {
-    "ref": "16_m_divine_mother_250_252#p21",
-    "head": "পাণ্ডবদের অত বিপদ, তবু চৈতন্য হারায়নি",
-    "head_en": "The Pandavas suffered greatly, yet never lost their inner light"
-   },
-   {
-    "ref": "20_s_advice_to_thakurdada_407_411#p40",
-    "head": "কামারশালের নেয়াইয়ের মতো অটল",
-    "head_en": "Stay steady like the blacksmith's anvil"
-   },
-   {
     "ref": "05_b_lustandgold_60_62#p12",
     "head": "ঝড়-তুফানে মাঝি হাল ধরে থাকে",
     "head_en": "In the storm, the boatman holds the rudder"
+   },
+   {
+    "ref": "19_d_yoga_356_357#p14",
+    "head": "সময় হলেই পাখি ডিম ফোটায়",
+    "head_en": "The mother bird breaks the shell at the right time"
+   },
+   {
+    "ref": "37_k_jnanayoga_701_703#p21",
+    "head": "খানদানি চাষা ফসল হোক না হোক, চাষ করে",
+    "head_en": "The born farmer keeps sowing, crop or no crop"
    }
   ],
   "songs": [
@@ -407,8 +407,8 @@
    },
    {
     "ref": "06_e_purposeofcreation_86_87#p20",
-    "head": "মন ধোপাঘরের কাপড়",
-    "head_en": "The mind is like freshly washed cloth"
+    "head": "মন যে রঙে ছোপাবে, সেই রঙে ছুপবে",
+    "head_en": "The mind takes whatever colour you dip it in"
    },
    {
     "ref": "28_m_ramakrishna_radhika_551_555#p59",
@@ -416,14 +416,9 @@
     "head_en": "Practise, and the mind goes where you take it"
    },
    {
-    "ref": "02_e_wayofdevotion_19_21#p17",
-    "head": "নির্জনে দই পাততে হয়",
-    "head_en": "Curd must be set in a quiet place"
-   },
-   {
-    "ref": "11_atgovindamukhopadhyayas_138_139#p16",
-    "head": "রোজ অভ্যাস — সার্কাসের ঘোড়সওয়ার",
-    "head_en": "Practise daily, like the circus rider"
+    "ref": "41_b_calmnessofgirish_742_744#p28",
+    "head": "রোজ তাঁকে ডাকো — একদিনে হয় না",
+    "head_en": "Call on Him daily; it doesn't come in a day"
    },
    {
     "ref": "02_e_wayofdevotion_19_21#p7",
@@ -431,9 +426,14 @@
     "head_en": "Go into solitude now and then"
    },
    {
+    "ref": "02_e_wayofdevotion_19_21#p17",
+    "head": "নির্জনে দই পাততে হয়",
+    "head_en": "Curd must be set in a quiet place"
+   },
+   {
     "ref": "52_h_aboutavatars_933_937#p50",
-    "head": "আমি পাঁচরকম করে মাছ খাই",
-    "head_en": "I eat fish cooked many ways"
+    "head": "একঘেয়ে নয় — কখন জপ, কখন ধ্যান, কখন গান",
+    "head_en": "Vary your practice, like fish cooked many ways"
    }
   ],
   "songs": [
@@ -465,18 +465,28 @@
   "passages": [
    {
     "ref": "36_h_vijay_667_668#p6",
-    "head": "বাছুরের ‘হাম্বা’ — আমি আমি করেই যন্ত্রণা",
-    "head_en": "The calf cries 'I, I' — and suffers for it"
+    "head": "বাছুরের ‘হাম্বা’ — ‘আমি আমি’ ছেড়ে ‘তুমি তুমি’ বললে নিস্তার",
+    "head_en": "The calf cries 'I, I' and suffers — peace comes with 'Thou, Thou'"
+   },
+   {
+    "ref": "16_h_three_gunas_243_245#p18",
+    "head": "সব ‘আমি’ ছাড়তে হবে না — ‘কাঁচা আমি’ ছাড়ো, ‘পাকা আমি’ রাখো",
+    "head_en": "You needn't drop every 'I' — drop the 'unripe I', keep the 'ripe I'"
+   },
+   {
+    "ref": "09_f_veilofmaya_119_122#p27",
+    "head": "‘আমি’ যদি না যায়, ‘দাস আমি’ হয়ে থাক",
+    "head_en": "If the 'I' won't go, let it stay as God's servant"
    },
    {
     "ref": "52_m_advicetodrsarkar_944_946#p4",
-    "head": "উঁচু ঢিপিতে জল জমে না",
-    "head_en": "Water won't stay on a high mound"
+    "head": "উঁচু ঢিপিতে জল জমে না, নিচু জমিতে জমে",
+    "head_en": "Water runs off a high mound and gathers in low ground"
    },
    {
-    "ref": "52_g_yugadharma_927_933#p28",
-    "head": "কাঁচা আমি আর পাকা আমি",
-    "head_en": "The 'unripe I' and the 'ripe I'"
+    "ref": "52_w_freewill_964_968#p42",
+    "head": "হাঁড়ির আলু-বেগুন লাফায় নিচের আগুনে — ‘আমি কর্তা’ ভুল",
+    "head_en": "Potatoes jump in the pot only because of the fire below"
    },
    {
     "ref": "36_f_i_conciousness_664_666#p4",
@@ -484,19 +494,14 @@
     "head_en": "However grand you look, it's all for two days"
    },
    {
-    "ref": "09_f_veilofmaya_119_122#p14",
-    "head": "এক টাকার ব্যাঙ হাতিকে লাথি দেখায়",
-    "head_en": "The frog with one rupee kicks at an elephant"
-   },
-   {
-    "ref": "48_d_selfishness_848_854#p54",
-    "head": "দাঁড়িপাল্লার হালকা দিকটাই উঁচু হয়",
-    "head_en": "On a scale, the lighter pan rises"
-   },
-   {
     "ref": "52_zb_panditspride_975_976#p5",
     "head": "যে দিল্লী গেছে, সে কি জাঁক করে?",
     "head_en": "Does someone who's been to Delhi brag about it?"
+   },
+   {
+    "ref": "09_f_veilofmaya_119_122#p14",
+    "head": "এক টাকার ব্যাঙ হাতিকে লাথি দেখায়",
+    "head_en": "The frog with one rupee kicks at an elephant"
    }
   ],
   "songs": [
@@ -525,28 +530,33 @@
   "passages": [
    {
     "ref": "20_y_at_dakshineshwar_426_429#p24",
-    "head": "চিলের মুখে মাছ, পেছনে হাজার কাক",
-    "head_en": "The kite with a fish, chased by crows"
-   },
-   {
-    "ref": "09_b_fourtypes_115_116#p8",
-    "head": "উট কাঁটা ঘাস খায়, রক্ত পড়লেও ছাড়ে না",
-    "head_en": "The camel keeps eating thorns though its mouth bleeds"
-   },
-   {
-    "ref": "02_e_wayofdevotion_19_21#p20",
-    "head": "টাকায় কি হয়? ভাত, ডাল, থাকার জায়গা",
-    "head_en": "What can money buy? Food, clothes, a roof"
-   },
-   {
-    "ref": "28_l_sayings_547_551#p13",
-    "head": "মন, এর নাম রূপার গুড়গুড়িতে তামাক খাওয়া!",
-    "head_en": "'So this is the silver hookah, O mind!'"
+    "head": "মাছ মুখ থেকে পড়ে গেলে কাকেরা আর চিলকে তাড়া করে না",
+    "head_en": "Drop the fish, and the crows stop chasing the kite"
    },
    {
     "ref": "37_f_maya_691_693#p24",
     "head": "ব্রহ্মানন্দ পেলে মন আর দৌড়ায় না",
     "head_en": "Taste God's bliss, and the mind stops running after things"
+   },
+   {
+    "ref": "02_e_wayofdevotion_19_21#p20",
+    "head": "টাকায় ভাত-ডাল-থাকার জায়গা হয়, ভগবান হয় না",
+    "head_en": "Money buys rice, dal and a roof — not God"
+   },
+   {
+    "ref": "26_b_samadhi_506_509#p10",
+    "head": "ঈশ্বরীয় কথা শুনতে শুনতে বাসনা একটু একটু কমে",
+    "head_en": "Listening to talk of God, desire wanes little by little"
+   },
+   {
+    "ref": "37_k_jnanayoga_701_703#p33",
+    "head": "ছোট সাধ মিটিয়ে, দেখে নিয়ে, ছেড়ে দাও",
+    "head_en": "Fulfil a small wish, see it for what it is, and let it go"
+   },
+   {
+    "ref": "03_b_atshyampukur_35_38#p27",
+    "head": "কাঁদলে মনের কাদা ধুয়ে যায়, চুম্বক টেনে নেয়",
+    "head_en": "Tears wash the mud of craving off the mind"
    },
    {
     "ref": "13_d_at_sinthee_178_180#p31",
@@ -579,14 +589,9 @@
   ],
   "passages": [
    {
-    "ref": "36_d_renunciation_660_661#p6",
-    "head": "বিকারের রোগীর ঘরে আচার-তেঁতুল আর জলের জালা",
-    "head_en": "A fever patient beside pickles and a water jar"
-   },
-   {
-    "ref": "09_d_lustandlucre_117_118#p12",
-    "head": "ঈশ্বর বড় চুম্বক, কামিনী ছোট চুম্বক",
-    "head_en": "God is the bigger magnet"
+    "ref": "10_e_discriminationanddevotion_136_137#p10",
+    "head": "অভ্যাসে মনে জোর আসে — কচ্ছপের মতো ইন্দ্রিয় গুটিয়ে নাও",
+    "head_en": "Practice gives the mind strength — draw in the senses like a tortoise"
    },
    {
     "ref": "20_y_at_dakshineshwar_426_429#p20",
@@ -594,19 +599,29 @@
     "head_en": "Turn the passions toward God"
    },
    {
+    "ref": "52_g_yugadharma_927_933#p46",
+    "head": "ভক্তি এলে আর জোর করে সংযম করতে হয় না",
+    "head_en": "When devotion comes, the passions subside on their own"
+   },
+   {
     "ref": "37_f_maya_691_693#p28",
     "head": "পরস্ত্রী মাতৃবৎ, নিজের স্ত্রী ধর্মের সহায়",
     "head_en": "Others' wives as mothers, your own as a spiritual companion"
    },
    {
+    "ref": "09_d_lustandlucre_117_118#p12",
+    "head": "ঈশ্বর বড় চুম্বক — বড়টাই টেনে নেয়",
+    "head_en": "God is the bigger magnet"
+   },
+   {
+    "ref": "36_d_renunciation_660_661#p6",
+    "head": "প্রথমে প্রলোভন থেকে দূরে থাকো, চারাগাছে বেড়া দাও",
+    "head_en": "At first keep temptation out of reach — fence the young sapling"
+   },
+   {
     "ref": "03_b_atshyampukur_35_38#p23",
     "head": "ইন্দ্রিয় জয় করলে মহৎ হয়",
     "head_en": "Mastering the senses makes a person great"
-   },
-   {
-    "ref": "02_e_wayofdevotion_19_21#p22",
-    "head": "বস্তুবিচার — সুন্দর দেহেই বা কি আছে?",
-    "head_en": "Think it through: what is in a beautiful body?"
    }
   ],
   "songs": [
@@ -631,13 +646,23 @@
   "passages": [
    {
     "ref": "08_d_atmanimallicks_110_112#p16",
-    "head": "অত পাপ পাপ কেন?",
-    "head_en": "Why harp so much on sin?"
+    "head": "অত পাপ পাপ কেন? — বল, আর করব না",
+    "head_en": "Why harp on sin? Tell Him you won't do it again"
    },
    {
-    "ref": "06_f_advicetobrahmos_88_90#p8",
-    "head": "‘আমি পাপী’ বলতে বলতে তাই হয়ে যায়",
-    "head_en": "Keep saying 'I am a sinner' and you become one"
+    "ref": "02_g_solutionisfaith_25_27#p11",
+    "head": "বিশ্বাস থাকলে মহাপাতক থেকেও উদ্ধার",
+    "head_en": "Faith can lift you out of even the gravest wrong"
+   },
+   {
+    "ref": "09_g_bhaktiyoga_122_125#p31",
+    "head": "অনুতাপের চোখের জলে মনের ময়লা ধুয়ে যায়",
+    "head_en": "Tears of repentance wash the mind clean"
+   },
+   {
+    "ref": "38_b_withdevotees_712_714#p25",
+    "head": "‘আমি অশুদ্ধ’? — হাজার বছরের অন্ধকার ঘরও একবারে আলো হয়",
+    "head_en": "'I am impure'? A room dark for a thousand years lights up at once"
    },
    {
     "ref": "06_f_advicetobrahmos_88_90#p11",
@@ -653,16 +678,6 @@
     "ref": "11_atgovindamukhopadhyayas_138_139#p14",
     "head": "হাততালি দিলে গাছের পাখি পালায়",
     "head_en": "Clap your hands and the birds fly off the tree"
-   },
-   {
-    "ref": "12_g_withgoswami_150_152#p15",
-    "head": "প্রতিজ্ঞা চাই — আর পাপ করব না",
-    "head_en": "Resolve never to do it again"
-   },
-   {
-    "ref": "20_p_at_dakshineshwar_397_401#p56",
-    "head": "ভালবাসা এলে পাপ-পুণ্য ভুলে যায়",
-    "head_en": "When love comes, sin and virtue are forgotten"
    },
    {
     "ref": "52_zb_panditspride_975_976#p13",
@@ -698,14 +713,14 @@
   ],
   "passages": [
    {
-    "ref": "20_p_at_dakshineshwar_397_401#p32",
-    "head": "মুখে বলে ঈশ্বরকে ভালবাসি",
-    "head_en": "'I love God,' they say — but only in words"
-   },
-   {
     "ref": "12_l_ochreclothes_157_159#p9",
     "head": "ভেকের মতো মন না হলে সর্বনাশ",
     "head_en": "If the mind doesn't match the outer garb, ruin follows"
+   },
+   {
+    "ref": "20_p_at_dakshineshwar_397_401#p32",
+    "head": "মুখে বলে ঈশ্বরকে ভালবাসি",
+    "head_en": "'I love God,' they say — but only in words"
    },
    {
     "ref": "20_v_truth_417_419#p18",
@@ -714,13 +729,13 @@
    },
    {
     "ref": "28_g_naran_535_537#p26",
-    "head": "পাঁজি টিপলে এক ফোঁটা জলও পড়ে না",
-    "head_en": "Squeeze the almanac — not a drop of rain"
+    "head": "পাঁজি টিপলে এক ফোঁটা জলও পড়ে না — ধারণা চাই",
+    "head_en": "Squeeze the almanac — not a drop of rain; truth must be lived"
    },
    {
-    "ref": "19_f_at_kolkata_359_363#p33",
-    "head": "‘সিদ্ধি সিদ্ধি’ বললে নেশা হয় না",
-    "head_en": "Saying 'hemp, hemp' won't make you high"
+    "ref": "14_c_with_manilal_a_199_200#p18",
+    "head": "ভান করেই জেলের চৈতন্য — ‘সত্যি সাধু হলে তো ভগবান পাব’",
+    "head_en": "A fake holy man awakens — 'if I became genuine, I'd surely find God'"
    },
    {
     "ref": "22_a_baburamrakhal_460_463#p19",
@@ -828,19 +843,24 @@
     "head_en": "Be like the blacksmith's anvil"
    },
    {
-    "ref": "28_h_teachingnarendra_537_541#p56",
-    "head": "লোকে যা বলবে তাই কি শুনতে হবে?",
-    "head_en": "Must you listen to whatever people say?"
+    "ref": "49_b_lustandlucre_857_859#p20",
+    "head": "‘তা হোক, বলুকগে ভণ্ড’ — নিন্দুক সম্পর্কে ঠাকুর",
+    "head_en": "'Let him call me a fraud' — Thakur on a critic"
+   },
+   {
+    "ref": "02_f_thirdvisit_21_25#p24",
+    "head": "দুষ্ট লোককে ফোঁস কর, কিন্তু বিষ ঢেলো না",
+    "head_en": "Hiss to keep harm away — but never bite"
+   },
+   {
+    "ref": "17_c_vijaya_goswami_298_301#p21",
+    "head": "‘লোকে কি বলবে’ — এ ভাব ত্যাগ কর",
+    "head_en": "Let go of 'what will people say?'"
    },
    {
     "ref": "37_c_with_devotees_682_685#p22",
     "head": "লোকে বলুক, ঈশ্বরের জন্য পাগল হয়েছে",
     "head_en": "Let people say you've gone mad for God"
-   },
-   {
-    "ref": "20_k_simplicity_387_388#p8",
-    "head": "‘দেখবে এস, আমার হাত ভেঙে গেছে!’",
-    "head_en": "Not hiding things for fear of gossip"
    },
    {
     "ref": "28_o_hazra_557_559#p14",
@@ -906,8 +926,8 @@
    },
    {
     "ref": "16_zg_with_devotees_293_294#p16",
-    "head": "সংসারে আছ তা ভয় কি?",
-    "head_en": "You live in the world. What is there to fear?"
+    "head": "সংসারও তিনি — তবে ভয় কি?",
+    "head_en": "The household too is God. What is there to fear?"
    }
   ],
   "songs": [
@@ -938,17 +958,7 @@
    {
     "ref": "20_p_at_dakshineshwar_397_401#p37",
     "head": "স্ত্রীর উপর ভালবাসা হবে না?",
-    "head_en": "Of course a man loves his wife"
-   },
-   {
-    "ref": "42_e_dakshineshwar_756_758#p10",
-    "head": "স্ত্রীর সঙ্গে একটু আমোদ-আহ্লাদ করবি",
-    "head_en": "Have some fun with your wife"
-   },
-   {
-    "ref": "20_p_at_dakshineshwar_397_401#p39",
-    "head": "বিদ্যারূপিণী স্ত্রী যথার্থ সহধর্মিণী",
-    "head_en": "A true partner helps you toward God"
+    "head_en": "Of course you love your wife; that love is the Mother's own spell"
    },
    {
     "ref": "37_f_maya_691_693#p28",
@@ -956,14 +966,29 @@
     "head_en": "Your spouse becomes your friend on the spiritual path"
    },
    {
-    "ref": "17_l_householder_312_316#p7",
-    "head": "দুজনেরই ভাল হওয়া চাই, না হলে অমিল",
-    "head_en": "Both must be good, or there is discord"
+    "ref": "20_p_at_dakshineshwar_397_401#p39",
+    "head": "বিদ্যারূপিণী স্ত্রী যথার্থ সহধর্মিণী",
+    "head_en": "A true partner helps you toward God"
+   },
+   {
+    "ref": "20_l_at_dakshineshwar_388_390#p27",
+    "head": "স্ত্রীকে পূজা — সকল স্ত্রীই ভগবতীর রূপ",
+    "head_en": "Gauri worshipped his wife: every woman is a form of the Divine Mother"
+   },
+   {
+    "ref": "42_e_dakshineshwar_756_758#p10",
+    "head": "স্ত্রীর সঙ্গে একটু আমোদ-আহ্লাদ করবি",
+    "head_en": "Have some fun with your wife"
    },
    {
     "ref": "36_d_renunciation_660_661#p10",
-    "head": "বুদ্ধিমতী স্ত্রী — এই একঘরই ভাল",
-    "head_en": "The sensible wife: better to stay in one home"
+    "head": "বুদ্ধিমতী স্ত্রীর পরামর্শ — এই একঘরই ভাল",
+    "head_en": "A wise wife's counsel: don't run away, this one home is best"
+   },
+   {
+    "ref": "17_l_householder_312_316#p10",
+    "head": "সংসারে অমিল, অশান্তি? — তবু উপায় আছে",
+    "head_en": "Discord at home? There is still a way"
    }
   ],
   "songs": []
@@ -995,14 +1020,14 @@
     "head_en": "Raising your children is your duty"
    },
    {
-    "ref": "36_e_powerofattorney_662_663#p10",
-    "head": "পাখি বড় হলে ধাড়ী ঠোকরায়",
-    "head_en": "When the chick can fend for itself, let it go"
+    "ref": "05_c_masterdisciple_62_66#p15",
+    "head": "খাওয়া-পরার কষ্ট না থাকে — সমর্থ হলে ছেড়ে দাও",
+    "head_en": "Provide for them, then let go once they can stand on their own"
    },
    {
-    "ref": "02_c_secondvisit_16_17#p21",
-    "head": "ছেলেদের কি ও-পাড়ার লোক এসে খাওয়াবে?",
-    "head_en": "Should others feed your children?"
+    "ref": "60_a_ashwinikumar_1164_1170#p41",
+    "head": "তাঁকে বকলমা দাও — ঝির মতো যত্নে মানুষ করো",
+    "head_en": "Give God the power of attorney; raise them with love, knowing they are His"
    },
    {
     "ref": "17_l_householder_312_316#p5",
@@ -1013,11 +1038,6 @@
     "ref": "09_h_withbaburam_125_128#p20",
     "head": "দয়া আর মায়া আলাদা জিনিস",
     "head_en": "Love for your own, and love for all"
-   },
-   {
-    "ref": "47_a_atramshome_833_837#p54",
-    "head": "আমি না থাকলে এদের কি হবে!",
-    "head_en": "'What will become of them without me?'"
    }
   ],
   "songs": [
@@ -1046,11 +1066,6 @@
   ],
   "passages": [
    {
-    "ref": "02_e_wayofdevotion_19_21#p20",
-    "head": "টাকায় কি হয়? ভাত হয়, ডাল হয়",
-    "head_en": "What does money give? Food, clothes, a home"
-   },
-   {
     "ref": "26_c_withdevotees_510_514#p60",
     "head": "টাকার দরকার বটে, কিন্তু অত ভেবো না",
     "head_en": "You need money, but don't worry so much"
@@ -1071,14 +1086,19 @@
     "head_en": "The right use of money"
    },
    {
+    "ref": "02_e_wayofdevotion_19_21#p20",
+    "head": "টাকায় কি হয়? ভাত হয়, ডাল হয়",
+    "head_en": "What can money give? Food and a roof, not God"
+   },
+   {
+    "ref": "36_e_powerofattorney_662_663#p5",
+    "head": "তাঁকে আমমোক্তারী দাও — নিশ্চিন্ত হয়ে থাক",
+    "head_en": "Hand God your power of attorney and rest free of worry"
+   },
+   {
     "ref": "40_b_birthdaycelebration_731_734#p53",
     "head": "তুমি তো 'খ' — ঘটিবাটি নিয়ে যাক",
     "head_en": "You are like the sky; let them take the pots"
-   },
-   {
-    "ref": "37_j_save_698_701#p17",
-    "head": "ঈশ্বর আগে থাকতে বন্দোবস্ত করছেন",
-    "head_en": "God provides before the need arises"
    }
   ],
   "songs": [
@@ -1121,14 +1141,19 @@
     "head_en": "You can't stop working, so don't work for rewards"
    },
    {
+    "ref": "58_c_sriramakrishna_1119_1121#p11",
+    "head": "লাভ-লোকসান, সুখ-দুঃখ — কাজের ফল তাঁকে দাও",
+    "head_en": "Offer the results — profit, loss, joy or pain — to God"
+   },
+   {
     "ref": "06_i_karmayoga_92_93#p12",
     "head": "সম্মুখে যেটা পড়ল, সেটাই নিষ্কাম হয়ে কর",
     "head_en": "Do what comes your way; don't pile on more"
    },
    {
-    "ref": "58_c_sriramakrishna_1119_1121#p12",
-    "head": "সর্বভূতে হরির সেবা",
-    "head_en": "Serving others is serving God in them"
+    "ref": "06_i_karmayoga_92_93#p10",
+    "head": "প্রার্থনা কর — কাজ যেন নিষ্কাম হয়, বেশি কাজ যেন তাঁকে ভুলিয়ে না দেয়",
+    "head_en": "Pray that your work stays selfless, and never crowds Him out"
    },
    {
     "ref": "12_b_atdakshineshwar_142_145#p10",
@@ -1136,14 +1161,12 @@
     "head_en": "Work, done rightly, washes the mind clean"
    },
    {
-    "ref": "21_f_moneyworship_453_456#p15",
-    "head": "কর্ম উপায়, উদ্দেশ্য নয়",
-    "head_en": "Work is a means, not the goal of life"
+    "ref": "10_b_superconcious_131_133#p33",
+    "head": "অফিসে, ব্যবসায় — সত্যে থাকো",
+    "head_en": "In the office or in business, hold to the truth"
    }
   ],
-  "songs": [
-   "মন রে কৃষি কাজ জানো না"
-  ]
+  "songs": []
  },
  {
   "id": "oldage",
@@ -1171,34 +1194,24 @@
     "head_en": "In later years, turn to God in quiet"
    },
    {
-    "ref": "20_l_at_dakshineshwar_388_390#p24",
+    "ref": "20_l_at_dakshineshwar_388_390#p25",
     "head": "বয়স হলে সংসার থেকে সরে ঈশ্বরচিন্তা",
     "head_en": "When you grow old, step back and think of God"
    },
    {
-    "ref": "09_b_fourtypes_115_116#p10",
-    "head": "পঞ্চাশ বছর বয়সে তাস খেলছে!",
-    "head_en": "Fifty years old and still playing cards"
+    "ref": "16_zg_with_devotees_293_294#p10",
+    "head": "নাম অভ্যাস করো — শেষে যেন তাঁর নামই আসে",
+    "head_en": "Practise His name now, so it is what comes at the end"
+   },
+   {
+    "ref": "16_b_at_dakshineshwar_229_231#p10",
+    "head": "রোগ-শোক দেহের, আত্মার নয়",
+    "head_en": "Illness and decline belong to the body, not the Self"
    },
    {
     "ref": "43_l_atdebendrashome_788_789#p19",
     "head": "বুড়ো বয়সে হরিনাম — মন্দের ভাল",
-    "head_en": "God's name in old age is still worth it"
-   },
-   {
-    "ref": "52_g_yugadharma_927_933#p31",
-    "head": "'বুড়োর আমি' — অনেকগুলি পাশ",
-    "head_en": "The old man's ego and its many bonds"
-   },
-   {
-    "ref": "16_zc_at_dakshineshwar_282_284#p31",
-    "head": "অত টাকা, তবু ছেলেরা মানে না",
-    "head_en": "Rich, yet unhappy: his sons won't listen"
-   },
-   {
-    "ref": "32_e_ishwarguardian_595_597#p14",
-    "head": "মা বুড়ো হয়েছেন — তাঁর কাছেই যাই",
-    "head_en": "My mother is old; I will go back to her"
+    "head_en": "Never too late: God's name in old age still counts"
    }
   ],
   "songs": [
@@ -1226,19 +1239,9 @@
   ],
   "passages": [
    {
-    "ref": "52_k_completeknowledge_940_942#p13",
-    "head": "দেহটা একটু তার দিয়ে এঁটে দাও",
-    "head_en": "Hold my body together so I can sing Your name"
-   },
-   {
-    "ref": "51_l_drrakhal_913_915#p17",
-    "head": "মা, তরবারির খাপটা একটু মেরামত করে দাও",
-    "head_en": "The body is only the sword's sheath"
-   },
-   {
-    "ref": "53_v_selfworship_1055_1057#p16",
-    "head": "তাঁতে মনের যোগ হলে কষ্ট একধারে পড়ে থাকে",
-    "head_en": "When the mind rests in God, pain moves aside"
+    "ref": "16_m_divine_mother_250_252#p15",
+    "head": "দেহ ধরলেই সুখ-দুঃখ — মায়ের প্রিয় ভক্তেরও",
+    "head_en": "Having a body means pain — even for the Mother's favoured ones"
    },
    {
     "ref": "16_m_divine_mother_250_252#p21",
@@ -1246,19 +1249,29 @@
     "head_en": "Whatever the body suffers, inner wealth remains"
    },
    {
+    "ref": "53_v_selfworship_1055_1057#p16",
+    "head": "তাঁতে মনের যোগ হলে কষ্ট একধারে পড়ে থাকে",
+    "head_en": "When the mind rests in God, pain moves aside"
+   },
+   {
+    "ref": "17_f_samadhi_303_304#p24",
+    "head": "দেহ আসে যায়, আত্মার মৃত্যু নাই",
+    "head_en": "The body comes and goes; the soul does not die"
+   },
+   {
+    "ref": "20_m_with_manilal_390_391#p18",
+    "head": "অসুখে অধৈর্য? শিশুর মতো মায়ের উপর নির্ভর কর",
+    "head_en": "Impatient when ill? Lean on the Mother as a child does"
+   },
+   {
     "ref": "17_i_with_keshab_307_309#p11",
     "head": "খুব অসুখ, কিন্তু রাতদিন ঈশ্বরীয় কথা",
     "head_en": "Very ill, yet talking of God night and day"
    },
    {
-    "ref": "16_m_divine_mother_250_252#p19",
-    "head": "প্রারব্ধ কর্মের ভোগ — কানার গঙ্গাস্নান",
-    "head_en": "The blind man's bath: some suffering must run its course"
-   },
-   {
-    "ref": "17_i_with_keshab_307_309#p5",
-    "head": "তোমার অসুখ হয়েছে কেন তার মানে আছে",
-    "head_en": "Your illness has a meaning"
+    "ref": "20_n_at_dakshineshwar_391_395#p43",
+    "head": "শরীর দুদিনের — শক্তি চাইলে চেয়ো তাঁর নাম করার জন্য",
+    "head_en": "The body is brief; if you ask for strength, ask it to praise Him"
    }
   ],
   "songs": [
@@ -1291,6 +1304,11 @@
     "head_en": "Don't bite, but you may hiss"
    },
    {
+    "ref": "02_f_thirdvisit_21_25#p19",
+    "head": "নিজেকে রক্ষা কর — কিন্তু উলটে অনিষ্ট কোরো না",
+    "head_en": "Protect yourself — but don't harm them in return"
+   },
+   {
     "ref": "52_d_avatars_920_923#p21",
     "head": "মাহুত নারায়ণের কথাও শুনতে হয়",
     "head_en": "Listen to the elephant-driver's warning too"
@@ -1301,14 +1319,14 @@
     "head_en": "God is in the tiger too, but bow from afar"
    },
    {
+    "ref": "02_f_thirdvisit_21_25#p11",
+    "head": "নিন্দা? হাতি চলে যায়, ফিরেও চায় না",
+    "head_en": "Slandered? The elephant walks on without looking back"
+   },
+   {
     "ref": "30_b_vijayagoswami_578_580#p6",
     "head": "কামারশালের নাই — সব সহ্য করবে",
     "head_en": "Be like the blacksmith's anvil"
-   },
-   {
-    "ref": "12_n_atdakshineshwar_162_164#p19",
-    "head": "যিনি মেরেছিলেন, তিনিই দুধ খাওয়াচ্ছেন",
-    "head_en": "\"He who beat me is now giving me milk\""
    },
    {
     "ref": "03_b_atshyampukur_35_38#p24",
@@ -1339,29 +1357,9 @@
   ],
   "passages": [
    {
-    "ref": "36_c_wealthofgod_658_659#p5",
-    "head": "সত্য বলছি, দর্শন হয়!",
-    "head_en": "I tell you truly, God can be seen"
-   },
-   {
     "ref": "38_b_withdevotees_712_714#p6",
     "head": "দেখা যাচ্ছে না বলে কি সূর্য নাই?",
     "head_en": "Clouds hide the sun, but the sun is there"
-   },
-   {
-    "ref": "20_y_at_dakshineshwar_426_429#p39",
-    "head": "প্রমাণ? ঈশ্বরকে দেখা যায়",
-    "head_en": "Proof? God can be seen"
-   },
-   {
-    "ref": "36_c_wealthofgod_658_659#p8",
-    "head": "নিজে ডুব দিলে তবে সন্দেহ দূর হয়",
-    "head_en": "Doubts go only when you dive in yourself"
-   },
-   {
-    "ref": "24_b_penance_478_481#p12",
-    "head": "পাঁজি টিপলে এক ফোঁটা জলও পড়ে না",
-    "head_en": "Squeeze the almanac: not one drop of rain"
    },
    {
     "ref": "14_f_with_hajra_203_206#p30",
@@ -1369,9 +1367,29 @@
     "head_en": "Even in a dry year, the farmer keeps farming"
    },
    {
-    "ref": "32_a_atdakshineshwar_588_590#p13",
-    "head": "জীবের স্বভাব — ‘হাঁ, বটে, কিন্তু —’",
-    "head_en": "Our nature: 'Yes, true, but...'"
+    "ref": "34_e_whentorenouncework_613_616#p14",
+    "head": "সাকার না নিরাকার ভেবো না — কেঁদে বলো, ‘যেমন তুমি, তাই দেখাও’",
+    "head_en": "Don't puzzle over what God is — just pray, 'Show me what You are'"
+   },
+   {
+    "ref": "36_c_wealthofgod_658_659#p8",
+    "head": "নিজে ডুব দিলে তবে সন্দেহ দূর হয়",
+    "head_en": "Doubts go only when you dive in yourself"
+   },
+   {
+    "ref": "13_a_with_devotees_174_175#p28",
+    "head": "একদিনে কি নাড়ী দেখা শেখা যায়?",
+    "head_en": "Can you learn to read a pulse in a day? Keep company with those who know"
+   },
+   {
+    "ref": "36_c_wealthofgod_658_659#p5",
+    "head": "ব্যাকুল হয়ে খুঁজলে দর্শন হয় — সত্য বলছি",
+    "head_en": "Seek Him with longing and He can be seen — I tell you truly"
+   },
+   {
+    "ref": "20_y_at_dakshineshwar_426_429#p39",
+    "head": "প্রমাণ চাও? সায়েন্সে নয়, সাধনায় তাঁকে জানা যায়",
+    "head_en": "Want proof? God is known by direct experience, not by science"
    }
   ],
   "songs": [
@@ -1405,6 +1423,11 @@
     "head_en": "Jal, pani, water: one substance, many names"
    },
    {
+    "ref": "05_a_kedarsfestival_59_60#p15",
+    "head": "সব ধর্মেই ভুল আছে, ব্যাকুলতাই আসল",
+    "head_en": "Every faith has flaws; yearning is what counts — the Father hears 'ba' and 'pa'"
+   },
+   {
     "ref": "12_g_withgoswami_150_152#p23",
     "head": "গিরগিটির রঙ নিয়ে ঝগড়া",
     "head_en": "The quarrel over the chameleon's colour"
@@ -1415,14 +1438,14 @@
     "head_en": "Many ways to the roof; hold firmly to one"
    },
    {
-    "ref": "58_d_godorscience_1121_1123#p13",
-    "head": "যার যা পেটে সয় — মায়ের মাছ রান্না",
-    "head_en": "A mother cooks the fish to suit each child"
+    "ref": "26_c_withdevotees_510_514#p45",
+    "head": "একটা পথে ভালবাসা হলেই হল, বাকি তিনি বুঝিয়ে দেবেন",
+    "head_en": "Love Him along one path; He will show you the rest"
    },
    {
-    "ref": "03_a_atbalaramhome_33_35#p12",
-    "head": "সব্বাই বলে, আমার ঘড়ি ঠিক চলছে",
-    "head_en": "Everyone thinks their own watch is right"
+    "ref": "13_h_with_devotees_187_190#p8",
+    "head": "নিজের ধর্মে নিষ্ঠা, অন্য ধর্মে মিষ্ট ব্যবহার",
+    "head_en": "Be devoted to your own path, and kind to others'"
    },
    {
     "ref": "52_h_aboutavatars_933_937#p53",
@@ -1430,9 +1453,9 @@
     "head_en": "Whatever your path, call on Him with longing"
    },
    {
-    "ref": "24_d_god_realization_485_488#p12",
-    "head": "কোন্‌ পথ ভাল, অত বিচার কেন?",
-    "head_en": "Why argue over which path is better?"
+    "ref": "58_d_godorscience_1121_1123#p13",
+    "head": "যার যা পেটে সয় — মায়ের মাছ রান্না",
+    "head_en": "A mother cooks the fish to suit each child"
    }
   ],
   "songs": []
@@ -1463,9 +1486,19 @@
     "head_en": "Drop the toy and cry, and Mother comes running"
    },
    {
-    "ref": "09_g_bhaktiyoga_122_125#p31",
-    "head": "চোখের জলে মনের ময়লা ধুয়ে যায়",
-    "head_en": "Tears wash the mud off the needle"
+    "ref": "36_i_kali_brahma_668_671#p28",
+    "head": "সরল মনে, শুদ্ধ মনে প্রার্থনা কর",
+    "head_en": "Pray with a simple, pure heart"
+   },
+   {
+    "ref": "19_f_at_kolkata_359_363#p46",
+    "head": "হিসাব নয় — বিড়ালছানার মতো কেবল ডাকো",
+    "head_en": "No counting and calculating — just cry to Him like a kitten"
+   },
+   {
+    "ref": "37_c_with_devotees_682_685#p22",
+    "head": "নির্জনে ডাকো, ‘দেখা দাও’ বলে কাঁদো",
+    "head_en": "Go apart and call Him; weep, 'Reveal Yourself to me'"
    },
    {
     "ref": "36_e_powerofattorney_662_663#p27",
@@ -1478,19 +1511,14 @@
     "head_en": "Love God with three loves combined"
    },
    {
-    "ref": "36_i_kali_brahma_668_671#p28",
-    "head": "সরল মনে, শুদ্ধ মনে প্রার্থনা কর",
-    "head_en": "Pray with a simple, pure heart"
-   },
-   {
-    "ref": "58_d_godorscience_1121_1123#p11",
-    "head": "আন্তরিক হলে তিনি শুনবেনই শুনবেন",
-    "head_en": "If you are sincere, He will surely listen"
+    "ref": "09_g_bhaktiyoga_122_125#p31",
+    "head": "চোখের জলে মনের ময়লা ধুয়ে যায়",
+    "head_en": "Tears wash the mud off the needle"
    },
    {
     "ref": "35_k_desirebhakti_646_648#p6",
-    "head": "ঠাকুরের প্রার্থনা — কেবল শুদ্ধাভক্তি দাও",
-    "head_en": "Thakur's own prayer: only pure devotion"
+    "head": "কি চাইবে? ঠাকুর চেয়েছিলেন কেবল শুদ্ধাভক্তি",
+    "head_en": "What to pray for: Thakur asked for nothing but pure love"
    }
   ],
   "songs": [
@@ -1518,14 +1546,19 @@
   ],
   "passages": [
    {
-    "ref": "09_c_intenserenunciation_116_117#p8",
-    "head": "জল না আসা পর্যন্ত খানা কাটা",
-    "head_en": "The farmer who dug until the water came"
+    "ref": "46_d_assurance_831_832#p5",
+    "head": "আন্তরিক যে চাইবে, তারই হবে — হবেই হবে",
+    "head_en": "Whoever sincerely seeks God will surely reach Him"
    },
    {
-    "ref": "37_c_with_devotees_682_685#p23",
-    "head": "পাড়ে বসে থাকলে কি মাছ পাওয়া যায়?",
-    "head_en": "You won't catch fish just sitting on the bank"
+    "ref": "53_d_narendrasearnestness_1014_1017#p33",
+    "head": "প্রাণ ব্যাকুল হলে জেনো, অরুণোদয় হয়েছে",
+    "head_en": "Your very longing is the dawn: the sun is not far"
+   },
+   {
+    "ref": "07_b_teachingofdevotees_96_98#p11",
+    "head": "কার্নিসের বীজ — ফল দেরিতে, কিন্তু হবেই",
+    "head_en": "The seed on the cornice: slow to show, but it will bear fruit"
    },
    {
     "ref": "05_c_masterdisciple_62_66#p45",
@@ -1533,14 +1566,14 @@
     "head_en": "Seeing the child run about, the hiding mother appears"
    },
    {
-    "ref": "16_y_brahma_shakti_269_274#p35",
-    "head": "উপর উপর ভাসলে কি রত্ন পাওয়া যায়?",
-    "head_en": "Gems aren't found by floating on the surface"
+    "ref": "37_c_with_devotees_682_685#p23",
+    "head": "পাড়ে বসে থাকলে কি মাছ পাওয়া যায়?",
+    "head_en": "You won't catch fish just sitting on the bank"
    },
    {
-    "ref": "19_d_yoga_356_357#p15",
-    "head": "বড় গাছ শেষে আপনিই ভেঙে পড়ে",
-    "head_en": "Cut most of the tree, and it falls by itself"
+    "ref": "09_c_intenserenunciation_116_117#p8",
+    "head": "জল না আসা পর্যন্ত খানা কাটা",
+    "head_en": "The farmer who dug until the water came"
    },
    {
     "ref": "09_a_realisedsoul_113_114#p12",
@@ -1630,19 +1663,19 @@
   ],
   "passages": [
    {
-    "ref": "09_b_fourtypes_115_116#p8",
-    "head": "উট কাঁটা ঘাস খায়, তবু ছাড়ে না",
-    "head_en": "The camel keeps eating thorns that make it bleed"
+    "ref": "30_b_vijayagoswami_578_580#p19",
+    "head": "বড়মানুষের বাড়ির ঝির মতো — সব কর, কিন্তু জেনো এ-সব তাঁর",
+    "head_en": "Like the nursemaid: do everything, but know it is all His"
    },
    {
-    "ref": "12_q_ramlals_songs_168_170#p13",
-    "head": "নিজে ঘর বানিয়েছে, ছেড়ে আসতে মায়া হয়",
-    "head_en": "The silkworm trapped in the cocoon it built"
+    "ref": "37_f_maya_691_693#p28",
+    "head": "তাঁকে যত চিন্তা করবে, আসক্তি তত কমবে",
+    "head_en": "The more you think of Him, the more attachment loosens"
    },
    {
-    "ref": "21_h_teachingpratap_458_459#p8",
-    "head": "'আমার হরি' — কিন্তু জানে, হরি মনিবের ছেলে",
-    "head_en": "The nursemaid loves the child but knows he isn't hers"
+    "ref": "21_g_brahmosamajandramakrishna_456_458#p19",
+    "head": "\"আমি-আমার\" অজ্ঞান; \"তুমি-তোমার\" জ্ঞান",
+    "head_en": "\"I and mine\" is ignorance; \"You and Yours\" is wisdom"
    },
    {
     "ref": "16_g_at_dakshineshwar_241_242#p18",
@@ -1653,6 +1686,11 @@
     "ref": "44_b_sriramakrishnasdivinetrance_797_799#p10",
     "head": "পাঁকাল মাছের মতো — কাদা ঝেড়ে ফেলবে",
     "head_en": "Like the mudfish: live in the mud, shake it off"
+   },
+   {
+    "ref": "12_q_ramlals_songs_168_170#p13",
+    "head": "নিজে ঘর বানিয়েছে, ছেড়ে আসতে মায়া হয়",
+    "head_en": "The silkworm trapped in the cocoon it built"
    },
    {
     "ref": "17_k_jaygopal_sen_310_312#p18",
@@ -1685,19 +1723,19 @@
   ],
   "passages": [
    {
-    "ref": "58_d_godorscience_1121_1123#p9",
-    "head": "আম খেতে এসেছিস, আম খেয়ে যা",
-    "head_en": "You came to eat mangoes, so eat them"
+    "ref": "09_h_withbaburam_125_128#p16",
+    "head": "বোঝার দরকার নাই — জীবনের উদ্দেশ্য ভক্তি, আম খাও",
+    "head_en": "No need to understand it all: life's aim is love of God — eat the mangoes"
    },
    {
     "ref": "21_f_moneyworship_453_456#p16",
-    "head": "মানবজন্মের উদ্দেশ্য ঈশ্বরলাভ, হাসপাতাল নয়",
-    "head_en": "Life's aim is God, not building hospitals"
+    "head": "সৎকর্ম প্রথম ধাপ, জীবনের উদ্দেশ্য ঈশ্বরলাভ",
+    "head_en": "Good works are a first step; the goal of life is God"
    },
    {
     "ref": "20_r_at_dakshineshwar_403_407#p37",
-    "head": "অর্জুন কেবল পাখির চোখ দেখলেন",
-    "head_en": "Like Arjuna, see only the bird's eye"
+    "head": "অর্জুনের মতো লক্ষ্য একটাই — ঈশ্বরলাভ",
+    "head_en": "Make God your one aim, as Arjuna saw only the bird's eye"
    },
    {
     "ref": "03_a_atbalaramhome_33_35#p16",

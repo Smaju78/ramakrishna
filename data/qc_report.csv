@@ -1,0 +1,258 @@
+﻿batch,problem,verdict,ref,reason
+A,grief,new,12_r_divine_form_170_172#p24,Validates grief for one's own child before anything else; has English
+A,grief,new,48_b_sriramakrishnaradhika_843_846#p35,Said to a grieving mother: we return to God like bubbles to water; has English
+A,grief,keep,37_f_maya_691_693#p5,Classic grief parable
+A,grief,keep,20_o_with_narendra_395_397#p16,Speaks to 'why did this happen'
+A,grief,drop,16_b_at_dakshineshwar_229_231#p10,"Moved to death page, where it fits best (one's own death as birth into something better)"
+A,grief,keep,42_e_dakshineshwar_756_758#p27,Even the wise grieve: no shame in tears; headline sharpened
+A,grief,drop,16_m_divine_mother_250_252#p15,Near-duplicate of 20_o p6 (body brings joy and sorrow)
+A,grief,keep,20_o_with_narendra_395_397#p6,Concrete: Narendra's father died; joy and sorrow both come
+A,grief,drop,50_d_griefstrickenbrahmani_883_885#p14,"Event paragraph is the mother's excited chatter; needs context, no guidance"
+A,death,new,16_b_at_dakshineshwar_229_231#p10,Moved from grief: the most direct consolation about one's own death
+A,death,new,17_f_samadhi_303_304#p24,"Plain statement: body comes and goes, soul is deathless; has English"
+A,death,keep,12_b_atdakshineshwar_142_145#p27,Short consolation when a life ends
+A,death,replace,42_f_samadhi_759_761#p34,"About the jivanmukta; same nut/shell image as 17_f p24, which is plainer"
+A,death,drop,14_f_with_hajra_203_206#p11,Opens mid-story about a murdered sadhu; needs context
+A,death,drop,21_g_brahmosamajandramakrishna_456_458#p18,"'No death in the sea of bliss' is about fear of losing oneself in God, not death"
+A,death,keep,16_zg_with_devotees_293_294#p10,Practical preparation for the end
+A,death,keep,20_n_at_dakshineshwar_391_395#p44,Reframes clinging to life; headline now says what it offers
+A,fear,replace,05_c_masterdisciple_62_66#p45,Already on despair and mostly about grace after longing; 37_k p23 gives the same image directly about fear
+A,fear,new,37_k_jnanayoga_701_703#p23,'Those held by the Lord need have no fear'; has English
+A,fear,keep,16_zb_at_dakshineshwar_279_282#p32,Childlike trust as the cure for worry
+A,fear,keep,36_e_powerofattorney_662_663#p5,"Hand over the burden, do your part"
+A,fear,new,56_c_manomohan_1105_1107#p7,Practical image for anxiety in a hectic life; has English
+A,fear,keep,28_e_chaitanyadeb_531_533#p16,Worry about provision
+A,fear,keep,37_d_sannyasi_and_householder_685_688#p15,Accepting uncertainty
+A,fear,keep,14_d_with_manilal_b_200_202#p11,Faith against fear of danger
+A,anger,new,14_l_at_dakshineshwar_215_217#p21,Explains where anger comes from (thwarted desire); has English
+A,anger,keep,52_g_yugadharma_927_933#p36,What anger does to judgment
+A,anger,keep,14_l_at_dakshineshwar_215_217#p23,Show firmness without harming
+A,anger,keep,30_b_vijayagoswami_578_580#p9,"Practical: pause and reflect, keep good company"
+A,anger,replace,14_a_at_dakshineshwar_196_197#p24,Mostly Thakur's vision about Hazra; the anger lesson needs context
+A,anger,drop,12_n_atdakshineshwar_162_164#p19,"Already on badpeople; about seeing God in all, not handling one's own anger"
+A,anger,drop,52_g_yugadharma_927_933#p29,Mainly about the child-like state beyond the gunas
+A,anger,new,47_a_atramshome_833_837#p42,Rama calms Lakshmana: your anger too is passing; has English
+A,anger,new,12_a_atdakshineshwar_140_142#p37,"Realistic and kind: reduce it, don't despair; has English"
+A,anger,keep,12_q_ramlals_songs_168_170#p10,The lasting cure: love of God
+A,jealousy,keep,29_b_occultpower_564_565#p12,Antidote to comparison: no one is other; Prahlada prays for his tormentors
+A,jealousy,new,58_d_godorscience_1121_1123#p13,Envy is comparison: the Mother gives each what suits him and loves none less; has English (also on whichpath)
+A,jealousy,keep,36_i_kali_brahma_668_671#p30,Hold no ill will
+A,jealousy,keep,20_za_with_hari_430_433#p32,Domestic envy (sisters-in-law) with a practical remedy; headline fixed
+A,jealousy,keep,28_o_hazra_557_559#p14,Fault-finding is how envy shows itself (also on insult)
+A,jealousy,drop,06_g_forthebenefitofall_90_91#p8,Joke about sectarian squabbles; not about envy
+A,loneliness,replace,16_s_guru_disciple_259_261#p16,"Thakur's own longing for his disciples, not help for a lonely reader"
+A,loneliness,replace,46_a_narendraandhajra_822_825#p31,"Thakur searching for a kindred soul; his yearning, not guidance"
+A,loneliness,drop,49_a_purna_855_857#p28,Describes Gopaler Ma's visions and Thakur's emotion; not guidance
+A,loneliness,keep,23_e_pilgrimage_471_473#p24,God is one's own
+A,loneliness,keep,36_e_powerofattorney_662_663#p27,"Your own Mother, not a stranger"
+A,loneliness,keep,48_d_selfishness_848_854#p27,Names the feeling of being 'someone else's child' and its cure
+A,loneliness,new,28_q_shambhumallick_561_562#p8,Devotees are His kin; He will draw them; has English
+A,loneliness,new,57_a_ramkeshabnarendra_1112_1114#p13,"Practical: a mind left alone dries up, seek good company (no English found)"
+A,loneliness,new,16_r_at_dakshineswar_256_259#p32,Practical use of time alone; has English
+A,hopeless,keep,48_d_selfishness_848_854#p43,Direct answer to 'is there no way?'
+A,hopeless,new,41_c_atstartheater_744_747#p57,Speaks to the hopeless voice itself; has English
+A,hopeless,keep,56_c_manomohan_1105_1107#p18,Light fills a long-dark room at once
+A,hopeless,keep,05_b_lustandgold_60_62#p12,Hold on through the storm; it passes
+A,hopeless,drop,16_m_divine_mother_250_252#p21,Already on illness page; about bodily suffering
+A,hopeless,drop,20_s_advice_to_thakurdada_407_411#p40,Half about renouncing passions; anvil image already on insult/badpeople
+A,hopeless,new,19_d_yoga_356_357#p14,Things happen in their time; has English
+A,hopeless,new,37_k_jnanayoga_701_703#p21,Persevere when results don't come; has English
+A,restless,keep,05_b_lustandgold_60_62#p18,Explains why the mind won't settle
+A,restless,keep,06_e_purposeofcreation_86_87#p20,Company shapes the mind; headline made explicit
+A,restless,keep,28_m_ramakrishna_radhika_551_555#p59,The promise of practice
+A,restless,new,41_b_calmnessofgirish_742_744#p28,Daily practice and patience; has English
+A,restless,replace,11_atgovindamukhopadhyayas_138_139#p16,Near-duplicate of the practice passages; 41_b p28 adds 'not in a day'
+A,restless,keep,02_e_wayofdevotion_19_21#p7,"Practical: chanting, holy company, solitude"
+A,restless,keep,02_e_wayofdevotion_19_21#p17,Why solitude helps
+A,restless,keep,52_h_aboutavatars_933_937#p50,Vary methods when one grows stale; headline now says so
+B,ego,keep,36_h_vijay_667_668#p6,"vivid image plus the way out ('Thou, not I'); headline now names the remedy"
+B,ego,replace,52_g_yugadharma_927_933#p28,defines unripe I but ends on a thief anecdote; 16_h#p18 gives the same teaching as clear advice
+B,ego,new,16_h_three_gunas_243_245#p18,"clearest statement: drop the unripe I, keep 'I am His servant'"
+B,ego,new,09_f_veilofmaya_119_122#p27,"realistic and consoling: ego keeps sprouting, so make it a servant-I"
+B,ego,keep,52_m_advicetodrsarkar_944_946#p4,"short, memorable case for humility"
+B,ego,replace,48_d_selfishness_848_854#p54,mainly about guru-giri / teaching others; replaced by 52_w#p42
+B,ego,new,52_w_freewill_964_968#p42,potatoes in the pot: our power is God's power
+B,ego,keep,36_f_i_conciousness_664_666#p4,"humorous, puts status in perspective"
+B,ego,keep,52_zb_panditspride_975_976#p5,pride of learning; real attainment doesn't boast
+B,ego,keep,09_f_veilofmaya_119_122#p14,short self-recognition story about pride of money
+B,desire,keep,20_y_at_dakshineshwar_426_429#p24,letting go ends the torment; headline now says so
+B,desire,replace,09_b_fourtypes_115_116#p8,"long, scornful of grieving mothers and large families; harsh with no way forward"
+B,desire,keep,02_e_wayofdevotion_19_21#p20,"plain discrimination about money; head_en fixed (text says rice, dal, shelter)"
+B,desire,replace,28_l_sayings_547_551#p13,Thakur's own odd episode (trampling and spitting on clothes); 37_k#p33 states the principle cleanly
+B,desire,keep,37_f_maya_691_693#p24,direct answer to 'why won't attachment go?'
+B,desire,keep,13_d_at_sinthee_178_180#p31,"gentle: desire wears itself out, then longing for God comes"
+B,desire,new,26_b_samadhi_506_509#p10,"hopeful, practical: gradual sobering through holy talk"
+B,desire,new,37_k_jnanayoga_701_703#p33,enjoy and give up each thing; gold-belt example models it
+B,desire,new,03_b_atshyampukur_35_38#p27,"needle and magnet: prayer, tears and holy company clear greed"
+B,lust,replace,02_e_wayofdevotion_19_21#p22,body-as-bones/fat/excreta is disparaging and unsuitable for a family audience; replaced by practice/tortoise
+B,lust,new,10_e_discriminationanddevotion_136_137#p10,constructive: steady practice makes self-control easy
+B,lust,new,52_g_yugadharma_927_933#p46,consoling: love of God masters the passions without strain
+B,lust,keep,20_y_at_dakshineshwar_426_429#p20,practical redirection of passions
+B,lust,keep,37_f_maya_691_693#p28,dignified picture of transformed relationships
+B,lust,keep,09_d_lustandlucre_117_118#p12,hopeful magnet image
+B,lust,keep,36_d_renunciation_660_661#p6,"realistic way forward (distance first, then strength); headline now names the advice"
+B,lust,keep,03_b_atshyampukur_35_38#p23,reframes desire as a chance to grow great
+B,guilt,keep,08_d_atmanimallicks_110_112#p16,"fullest version: stop dwelling on sin, resolve, take His name"
+B,guilt,drop,06_f_advicetobrahmos_88_90#p8,"near-duplicate of 08_d#p16 and 16_l#p9, with no way forward of its own"
+B,guilt,keep,06_f_advicetobrahmos_88_90#p11,"short, practical: admit once, resolve, trust"
+B,guilt,keep,16_l_at_dakshineshwar_249_250#p9,positive self-talk ('I am free') as remedy
+B,guilt,keep,11_atgovindamukhopadhyayas_138_139#p14,memorable image of the Name driving sin away
+B,guilt,drop,12_g_withgoswami_150_152#p15,resolve theme already covered; tone mocking rather than consoling
+B,guilt,drop,20_p_at_dakshineshwar_397_401#p56,Thakur musing on going beyond sin and virtue; not guidance for someone weighed down now
+B,guilt,keep,52_zb_panditspride_975_976#p13,surrender the burden of judgement to God
+B,guilt,new,02_g_solutionisfaith_25_27#p11,"strong assurance even for grave wrongs, with the resolve 'never again'"
+B,guilt,new,09_g_bhaktiyoga_122_125#p31,repentant tears cleanse the mind (also used on prayer; English anchor already exists)
+B,guilt,new,38_b_withdevotees_712_714#p25,"to Girish, who felt impure: grace removes long darkness at once"
+B,hypocrisy,keep,12_l_ochreclothes_157_159#p9,direct: falsehood erodes; better to be plainly what you are
+B,hypocrisy,keep,20_p_at_dakshineshwar_397_401#p32,a mirror for self-examination
+B,hypocrisy,keep,20_v_truth_417_419#p18,vivid image of words vs. inner attachment
+B,hypocrisy,keep,28_g_naran_535_537#p26,knowing vs. living; headline now states the point
+B,hypocrisy,drop,19_f_at_kolkata_359_363#p33,near-duplicate of the almanac image on the same page
+B,hypocrisy,keep,22_a_baburamrakhal_460_463#p19,the positive alternative: simplicity
+B,hypocrisy,keep,44_c_truthisworship_799_800#p11,practical discipline of truthfulness
+B,hypocrisy,new,14_c_with_manilal_a_199_200#p18,hopeful: even pretence can turn into a sincere resolve
+B,laziness,keep,09_c_intenserenunciation_116_117#p8,model of determined effort
+B,laziness,keep,12_r_divine_form_170_172#p10,persistence in one place
+B,laziness,keep,14_i_with_manirampur_devotees_b_209_211#p18,"short, names the 'someday' attitude"
+B,laziness,keep,14_g_with_devotees_206_207#p17,encourages going further
+B,laziness,keep,16_y_brahma_shakti_269_274#p35,"dive deep, don't skim"
+B,laziness,keep,12_s_advice_to_adhar_172_173#p13,"effort now, ease later"
+B,laziness,keep,20_p_at_dakshineshwar_397_401#p29,pray for the strength to act
+B,insult,keep,02_f_thirdvisit_21_25#p11,"core image: walk on, don't look back"
+B,insult,keep,30_b_vijayagoswami_578_580#p6,"steady under blows, spoken to someone actually criticised"
+B,insult,replace,28_h_teachingnarendra_537_541#p56,"fragment needing context (sattva's tamas, prostitute analogy, Radha's pride)"
+B,insult,keep,37_c_with_devotees_682_685#p22,don't fear being called mad for God
+B,insult,replace,20_k_simplicity_387_388#p8,about Thakur's own broken arm; weak guidance on criticism
+B,insult,keep,28_o_hazra_557_559#p14,other side of the problem: don't criticise others yourself
+B,insult,new,49_b_lustandlucre_857_859#p20,Thakur models calm indifference to someone running him down
+B,insult,new,02_f_thirdvisit_21_25#p24,practical boundary: protect yourself without harming
+B,insult,new,17_c_vijaya_goswami_298_301#p21,direct advice to drop fear of what people say
+C,family,keep,30_b_vijayagoswami_578_580#p19,"Core practical image: do every family duty, keep the mind on God."
+C,family,keep,20_t_mahimas_scholarship_411_413#p26,Reassures householders they need not give up family.
+C,family,keep,02_e_wayofdevotion_19_21#p16,"Clear, memorable way not to get entangled."
+C,family,keep,19_f_at_kolkata_359_363#p29,Practical model for juggling many duties.
+C,family,keep,37_d_sannyasi_and_householder_685_688#p14,"Recasts home as a support, not an obstacle."
+C,family,keep,44_b_sriramakrishnasdivinetrance_797_799#p10,"Consoling: worldly mud will stick, but can be shaken off."
+C,family,keep,16_zg_with_devotees_293_294#p16,"Kept; headline sharpened to its real point (nothing to renounce, God is all)."
+C,marriage,keep,20_p_at_dakshineshwar_397_401#p37,Affirms love for one's spouse; English headline made accurate (the Mother's maya).
+C,marriage,keep,42_e_dakshineshwar_756_758#p10,Warm and practical: enjoy your spouse's company.
+C,marriage,keep,20_p_at_dakshineshwar_397_401#p39,Picture of a spiritual partnership.
+C,marriage,keep,37_f_maya_691_693#p28,Spouse becomes a friend on the path as devotion grows.
+C,marriage,drop,17_l_householder_312_316#p7,"Starts mid-answer and ends on a wife's bitter complaint, no way forward."
+C,marriage,keep,36_d_renunciation_660_661#p10,A wise spouse's counsel against running away; headline clarified.
+C,marriage,new,20_l_at_dakshineshwar_388_390#p27,Reverence for one's wife as the Divine Mother: a positive model.
+C,marriage,new,17_l_householder_312_316#p10,"Right after naming discord with one's wife among household trials, Thakur gives the remedy: solitude and prayer."
+C,children,keep,36_e_powerofattorney_662_663#p8,Clear statement of a parent's duty.
+C,children,replace,36_e_powerofattorney_662_663#p10,"Fragment ('Until they come of age') needing the question; replaced by 05_c#p15, same point, self-contained."
+C,children,drop,02_c_secondvisit_16_17#p21,Scolding of a third party; the duty point is already covered by 36_e#p8.
+C,children,keep,17_l_householder_312_316#p5,Feed children as Gopal: sanctifies everyday parenting.
+C,children,keep,09_h_withbaburam_125_128#p20,Helps understand attachment (maya) vs wider love (daya).
+C,children,replace,47_a_atramshome_833_837#p54,"Calls anxious parents 'drunk' with no way forward; replaced by 60_a#p41 (hand the burden to God, love like the nurse)."
+C,children,new,05_c_masterdisciple_62_66#p15,"How long to carry children: provide, then let them stand on their own."
+C,children,new,60_a_ashwinikumar_1164_1170#p41,"Answers parental worry: give God the power of attorney; love fully, hold lightly."
+C,money,keep,02_e_wayofdevotion_19_21#p20,"Puts money in proportion; English headline fixed (food and shelter, not clothes)."
+C,money,keep,26_c_withdevotees_510_514#p60,Directly addresses money anxiety.
+C,money,keep,58_c_sriramakrishna_1119_1121#p10,Validates saving for one's family.
+C,money,keep,05_c_masterdisciple_62_66#p13,"Earn more, but honestly: practical."
+C,money,keep,16_u_tantric_worship_262_264#p15,The right use of money.
+C,money,keep,40_b_birthdaycelebration_731_734#p53,"Consoling, humorous perspective on a debt threat."
+C,money,replace,37_j_save_698_701#p17,"Framed as the highest monks' ajagara-vritti; replaced by 36_e#p5, said to a householder."
+C,money,new,36_e_powerofattorney_662_663#p5,Trust for worried householders: entrust everything to God and do your work.
+C,oldage,keep,16_zg_with_devotees_293_294#p11,Direct counsel for later years.
+C,oldage,replace,20_l_at_dakshineshwar_388_390#p24,"Only the Jaynarayan anecdote; replaced by the next line (#p25), the actual advice, said to a 65-year-old."
+C,oldage,drop,09_b_fourtypes_115_116#p10,Fragmentary jab at a 50-year-old; no way forward.
+C,oldage,keep,43_l_atdebendrashome_788_789#p19,Hope that it is not too late; English headline reframed.
+C,oldage,drop,52_g_yugadharma_927_933#p31,"Catalogue of the old man's faults; reads as disparaging, no remedy."
+C,oldage,drop,16_zc_at_dakshineshwar_282_284#p31,Fragment about a rich man's sons; mainly about money.
+C,oldage,drop,32_e_ishwarguardian_595_597#p14,"Thakur's own decision about his aged mother, not guidance for the ageing reader."
+C,oldage,new,16_zg_with_devotees_293_294#p10,Told to an elderly woman: practise the Name so family and will-worries do not crowd the end.
+C,oldage,new,16_b_at_dakshineshwar_229_231#p10,"Consolation for bodily decline: suffering is of the body, not the Self."
+D,work,keep,13_d_at_sinthee_178_180#p18,"Core image: work fully, mind at home in God"
+D,work,keep,36_d_renunciation_660_661#p8,"Clear, practical balance of work and God"
+D,work,keep,21_f_moneyworship_453_456#p9,Work is unavoidable; drop the craving for reward
+D,work,keep,06_i_karmayoga_92_93#p12,Do what comes your way; don't pile on work
+D,work,keep,12_b_atdakshineshwar_142_145#p10,Work done rightly purifies the mind — encouraging
+D,work,replace,58_c_sriramakrishna_1119_1121#p12,"About charity as seva and ends ""too hard for this age""; replaced by p11 (offer results to God)"
+D,work,drop,21_f_moneyworship_453_456#p15,Abstract one-liner; overlaps 06_i p12
+D,work,new,58_c_sriramakrishna_1119_1121#p11,Direct method for a worker: give gain/loss/joy/pain to God
+D,work,new,06_i_karmayoga_92_93#p10,"For the overloaded: pray for selfless work, and less of it"
+D,work,new,10_b_superconcious_131_133#p33,Practical ethics for office/business work
+D,work,drop,song:মন রে কৃষি কাজ জানো না,Farming is a metaphor for sadhana; lyrics are not about work
+D,illness,keep,16_m_divine_mother_250_252#p21,"Whatever the body suffers, the devotee's inner wealth stays"
+D,illness,keep,53_v_selfworship_1055_1057#p16,"Short, direct: mind on God puts pain aside"
+D,illness,keep,17_i_with_keshab_307_309#p11,Models keeping God-talk alive through severe illness
+D,illness,replace,52_k_completeknowledge_940_942#p13,"Same skeleton prayer as 20_n p43, which opens with the teaching ""body is brief, He alone is real"""
+D,illness,drop,51_l_drrakhal_913_915#p17,"Describes his own fading sense of ""I"" — not guidance for the reader"
+D,illness,replace,16_m_divine_mother_250_252#p19,"Past-karma framing can read as blame to an ill reader; p15 (pain comes with a body, even to the beloved) consoles instead"
+D,illness,drop,17_i_with_keshab_307_309#p5,Specific to Keshab (illness caused by spiritual emotion); doesn't apply to the reader
+D,illness,new,16_m_divine_mother_250_252#p15,Suffering is not a sign God has abandoned you
+D,illness,new,17_f_samadhi_303_304#p24,Body vs immortal soul — perspective for the seriously ill
+D,illness,new,20_m_with_manilal_390_391#p18,Permission to be impatient; rely on the Mother like a child
+D,illness,new,20_n_at_dakshineshwar_391_395#p43,How to pray when ill — strength in order to praise Him
+D,badpeople,keep,02_f_thirdvisit_21_25#p23,"Classic: don't bite, but hiss to protect yourself"
+D,badpeople,keep,52_d_avatars_920_923#p21,Heed the warning; seeing God in all is no reason to stand in harm's way
+D,badpeople,keep,11_atgovindamukhopadhyayas_138_139#p6,Respect from a distance — a clear boundary
+D,badpeople,keep,30_b_vijayagoswami_578_580#p6,Bearing slander like the anvil
+D,badpeople,keep,03_b_atshyampukur_35_38#p24,Understanding why such people exist
+D,badpeople,drop,12_n_atdakshineshwar_162_164#p19,"About the illumined beyond sin/virtue; to a reader being harmed it can read as ""accept the beating"""
+D,badpeople,new,02_f_thirdvisit_21_25#p19,"Direct answer to ""should I just keep quiet when harmed?"""
+D,badpeople,new,02_f_thirdvisit_21_25#p11,For those mocked or slandered: walk on like the elephant
+D,notime,keep,20_h_shibpur_devotees_382_383#p11,Minimum practice for the very busy; hand Him the charge
+D,notime,keep,38_c_seeinggod_714_716#p9,Simple morning/evening practice for those without time
+D,notime,keep,28_f_withnarendra_534_535#p14,A busy woman whose mind stays on what matters
+D,notime,keep,20_t_mahimas_scholarship_411_413#p26,"Live in the world, mind with God — like the tortoise"
+D,notime,keep,41_b_calmnessofgirish_742_744#p28,Daily habit builds longing — practical
+D,notime,keep,40_c_withdevotees_734_736#p6,Occasional solitude: realistic for householders
+D,attachment,drop,09_b_fourtypes_115_116#p8,"Camel image is apt but mocks grieving mothers and remarriage — harsh, no way forward"
+D,attachment,replace,21_h_teachingpratap_458_459#p8,"Nursemaid image only; 30_b p19 has the same image plus the instruction (all is His, I am His servant)"
+D,attachment,keep,16_g_at_dakshineshwar_241_242#p18,Compassion vs attachment — key distinction
+D,attachment,keep,44_b_sriramakrishnasdivinetrance_797_799#p10,"Mudfish: live in it, shake it off"
+D,attachment,keep,12_q_ramlals_songs_168_170#p13,Silkworm: you could cut free if you chose
+D,attachment,keep,17_k_jaygopal_sen_310_312#p18,"Impermanence of what we call ""mine"""
+D,attachment,new,30_b_vijayagoswami_578_580#p19,Fuller nursemaid teaching with the practical conclusion
+D,attachment,new,37_f_maya_691_693#p28,The way forward: attachment falls away as devotion grows
+D,attachment,new,21_g_brahmosamajandramakrishna_456_458#p19,"Shift from ""mine"" to ""Yours"" — the core remedy"
+E,doubt,keep,38_b_withdevotees_712_714#p6,Clear image for a doubter: not seeing is not absence
+E,doubt,keep,14_f_with_hajra_203_206#p30,Directly addresses atheistic phases; keep going like the farmer
+E,doubt,keep,36_c_wealthofgod_658_659#p8,Books can't settle doubt; dive in yourself
+E,doubt,keep,36_c_wealthofgod_658_659#p5,Thakur's own testimony plus the way: seek with longing; headline sharpened
+E,doubt,keep,20_y_at_dakshineshwar_426_429#p39,Speaks to the modern 'where is the proof / science' doubt; headline sharpened
+E,doubt,drop,24_b_penance_478_481#p12,Near-duplicate of 36_c#p8 (scripture vs. direct experience)
+E,doubt,drop,32_a_atdakshineshwar_588_590#p13,"Descriptive (jivakoti vs ishvarakoti), no way forward; can read as dismissive"
+E,doubt,new,34_e_whentorenouncework_613_616#p14,"The doubter's prayer: no need to settle theology, ask Him to show Himself"
+E,doubt,new,13_a_with_devotees_174_175#p28,"Why others' testimony doesn't convince, and the remedy: patient holy company"
+E,whichpath,keep,16_f_at_khelat_ghoshs_238_240#p9,"Core answer: one God, many names, every path leads to Him"
+E,whichpath,keep,12_g_withgoswami_150_152#p23,Chameleon parable ends quarrels over who is right
+E,whichpath,keep,28_b_reconciliation_523_525#p8,Practical: hold firmly to one way
+E,whichpath,keep,52_h_aboutavatars_933_937#p53,"Form or formless, with longing either path reaches Him"
+E,whichpath,keep,58_d_godorscience_1121_1123#p13,Different paths suit different temperaments; now the only 58_d pick in batch E
+E,whichpath,replace,03_a_atbalaramhome_33_35#p12,"Mostly Thakur's own wish to watch a church service; replaced by 05_a#p15 (same watch saying, addressed to the reader)"
+E,whichpath,replace,24_d_god_realization_485_488#p12,Fragment that breaks off mid-story; replaced by 26_c#p45
+E,whichpath,new,05_a_kedarsfestival_59_60#p15,"All faiths have flaws, yearning is enough; the father understands every child"
+E,whichpath,new,26_c_withdevotees_510_514#p45,"Stop comparing paths; love along one, He reveals the others"
+E,whichpath,new,13_h_with_devotees_187_190#p8,How to hold one's own faith without disdain for others
+E,prayer,keep,07_e_formorformless_100_102#p10,The essential teaching: cry for God and Mother comes
+E,prayer,keep,36_i_kali_brahma_668_671#p28,"Simple, direct instruction on how to pray"
+E,prayer,keep,36_e_powerofattorney_662_663#p27,"Pray as His own child, with insistence"
+E,prayer,keep,38_c_seeinggod_714_716#p5,The intensity of love prayer needs
+E,prayer,keep,09_g_bhaktiyoga_122_125#p31,Tears of repentance clear the mind; consoling for those who feel unworthy
+E,prayer,keep,35_k_desirebhakti_646_648#p6,Models what to ask for; headline reframed for the reader (no English)
+E,prayer,replace,58_d_godorscience_1121_1123#p11,Reduce 58_d overuse; sincerity-is-heard covered by 07_e/36_i; replaced by 19_f#p46
+E,prayer,new,19_f_at_kolkata_359_363#p46,"Consoling for those who can't keep a practice: just cry, He cannot stay away"
+E,prayer,new,37_c_with_devotees_682_685#p22,"Concrete how-to: solitude, weeping, 'show Yourself'"
+E,despair,keep,05_c_masterdisciple_62_66#p45,Grace comes to the child who keeps running about
+E,despair,keep,37_c_with_devotees_682_685#p23,Keep casting bait; the first ripple brings joy
+E,despair,keep,09_c_intenserenunciation_116_117#p8,Model of perseverance until the water flows
+E,despair,keep,09_a_realisedsoul_113_114#p12,"No effort is ever wasted, even across lives"
+E,despair,replace,16_y_brahma_shakti_269_274#p35,One-line fragment; the dive image is carried by the song; replaced by 46_d#p5
+E,despair,drop,19_d_yoga_356_357#p15,Mainly about the guru doing the work; weaker for this reader
+E,despair,new,46_d_assurance_831_832#p5,"Thakur's direct promise: it will happen, it must"
+E,despair,new,53_d_narendrasearnestness_1014_1017#p33,Reframes longing itself as the sign that realization is near
+E,despair,new,07_b_teachingofdevotees_96_98#p11,Results may be slow but are certain
+E,purpose,keep,21_f_moneyworship_453_456#p16,States life's aim plainly; headline reworded so it doesn't read as dismissing charity
+E,purpose,keep,20_r_at_dakshineshwar_403_407#p37,"Opens with the aim stated, plus a focusing image; headline clarified"
+E,purpose,keep,03_a_atbalaramhome_33_35#p16,"Aim of life is love of God, in brief"
+E,purpose,keep,07_e_formorformless_100_102#p23,"Rare human birth; seek devotion, the easy path"
+E,purpose,keep,24_d_god_realization_485_488#p8,Somehow meet the Master; the rest follows
+E,purpose,replace,58_d_godorscience_1121_1123#p9,"Reduce 58_d overuse; mango saying kept via 09_h#p16, which also meets 'why does God do this?'"
+E,purpose,new,09_h_withbaburam_125_128#p16,Aim of life is love of God; we need not understand His purposes

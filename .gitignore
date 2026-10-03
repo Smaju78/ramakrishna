@@ -16,3 +16,6 @@ models/
 # Rebuildable / local only
 data/search_vectors.npy
 .claude/
+
+# Personal drafts (not part of the site)
+drafts/
