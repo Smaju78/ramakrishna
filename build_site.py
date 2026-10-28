@@ -3,8 +3,13 @@
   python3 build_site.py            public build -> site/data/  (only Safe material)
   python3 build_site.py --preview  as public, but includes non-Safe songs, flagged as a draft
   python3 build_site.py --private  private reading copy -> private_site/ (gitignored), which
-                                   adds the Sri Ma Trust English (source-register.md:
-                                   "Private reading only — permission requested")
+                                   also carries each English conversation in full (the Trust
+                                   allows short passages only, not whole conversations)
+
+Sri Ma Trust English: short passages are allowed on the public site with credit and a correct
+Volume / Section / Chapter reference (permission from the Trust, 2026-10; source-register.md).
+Needs data/english_srimatrust.json (python3 english_extract.py) and data/english_refs.json
+(python3 english_refs.py); both are gitignored. Without them the build is Bengali only.
 
 Bengali text comes from our own copy of the Kathamrita Unicode edition (register: Safe, main
 text only; footnotes and appendices excluded). The site never links to that site. Problem
@@ -62,6 +67,14 @@ def load_youtube():
                 if r["video_id"].strip() and r["status"].strip() in ("proposed", "approved")}
 
 
+def trust_url(ref):
+    """Where the reader can find the whole conversation: the Trust's own page for that section."""
+    base = "https://www.kathamrita.org/kathamrita/volume-%d" % ref["vol"]
+    if ref.get("section"):
+        return base + "-section-%d" % ref["section"]
+    return base + "-index"  # appendices and the Vol. 1 introduction: the volume's contents page
+
+
 def english_days(english, pages_path):
     """Private build: for each English passage, that day's English pages (read more)."""
     pages = json.loads(pages_path.read_text(encoding="utf-8"))
@@ -79,9 +92,12 @@ def english_days(english, pages_path):
 def build_problems(out_dir, songs_by_id, song_id_by_key, private):
     problems = json.loads((DATA / "problems.json").read_text(encoding="utf-8"))
     sections = json.loads((DATA / "sections_text.json").read_text(encoding="utf-8"))
-    english, days = {}, {}
-    if private:
+    english, refs, days = {}, {}, {}
+    if (DATA / "english_srimatrust.json").exists() and (DATA / "english_refs.json").exists():
         english = json.loads((DATA / "english_srimatrust.json").read_text(encoding="utf-8"))
+        refs = json.loads((DATA / "english_refs.json").read_text(encoding="utf-8"))
+        english = {k: v for k, v in english.items() if k in refs}  # no reference, no English
+    if private and english:
         days = english_days(english, ROOT / "cache" / "srimatrust" / "english_pages.json")
     videos = load_youtube()
     used, out, missing = set(), [], []
@@ -96,10 +112,16 @@ def build_problems(out_dir, songs_by_id, song_id_by_key, private):
                 continue
             used.add(file)
             e = english.get(it["ref"])
+            r = refs.get(it["ref"])
+            en = None
+            if e and r:
+                en = {"text": e["text"], "cite": r["label"], "date_iso": r["date_iso"], "url": trust_url(r)}
+                if private:
+                    en["day"] = e["day"]
             items.append({
                 "ref": it["ref"], "file": file, "para": int(para), "type": it.get("type", "saying"),
                 "head": it["head"], "head_en": it.get("head_en", ""), "text": block["text"],
-                "en": {"text": e["text"], "vol": e["vol"], "page": e["page"], "day": e["day"]} if e else None,
+                "en": en,
                 "date_bn": sec["date_bn"], "chapter": sec["chapter"], "section": sec["section"],
                 "section_title": sec["section_title"],
             })
@@ -129,7 +151,7 @@ def build_problems(out_dir, songs_by_id, song_id_by_key, private):
         write_json(out_dir / "data" / "english" / f"{key}.json", texts)
     ready = sum(1 for p in out if p["passages"])
     print(f"  problems: {ready} ready of {len(out)}; {len(sections)} Bengali sections"
-          + (f"; English for {len(english)} passages, {len(days)} English days" if private else ""))
+          + (f"; English for {len(english)} passages" + (f", {len(days)} English days" if private else "")))
     for m in missing:
         print("  MISSING:", m)
 

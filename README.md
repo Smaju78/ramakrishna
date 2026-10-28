@@ -10,8 +10,9 @@ Live site: https://smaju78.github.io/ramakrishna/
 
 ## Sources
 See [source-register.md](source-register.md). Nothing is published unless its row says **Safe**.
-The English translation of passages (Sri Ma Trust) is used only in a private local build until
-permission is granted; this repository contains no part of it.
+Short English passages from the Sri Ma Trust translation are shown with their permission (credit
+and Volume / Section / Chapter reference on each; no whole conversations). The Trust's PDFs themselves
+are not in this repository.
 
 ## Rebuild
 ```
@@ -19,5 +20,7 @@ python3 fetch_kathamrita.py        # cached download of the Bengali text
 python3 build_song_index.py        # songs
 python3 extract_passages.py        # Thakur's spoken passages
 .venv/bin/python embed_index.py    # search index (model: Xenova/multilingual-e5-small)
+python3 english_extract.py         # (private PDFs) short English passages
+python3 english_refs.py            # Sri Ma Trust Volume/Section/Chapter + date for each
 python3 build_site.py              # public site -> site/
 ```
