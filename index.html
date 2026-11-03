@@ -4,9 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>ঠাকুরের কথা</title>
-<meta name="theme-color" content="#F3EFE7">
+<meta name="theme-color" content="#FBF7F0">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<script>if ("serviceWorker" in navigator && location.protocol !== "file:") addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tiro+Bangla&family=Anek+Bangla:wght@400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tiro+Bangla&family=Noto+Sans+Bengali:wght@400;500;600&family=DM+Sans:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap">
 <style>
 /* One narrow column, Bengali or English (toggle, remembered). Views (by URL hash):
    #                 problems people face
@@ -14,19 +18,26 @@
    #r/<file>/<para>  the whole Bengali section, chosen paragraph highlighted
    #e/<day>/<ref>    the whole English day (private build only), chosen passage highlighted
    #songs, #s/<id>   all songs from the Kathamrita */
+/* Palette and fonts follow dakshineshwar.rkmm.org (Ramakrishna Math, Dakshineswar):
+   cream #FBF7F0, paper #FEFCF8, ink #2C1810, earth #5C4A3A, saffron #E8722A / deep #C4581A,
+   gold #D4A854 / light #F0DDB8; Cormorant Garamond, DM Sans, Noto Sans Bengali.
+   Thakur's Bengali words stay in Tiro Bangla, a serif made for long reading. */
 :root{
-  --bg:#F3EFE7; --surface:#FFFFFF; --ink:#1F1B16; --muted:#6B6358; --line:#DDD5C8;
-  --accent:#8A3B12; --accent-soft:#F4E4D8; --hl:#FBEFC9;
+  --bg:#FBF7F0; --surface:#FEFCF8; --ink:#2C1810; --muted:#5C4A3A; --line:#EBDFC9;
+  --accent:#C4581A; --accent-fill:#E8722A; --on-accent:#FFFFFF; --accent-soft:#F5EDE0;
+  --gold:#D4A854; --hl:#F0DDB8;
   --story:"Tiro Bangla","Noto Serif Bengali",serif;
-  --story-en:"Source Serif 4",Georgia,serif;
-  --ui:"Anek Bangla","Noto Sans Bengali",system-ui,sans-serif;
+  --story-en:"Cormorant Garamond",Georgia,serif;
+  --ui:"DM Sans","Noto Sans Bengali",system-ui,sans-serif;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#16130F;--surface:#201C17;--ink:#ECE5DA;--muted:#A69C8E;--line:#352E26;
-  --accent:#E59A6B;--accent-soft:#3A2618;--hl:#3B3220;color-scheme:dark}}
+  --bg:#1E140D;--surface:#2C1810;--ink:#F5EDE0;--muted:#C9B79A;--line:#4A3728;
+  --accent:#E8722A;--accent-fill:#E8722A;--on-accent:#1E140D;--accent-soft:#3A2416;
+  --gold:#D4A854;--hl:#4A3728;color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#16130F;--surface:#201C17;--ink:#ECE5DA;--muted:#A69C8E;--line:#352E26;
-  --accent:#E59A6B;--accent-soft:#3A2618;--hl:#3B3220;color-scheme:dark}
+  --bg:#1E140D;--surface:#2C1810;--ink:#F5EDE0;--muted:#C9B79A;--line:#4A3728;
+  --accent:#E8722A;--accent-fill:#E8722A;--on-accent:#1E140D;--accent-soft:#3A2416;
+  --gold:#D4A854;--hl:#4A3728;color-scheme:dark}
 
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -38,13 +49,13 @@ a{color:var(--accent)}
 button,input,select{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .serif{font-family:var(--story)}
-html[lang="en"] .serif{font-family:var(--story-en)}
+html[lang="en"] .serif{font-family:var(--story-en);font-weight:500}
 
 .banner{background:var(--accent-soft);color:var(--accent);border-radius:10px;padding:8px 12px;margin-top:12px;font-size:13px}
 .bar{display:flex;justify-content:flex-end;padding-top:10px}
 .lang{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;background:var(--surface)}
 .lang button{border:0;background:none;padding:4px 12px;font-size:13px;cursor:pointer;color:var(--muted)}
-.lang button.on{background:var(--accent);color:#fff}
+.lang button.on{background:var(--accent-fill);color:var(--on-accent)}
 header.top{padding-block:6px 8px}
 .brand{font-size:30px;margin:0;font-weight:400;line-height:1.2}
 .tag{color:var(--muted);margin:4px 0 0}
@@ -119,7 +130,7 @@ footer{color:var(--muted);font-size:12px;margin-top:40px;border-top:1px solid va
 form.ask{margin:14px 0 4px;display:flex;flex-direction:column;gap:8px}
 form.ask textarea{width:100%;min-height:76px;resize:vertical;border:1px solid var(--line);background:var(--surface);
   border-radius:12px;padding:10px 12px;font:inherit;font-size:16px;line-height:1.5;color:var(--ink)}
-form.ask button{align-self:flex-end;border:0;background:var(--accent);color:#fff;border-radius:999px;padding:8px 18px;font-size:15px;cursor:pointer}
+form.ask button{align-self:flex-end;border:0;background:var(--accent-fill);color:var(--on-accent);border-radius:999px;padding:9px 22px;font-size:15px;font-weight:500;cursor:pointer;box-shadow:0 3px 16px rgba(232,114,42,.25)}
 .ask-hint{color:var(--muted);font-size:13px;margin:0}
 .status{color:var(--muted);font-size:13px;margin:10px 0}
 /* calm loader while the search gets ready: a breathing lamp-flame dot with three ripples */
@@ -183,9 +194,10 @@ const T = {
        byAlpha: "Alphabetical", nSongs: n => `${n} songs`, noDate: "Undated", singer: "Singer: ", composer: "Composer: ",
        notNamed: "not named in the Kathamrita", where: "Where it appears", xcheck: "Compare with the Wikisource scan",
        backSongs: "← All songs", original: "Bengali original", pending: "English translation coming soon — showing the Bengali original.",
-       src: (v, p) => `Sri Sri Ramakrishna Kathamrita (tr. Sri Ma Trust), vol. ${v}, p. ${p}`,
-       foot: "Text: Mahendranath Gupta (Sri M), Sri Sri Ramakrishna Kathamrita.", draft: "Draft — not for publication.",
-       private: "Private reading copy — do not share. English translation © Sri Ma Trust; permission requested.",
+       src: e => `Sri Sri Ramakrishna Kathamrita, tr. Sri Ma Trust · ${e.cite}${e.date_iso ? " · " + enDate(e.date_iso) : ""}`,
+       readTrust: "Read the full conversation at kathamrita.org ↗",
+       foot: "Text: Mahendranath Gupta (Sri M), Sri Sri Ramakrishna Kathamrita.", footEn: "English passages are from Sri Sri Ramakrishna Kathamrita, translated by Sri Ma Trust, and are used with their kind permission. The full text is free at", draft: "Draft — not for publication.",
+       private: "Private reading copy — do not share. Carries whole English conversations; the Sri Ma Trust allows short passages only.",
        askPh: "Describe what you're going through, in your own words… e.g. ‘I can't control my anger at work’", ask: "See what Thakur said",
        askHint: "Write in English or Bengali. The answers are always Thakur's own words from the Kathamrita.",
        youAsked: "You asked", pagesHelp: "Pages that may help", morePages: "More on this page →",
@@ -219,6 +231,8 @@ function dateText(bn){
   const day = mk ? (d.slice(0, d.indexOf(mk.normalize("NFC"))).replace(y, "").match(/(\d{1,2})\D*$/) || [])[1] : "";
   return [day, mk ? BN_MONTHS[mk] : "", y].filter(Boolean).join(" ");
 }
+const EN_MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+function enDate(iso){ const m = /^(\d{4})-(\d\d)-(\d\d)$/.exec(iso || ""); return m ? `${+m[3]} ${EN_MONTHS[+m[2] - 1]} ${m[1]}` : ""; }
 function where(o){ return `${t("chapter")} ${NUM(o.chapter)}${o.section ? "." + NUM(o.section) : ""}`; }
 const ptitle = p => LANG === "en" && p.title_en ? p.title_en : p.title;
 const psub = p => LANG === "en" && p.subtitle_en ? p.subtitle_en : p.subtitle;
@@ -247,6 +261,7 @@ function viewHome(){
     ${askForm("")}${tabs("home")}${body}`;
 }
 function askForm(q){
+  if (META.noSearch) return "";  // single-file preview without the search index
   return `<form class="ask" onsubmit="event.preventDefault(); const v=this.q.value.trim(); if (v) location.hash='q/'+encodeURIComponent(v);">
       <textarea name="q" placeholder="${esc(t("askPh"))}" aria-label="${esc(t("askPh"))}">${esc(q)}</textarea>
       <p class="ask-hint">${t("askHint")}</p>
@@ -288,7 +303,7 @@ const MODEL_JS = "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3";
 const WORKER_SRC = `
   import {pipeline} from "${MODEL_JS}";
   let ext = null;
-  const load = () => ext || (ext = pipeline("feature-extraction", "Xenova/multilingual-e5-small", {dtype: "q8"}));
+  const load = () => ext || (ext = pipeline("feature-extraction", "Xenova/multilingual-e5-small", {dtype: "q8", progress_callback: e => { if (e.status === "progress" && e.file.endsWith(".onnx")) self.postMessage({prog: Math.round(e.progress)}); }}));
   self.onmessage = async e => {
     const {id, text} = e.data;
     try {
@@ -303,7 +318,7 @@ function modelWorker(){
   if (M.worker === null) {
     try {
       M.worker = new Worker(URL.createObjectURL(new Blob([WORKER_SRC], {type: "text/javascript"})), {type: "module"});
-      M.worker.onmessage = e => { const w = M.waiting.get(e.data.id); if (w) { M.waiting.delete(e.data.id); e.data.ok ? w.ok(e.data) : w.fail(e.data.err); } };
+      M.worker.onmessage = e => { if (e.data.prog !== undefined) { const el = $("seekPct"); if (el) el.textContent = " " + e.data.prog + "%"; return; } const w = M.waiting.get(e.data.id); if (w) { M.waiting.delete(e.data.id); e.data.ok ? w.ok(e.data) : w.fail(e.data.err); } };
       M.worker.onerror = () => { M.worker = false; for (const w of M.waiting.values()) w.fail("worker"); M.waiting.clear(); };
     } catch (err) { M.worker = false; }   // very old browsers: fall back to the main thread
   }
@@ -338,7 +353,7 @@ function mayPreload(){
 }
 function seekLoader(){
   return `<div class="seek" role="status" aria-live="polite"><div class="lamp"><i></i><i></i><i></i><b></b></div>
-    <span id="seekText">${esc(t("seeking")[0])}</span></div>`;
+    <span id="seekText">${esc(t("seeking")[0])}</span><span id="seekPct"></span></div>`;
 }
 let seekTimer = null;
 function startSeekText(){
@@ -436,16 +451,16 @@ function sayCard(it){
   const en = LANG === "en" && it.en;
   const head = LANG === "en" && it.head_en ? it.head_en : it.head;
   const body = en ? it.en.text : it.text;
-  const more = en ? `#e/${it.en.day}/${encodeURIComponent(it.ref)}` : `#r/${it.file}/${it.para}`;
+  const outside = en && !it.en.day;   // public site: send readers to the Trust's own pages, not to whole conversations here
+  const more = en ? (outside ? it.en.url : `#e/${it.en.day}/${encodeURIComponent(it.ref)}`) : `#r/${it.file}/${it.para}`;
   return `<details class="say">
       <summary><div class="head">${esc(head)}${it.type === "event" ? `<span class="ev">${t("event")}</span>` : ""}</div>
         <div class="peek serif">${esc(body)}</div></summary>
       ${LANG === "en" && !it.en ? `<div class="pending">${t("pending")}</div>` : ""}
       <p class="full serif">${esc(body)}</p>
       ${en ? `<details class="orig"><summary>${t("original")}</summary><p>${esc(it.text)}</p></details>` : ""}
-      <div class="src"><span>${esc(dateText(it.date_bn))}</span><span>${where(it)}</span>
-        ${en ? `<span>${esc(T.en.src(it.en.vol, it.en.page))}</span>` : ""}
-        <a href="${more}">${t("readMore")}</a></div>
+      <div class="src">${en ? `<span>${esc(T.en.src(it.en))}</span>` : `<span>${esc(dateText(it.date_bn))}</span><span>${where(it)}</span>`}
+        <a href="${more}"${outside ? " target=\"_blank\" rel=\"noopener\"" : ""}>${outside ? t("readTrust") : t("readMore")}</a></div>
     </details>`;
 }
 function viewProblem(id){
@@ -507,7 +522,7 @@ async function viewEnglish(day, ref){
     return `<p class="serif">${h}</p>`;
   }).join("");
   return `<a class="back" href="${backTo(ref)}">${t("back")}</a>
-    <article class="reader" lang="en"><div class="meta">${esc(it ? dateText(it.date_bn) : "")} · ${esc(it && it.en ? T.en.src(it.en.vol, it.en.page) : "")}</div>${html}</article>`;
+    <article class="reader" lang="en"><div class="meta">${esc(it ? dateText(it.date_bn) : "")} · ${esc(it && it.en ? T.en.src(it.en) : "")}</div>${html}</article>`;
 }
 
 /* ---------- songs ---------- */
@@ -564,8 +579,9 @@ async function route(){
   document.title = t("brand");
   document.querySelectorAll(".lang button").forEach(x => x.classList.toggle("on", x.dataset.lang === LANG));
   $("banner").hidden = !(META.private || META.preview);
-  $("banner").textContent = META.private ? t("private") : t("draft");
-  $("foot").textContent = t("foot");
+  $("banner").textContent = META.previewFor ? (LANG === "en" ? `Private preview for ${META.previewFor} — not published.` :
+      `${META.previewFor}-এর জন্য ব্যক্তিগত নমুনা — প্রকাশিত নয়।`) : META.private ? t("private") : t("draft");
+  $("foot").innerHTML = esc(t("foot")) + (LANG === "en" ? `<br>${esc(T.en.footEn)} <a href="https://www.kathamrita.org/kathamrita" target="_blank" rel="noopener">kathamrita.org</a>.` : "");
   let html;
   if (kind === "p") html = viewProblem(a);
   else if (kind === "r") html = await viewReader(a, b);
@@ -591,7 +607,7 @@ Promise.all(["problems", SHOW_SONG_LIST ? "songs" : "", "meta", "groups"].map(n 
   .then(([p, s, m, g]) => {
     PROBLEMS = p; SONGS = s.songs || []; META = m || {}; GROUPS = Array.isArray(g) ? g : []; route();
     // get the question search ready in the background, so the first question is usually answered at once
-    if (mayPreload()) setTimeout(() => (window.requestIdleCallback || setTimeout)(warmUp), 1500);
+    if (mayPreload() && !META.noSearch) setTimeout(() => (window.requestIdleCallback || setTimeout)(warmUp), 1500);
   })
   .catch(() => { $("view").textContent = "Could not load data."; });
 addEventListener("hashchange", route);
