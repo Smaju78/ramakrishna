@@ -299,7 +299,7 @@ const MODEL_JS = "https://cdn.jsdelivr.net/npm/@huggingface/transformers@3";
 const WORKER_SRC = `
   import {pipeline} from "${MODEL_JS}";
   let ext = null;
-  const load = () => ext || (ext = pipeline("feature-extraction", "Xenova/multilingual-e5-small", {dtype: "q8"}));
+  const load = () => ext || (ext = pipeline("feature-extraction", "Xenova/multilingual-e5-small", {dtype: "q8", progress_callback: e => { if (e.status === "progress" && e.file.endsWith(".onnx")) self.postMessage({prog: Math.round(e.progress)}); }}));
   self.onmessage = async e => {
     const {id, text} = e.data;
     try {
@@ -314,7 +314,7 @@ function modelWorker(){
   if (M.worker === null) {
     try {
       M.worker = new Worker(URL.createObjectURL(new Blob([WORKER_SRC], {type: "text/javascript"})), {type: "module"});
-      M.worker.onmessage = e => { const w = M.waiting.get(e.data.id); if (w) { M.waiting.delete(e.data.id); e.data.ok ? w.ok(e.data) : w.fail(e.data.err); } };
+      M.worker.onmessage = e => { if (e.data.prog !== undefined) { const el = $("seekPct"); if (el) el.textContent = " " + e.data.prog + "%"; return; } const w = M.waiting.get(e.data.id); if (w) { M.waiting.delete(e.data.id); e.data.ok ? w.ok(e.data) : w.fail(e.data.err); } };
       M.worker.onerror = () => { M.worker = false; for (const w of M.waiting.values()) w.fail("worker"); M.waiting.clear(); };
     } catch (err) { M.worker = false; }   // very old browsers: fall back to the main thread
   }
@@ -349,7 +349,7 @@ function mayPreload(){
 }
 function seekLoader(){
   return `<div class="seek" role="status" aria-live="polite"><div class="lamp"><i></i><i></i><i></i><b></b></div>
-    <span id="seekText">${esc(t("seeking")[0])}</span></div>`;
+    <span id="seekText">${esc(t("seeking")[0])}</span><span id="seekPct"></span></div>`;
 }
 let seekTimer = null;
 function startSeekText(){
